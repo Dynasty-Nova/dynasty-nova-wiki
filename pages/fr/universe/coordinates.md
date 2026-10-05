@@ -29,15 +29,7 @@ updated: "2026-10-02T16:36:01.684Z"
 5. **La carte n'est pas circulaire** : la galaxie 9 n'est pas voisine de la galaxie 1, et le dernier système n'est pas voisin du premier.
 6. La **distance** entre deux points dépend de ce qui les sépare (table ci-dessous).
 
-## Exemple chiffré
-
-Depuis votre planète en [2:40:8] :
-- vers [2:40:3], même système : 1 000 + 5 × 5 = **1 025**.
-- vers [2:45:3], même galaxie : 2 700 + 95 × 5 = **3 175**.
-- vers [5:10:1], autre galaxie : 20 000 × 3 = **60 000**.
-- vers votre lune en [2:40:8] : **5**.
-
-## Données détaillées
+## En résumé
 
 | Trajet | Distance |
 |---|---|
@@ -47,6 +39,34 @@ Depuis votre planète en [2:40:8] :
 | Entre une planète et sa lune | 5 |
 
 L'espace lointain compte comme la position qui suit la dernière : sur Redline, la position 16.
+
+## Formules
+
+**Voyage de la galaxie G1 vers la galaxie G2**
+
+La distance entre une planète d'une galaxie et une planète d'une autre galaxie est :
+$$ D = 20\,000 \times |G_1 - G_2| $$
+
+**Voyage du système S1 vers le système S2**
+
+La distance entre une planète d'un système et une planète d'un autre système est :
+$$ D = 2\,700 + 95 \times |S_1 - S_2| $$
+par exemple, 
+
+**Voyage de la planète P1 vers la planète P2**
+
+La distance entre deux planètes d'un même système est :
+$$ D = 1\,000 + 5 \times |P_1 - P_2| $$
+
+## Exemples chiffrés
+
+- pour voyager d'une planète de la galaxie 3 vers une planète de la galaxie 5 :
+$$ D = 20\,000 \times |3 - 5| = 40\,000 $$
+- pour voyager d'une planète du système 45 vers une planète du système 50 :
+  $$ D = 2\,700 + 95 \times |45 - 50| = 3\,175 $$
+- pour voyager de la planète 3 vers la planète 6 dans le même système :
+$$ D = 1\,000 + 5 \times |3 - 6| = 1\,015 $$
+- vers votre lune : **5**.
 
 ## Pièges fréquents
 

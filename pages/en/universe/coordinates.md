@@ -29,15 +29,7 @@ updated: "2026-10-02T16:37:35.771Z"
 5. **The map is not circular**: galaxy 9 is not next to galaxy 1, and the last system is not next to the first.
 6. The **distance** between two points depends on what separates them (table below).
 
-## Worked example
-
-From your planet at [2:40:8]:
-- to [2:40:3], same system: 1,000 + 5 × 5 = **1,025**.
-- to [2:45:3], same galaxy: 2,700 + 95 × 5 = **3,175**.
-- to [5:10:1], other galaxy: 20,000 × 3 = **60,000**.
-- to your moon at [2:40:8]: **5**.
-
-## Detailed data
+## Summarized data
 
 | Trip | Distance |
 |---|---|
@@ -47,6 +39,33 @@ From your planet at [2:40:8]:
 | Between a planet and its moon | 5 |
 
 Deep space counts as the position after the last one: on Redline, position 16.
+
+## Calculation
+
+**Travel from Galaxy G1 to Galaxy G2** 
+
+The distance from any planet in one galaxy to a planet in a different galaxy is: 
+
+$$ D = 20\,000 \times |G_1 - G_2| $$
+
+**Travel from System S1 to System S2**
+
+The distance from any planet in one system to any planet in a different system is: 
+$$ D = 2\,700 + 95 \times |S_1 - S_2| $$
+
+**Travel from Planet P1 to Planet P2**
+
+The distance between two planets in the same system is: 
+$$ D = 1\,000 + 5 \times |P_1 - P_2| $$
+
+## Worked examples
+
+- to travel from any planet in galaxy 3 to a planet in galaxy 5 is:
+$$ D = 20\,000 \times |3 - 5| = 40\,000 $$
+- to travel from any planet in system 45 to a planet in system 50 is:
+  $$ D = 2\,700 + 95 \times |45 - 50| = 3\,175 $$
+- to travel from planet 3 to planet 6 in the same system is:
+  $$ D = 1\,000 + 5 \times |3 - 6| = 1\,015 $$
 
 ## Common pitfalls
 

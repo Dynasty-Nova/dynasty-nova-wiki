@@ -30,9 +30,35 @@ updated: "2026-10-03T23:43:04.021Z"
 3. Une flotte avance à la vitesse de son **vaisseau le plus lent**, augmentée du talent d'alliance Propulsion coordonnée.
 4. Vous choisissez un **pourcentage de vitesse** de 10 à 100 %, par pas de 10.
 
+### Distance
+
+5. Résumé du calcul des distances
+
+| Trajet | Distance |
+|---|---|
+| Vers une autre galaxie | 20 000 × écart entre les galaxies |
+| Même galaxie, autre système | 2 700 + 95 × écart entre les systèmes |
+| Même système | 1 000 + 5 × écart entre les positions |
+| Entre une planète et sa lune | 5 |
+
 ### Durée
-5. **Durée (secondes)** = (10 + 35 000 / vitesse% × √(10 × distance / V)) / vitesse flottes de l'univers, arrondie, minimum 1 seconde. V est la vitesse de la flotte, vitesse% le pourcentage choisi.
-6. La distance se calcule selon les coordonnées (voir [Coordonnées](/fr/universe/coordinates)).
+
+6. Calcul
+
+$$
+T =
+\frac{
+10 + \frac{35000}{S}\sqrt{\frac{10 \times D}{V}}
+}{
+A
+}
+$$
+
+- $T$ est la durée du vol de la flotte, en secondes.
+- $D$ est la distance de vol calculée précédemment (voir [Coordonnées](/fr/universe/coordinates)).
+- $V$ est la vitesse du vaisseau le plus lent de la flotte.
+- $S$ est le multiplicateur de vitesse de flotte choisi, exprimé sous forme décimale.
+- $A$ est le facteur d'accélération de la vitesse des flottes de l'univers.
 
 ### Consommation d'hydrogène
 7. **Consommation d'un trajet** = somme, pour chaque type de vaisseau, de : consommation × nombre × distance / 35 000 × (vitesse% / 100 × √(V flotte / V vaisseau) + 1)², arrondie à l'inférieur, minimum 1.

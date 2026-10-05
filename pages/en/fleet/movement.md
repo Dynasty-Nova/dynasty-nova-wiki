@@ -30,9 +30,35 @@ updated: "2026-10-02T16:38:06.533Z"
 3. A fleet flies at the speed of its **slowest ship**, raised by the Coordinated propulsion alliance talent.
 4. You choose a **speed percentage** from 10 to 100%, in steps of 10.
 
+### Distance
+
+5. Summary of distance calculation
+
+| Trip | Distance |
+|---|---|
+| To another galaxy | 20,000 × galaxy gap |
+| Same galaxy, other system | 2,700 + 95 × system gap |
+| Same system | 1,000 + 5 × position gap |
+| Between a planet and its moon | 5 |
+
 ### Duration
-5. **Duration (seconds)** = (10 + 35000 / speed% × √(10 × distance / V)) / universe fleet speed, rounded, minimum 1 second. V is the fleet's speed, speed% the chosen percentage.
-6. Distance is computed from the coordinates (see [Coordinates](/en/universe/coordinates)).
+
+6. Calculation
+
+$$
+   T =
+   \frac{
+   10 + \frac{35000}{S}\sqrt{\frac{10 \times D}{V}}
+   }{
+   A
+   }
+   $$
+
+- $T$ is the flight time of the fleet in seconds.
+- $D$ is the flight distance as calculated above (See [Coordinates](/en/universe/coordinates) for more details).
+- $V$ is the speed of the slowest ship in the fleet.
+- $S$ is the chosen fleet speed modifier as a decimal.
+- $A$ is the Universe's Fleet Speed Acceleration factor.
 
 ### Hydrogen use
 7. **Use per trip** = sum, for each ship type, of: fuel use × number × distance / 35,000 × (speed% / 100 × √(fleet V / ship V) + 1)², rounded down, minimum 1.
