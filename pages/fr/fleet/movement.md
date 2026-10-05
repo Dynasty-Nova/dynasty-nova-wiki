@@ -61,7 +61,34 @@ $$
 - $A$ est le facteur d'accélération de la vitesse des flottes de l'univers.
 
 ### Consommation d'hydrogène
-7. **Consommation d'un trajet** = somme, pour chaque type de vaisseau, de : consommation × nombre × distance / 35 000 × (vitesse% / 100 × √(V flotte / V vaisseau) + 1)², arrondie à l'inférieur, minimum 1.
+
+7. **Consommation d'un trajet**
+
+La consommation d'un trajet est calculée comme la somme, pour chaque type de vaisseau, de :
+
+$$
+U =
+\sum_i
+\left(
+\frac{
+F_i \times N_i \times D
+}{
+35\,000
+}
+\left(
+\frac{S}{100}\sqrt{\frac{V}{V_i}} + 1
+\right)^2
+\right)
+$$
+
+- $U$ est la consommation de carburant du trajet.
+- $F_i$ est la consommation du type de vaisseau $i$.
+- $N_i$ est le nombre de vaisseaux du type $i$ dans la flotte.
+- $D$ est la distance du trajet.
+- $S$ est le pourcentage de vitesse de flotte choisi.
+- $V$ est la vitesse du vaisseau le plus lent de la flotte.
+- $V_i$ est la vitesse du type de vaisseau $i$.
+
 8. Un vaisseau plus rapide que le reste de sa flotte consomme moins.
 9. **Le retour est payé au départ** (aller et retour facturés ensemble) pour toutes les missions, sauf **Colonisation** et **Stationnement**.
 10. Le talent d'alliance Ravitaillement optimisé retire 5 % par niveau. Aucune recherche ne réduit la consommation d'un vaisseau.

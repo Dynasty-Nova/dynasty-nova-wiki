@@ -61,7 +61,34 @@ $$
 - $A$ is the Universe's Fleet Speed Acceleration factor.
 
 ### Hydrogen use
-7. **Use per trip** = sum, for each ship type, of: fuel use × number × distance / 35,000 × (speed% / 100 × √(fleet V / ship V) + 1)², rounded down, minimum 1.
+7. **Fuel consumption per trip**
+
+Fuel consumption per trip is calculated as the sum, for each ship type, of:
+
+$$
+U =
+\sum_i
+\left(
+\frac{
+F_i \times N_i \times D
+}{
+35\,000
+}
+\left(
+\frac{S}{100}\sqrt{\frac{V}{V_i}} + 1
+\right)^2
+\right)
+$$
+
+- $U$ is the fuel consumption of the trip.
+- $F_i$ is the fuel consumption of ship type $i$.
+- $N_i$ is the number of ships of type $i$ in the fleet.
+- $D$ is the flight distance.
+- $S$ is the chosen fleet speed percentage.
+- $V$ is the speed of the slowest ship in the fleet.
+- $V_i$ is the speed of ship type $i$.
+
+
 8. A ship faster than the rest of its fleet uses less.
 9. **The return trip is paid at departure** (outbound and return charged together) for every mission except **Colonization** and **Stationing**.
 10. The Optimised supply alliance talent removes 5% per level. No research lowers a ship's fuel use.
