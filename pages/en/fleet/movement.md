@@ -31,7 +31,7 @@ updated: "2026-10-02T16:38:06.533Z"
 4. You choose a **speed percentage** from 10 to 100%, in steps of 10.
 
 ### Duration
-5. **Duration (seconds)** = (10 + 3500 / speed% × √(10 × distance / V)) / universe fleet speed, rounded, minimum 1 second. V is the fleet's speed, speed% the chosen percentage.
+5. **Duration (seconds)** = (10 + 35000 / speed% × √(10 × distance / V)) / universe fleet speed, rounded, minimum 1 second. V is the fleet's speed, speed% the chosen percentage.
 6. Distance is computed from the coordinates (see [Coordinates](/en/universe/coordinates)).
 
 ### Hydrogen use

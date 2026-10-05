@@ -47,10 +47,10 @@ updated: "2026-10-03T23:43:04.021Z"
 
 10 Intercepteurs (vitesse 20 000 avec Propulseur Chimique 6, consommation 20 chacun) attaquent de [2:40:8] vers [2:50:3]. Distance : 2 700 + 95 × 10 = **3 650**.
 
-| Vitesse | Durée d'un trajet | Hydrogène d'un trajet | Facturé au départ (aller-retour) |
-|---|---|---|---|
-| 100 % | 10 + 350 × √(10 × 3 650 / 20 000) ≈ **483 s** (8 min 3 s) | 20 × 10 × 3 650 / 35 000 × (1 + 1)² ≈ **83** | **166** |
-| 50 % | 10 + 700 × √1,825 ≈ **956 s** (15 min 56 s) | 20 × 10 × 3 650 / 35 000 × (0,5 + 1)² ≈ **46** | **92** |
+| Vitesse | Durée d'un trajet                                                  | Hydrogène d'un trajet | Facturé au départ (aller-retour) |
+|---|--------------------------------------------------------------------|---|---|
+| 100% | 10 + (35000/10) × √(10 × 3650 / 20000) ≈ **4738 s** (1h 18 min 8 s) | 20 × 10 × 3650 / 3500 × (1 + 1)² ≈ **208**    | **166** |
+| 50% | 10 + (35000/5) × √1.825 ≈ **9466 s** (2h 37 min 46 s)              | 20 × 10 × 3,650 / 35,000 × (0.5 + 1)² ≈ **46** | **92** |
 
 À mi-vitesse, le vol dure deux fois plus longtemps mais coûte **45 % d'hydrogène en moins**.
 
