@@ -1,0 +1,409 @@
+{
+ "game_version": "Serveur 2.1.0 · Client 3.1.0",
+ "source": "https://play.dynastynova.com/assets/",
+ "fetched": "2026-10-02T17:30:40.056Z",
+ "items": [
+  {
+   "file": "illustrations/ships/navette-de-fret.webp",
+   "game_asset": "ships/navette-de-fret",
+   "game_file": "navette-de-fret-0vavleR3.webp",
+   "size": 137792
+  },
+  {
+   "file": "illustrations/ships/cargo-stellaire.webp",
+   "game_asset": "ships/cargo-stellaire",
+   "game_file": "cargo-stellaire-BVRG9it0.webp",
+   "size": 171842
+  },
+  {
+   "file": "illustrations/ships/pionnier-spatial.webp",
+   "game_asset": "ships/pionnier-spatial",
+   "game_file": "pionnier-spatial-DRMW7Pjl.webp",
+   "size": 151472
+  },
+  {
+   "file": "illustrations/ships/recuperateur.webp",
+   "game_asset": "ships/recuperateur",
+   "game_file": "recuperateur-CEq9CHP0.webp",
+   "size": 171376
+  },
+  {
+   "file": "illustrations/ships/eclaireur.webp",
+   "game_asset": "ships/eclaireur",
+   "game_file": "eclaireur-DoyJiFPg.webp",
+   "size": 107524
+  },
+  {
+   "file": "illustrations/ships/collecteur-solaire.webp",
+   "game_asset": "ships/collecteur-solaire",
+   "game_file": "collecteur-solaire-CKMVp681.webp",
+   "size": 173536
+  },
+  {
+   "file": "illustrations/ships/intercepteur.webp",
+   "game_asset": "ships/intercepteur",
+   "game_file": "intercepteur-NWLcD77E.webp",
+   "size": 152064
+  },
+  {
+   "file": "illustrations/ships/assaillant.webp",
+   "game_asset": "ships/assaillant",
+   "game_file": "assaillant-Ct3A0EZ7.webp",
+   "size": 150816
+  },
+  {
+   "file": "illustrations/ships/corvette.webp",
+   "game_asset": "ships/corvette",
+   "game_file": "corvette-mnAr7KMa.webp",
+   "size": 149672
+  },
+  {
+   "file": "illustrations/ships/cuirasse.webp",
+   "game_asset": "ships/cuirasse",
+   "game_file": "cuirasse-w3wVm49H.webp",
+   "size": 162472
+  },
+  {
+   "file": "illustrations/ships/frappe-orbital.webp",
+   "game_asset": "ships/frappe-orbital",
+   "game_file": "frappe-orbital-Uru_CapU.webp",
+   "size": 174920
+  },
+  {
+   "file": "illustrations/ships/predateur.webp",
+   "game_asset": "ships/traqueur",
+   "game_file": "traqueur-DFu68oVt.webp",
+   "size": 118310
+  },
+  {
+   "file": "illustrations/ships/annihilateur.webp",
+   "game_asset": "ships/annihilateur",
+   "game_file": "annihilateur-DhplO4nK.webp",
+   "size": 175280
+  },
+  {
+   "file": "illustrations/ships/colossus-stellaire.webp",
+   "game_asset": "ships/colossus-stellaire",
+   "game_file": "colossus-stellaire-DViBXkiM.webp",
+   "size": 179028
+  },
+  {
+   "file": "illustrations/defense/projecteur-balistique.webp",
+   "game_asset": "defense/projecteur-balistique",
+   "game_file": "projecteur-balistique-C8l4KB_D.webp",
+   "size": 265150
+  },
+  {
+   "file": "illustrations/defense/canon-photonique.webp",
+   "game_asset": "defense/canon-photonique",
+   "game_file": "canon-photonique-B1wksSTe.webp",
+   "size": 146376
+  },
+  {
+   "file": "illustrations/defense/emetteur-a-haute-energie.webp",
+   "game_asset": "defense/emetteur-a-haute-energie",
+   "game_file": "emetteur-a-haute-energie-CcuFqUz5.webp",
+   "size": 208072
+  },
+  {
+   "file": "illustrations/defense/batterie-ionique.webp",
+   "game_asset": "defense/batterie-ionique",
+   "game_file": "batterie-ionique-8Ld-gfJb.webp",
+   "size": 161276
+  },
+  {
+   "file": "illustrations/defense/accelerateur-magnetique.webp",
+   "game_asset": "defense/accelerateur-magnetique",
+   "game_file": "accelerateur-magnetique-Bebxd2RP.webp",
+   "size": 159774
+  },
+  {
+   "file": "illustrations/defense/ejecteur-a-plasma.webp",
+   "game_asset": "defense/ejecteur-a-plasma",
+   "game_file": "ejecteur-a-plasma-Cu2gNyW9.webp",
+   "size": 144058
+  },
+  {
+   "file": "illustrations/defense/barriere-defensive.webp",
+   "game_asset": "defense/barriere-defensive",
+   "game_file": "barriere-defensive-CR0-hHDe.webp",
+   "size": 138050
+  },
+  {
+   "file": "illustrations/defense/dome-protecteur.webp",
+   "game_asset": "defense/dome-protecteur",
+   "game_file": "dome-protecteur-Co5kupJe.webp",
+   "size": 143774
+  },
+  {
+   "file": "illustrations/defense/intercepteurs.webp",
+   "game_asset": "defense/intercepteurs",
+   "game_file": "intercepteurs-DxdbY0TG.webp",
+   "size": 181626
+  },
+  {
+   "file": "illustrations/defense/ogives-longue-portee.webp",
+   "game_asset": "defense/ogives-longue-portee",
+   "game_file": "ogives-longue-portee-RAfTqtGA.webp",
+   "size": 270824
+  },
+  {
+   "file": "illustrations/buildings/base-planetaire.webp",
+   "game_asset": "buildings/base-planetaire",
+   "game_file": "base-planetaire-CSzc2IDW.webp",
+   "size": 192748
+  },
+  {
+   "file": "illustrations/buildings/base-coloniale.webp",
+   "game_asset": "buildings/base-coloniale",
+   "game_file": "base-coloniale-B_T5kuta.webp",
+   "size": 282238
+  },
+  {
+   "file": "illustrations/buildings/excavateur-mineral.webp",
+   "game_asset": "buildings/excavateur-mineral",
+   "game_file": "excavateur-mineral-BxdyAwbz.webp",
+   "size": 244594
+  },
+  {
+   "file": "illustrations/buildings/extracteur-cristallin.webp",
+   "game_asset": "buildings/extracteur-cristallin",
+   "game_file": "extracteur-cristallin-Dyr8Eek-.webp",
+   "size": 187538
+  },
+  {
+   "file": "illustrations/buildings/condensateur-d-hydrogene.webp",
+   "game_asset": "buildings/condensateur-d-hydrogene",
+   "game_file": "condensateur-d-hydrogene-BfMsV8t9.webp",
+   "size": 205508
+  },
+  {
+   "file": "illustrations/buildings/capteurs-photovoltaiques.webp",
+   "game_asset": "buildings/capteurs-photovoltaiques",
+   "game_file": "capteurs-photovoltaiques-BDc35Ejs.webp",
+   "size": 206908
+  },
+  {
+   "file": "illustrations/buildings/reacteur-thermonucleaire.webp",
+   "game_asset": "buildings/reacteur-thermonucleaire",
+   "game_file": "reacteur-thermonucleaire-BFy4W28F.webp",
+   "size": 191266
+  },
+  {
+   "file": "illustrations/buildings/depot-alliages.webp",
+   "game_asset": "buildings/depot-alliages",
+   "game_file": "depot-alliages-Cwjemo5G.webp",
+   "size": 226110
+  },
+  {
+   "file": "illustrations/buildings/chambre-cristalline.webp",
+   "game_asset": "buildings/chambre-cristalline",
+   "game_file": "chambre-cristalline-nG8FInkR.webp",
+   "size": 177544
+  },
+  {
+   "file": "illustrations/buildings/citerne-hydrogene.webp",
+   "game_asset": "buildings/citerne-hydrogene",
+   "game_file": "citerne-hydrogene-DS8muf6t.webp",
+   "size": 194130
+  },
+  {
+   "file": "illustrations/facilities/centre-d-innovation.webp",
+   "game_asset": "facilities/centre-d-innovation",
+   "game_file": "centre-d-innovation-aBDOqs3q.webp",
+   "size": 204980
+  },
+  {
+   "file": "illustrations/facilities/fabrique-d-automates.webp",
+   "game_asset": "facilities/fabrique-d-automates",
+   "game_file": "fabrique-d-automates-De7Mgt6c.webp",
+   "size": 161296
+  },
+  {
+   "file": "illustrations/facilities/dock-orbital.webp",
+   "game_asset": "facilities/dock-orbital",
+   "game_file": "dock-orbital-C2hU0R9Z.webp",
+   "size": 212396
+  },
+  {
+   "file": "illustrations/facilities/assembleur-moleculaire.webp",
+   "game_asset": "facilities/assembleur-moleculaire",
+   "game_file": "assembleur-moleculaire-BPwKFTSi.webp",
+   "size": 168096
+  },
+  {
+   "file": "illustrations/facilities/station-de-reparation.webp",
+   "game_asset": "facilities/station-de-reparation",
+   "game_file": "station-de-reparation-Cfwphn3u.webp",
+   "size": 194762
+  },
+  {
+   "file": "illustrations/facilities/modulateur-planetaire.webp",
+   "game_asset": "facilities/modulateur-planetaire",
+   "game_file": "modulateur-planetaire-VFPCQvyH.webp",
+   "size": 169104
+  },
+  {
+   "file": "illustrations/facilities/arsenal-balistique.webp",
+   "game_asset": "facilities/arsenal-balistique",
+   "game_file": "arsenal-balistique-CCJ0uF3G.webp",
+   "size": 147380
+  },
+  {
+   "file": "illustrations/facilities/centre-logistique.webp",
+   "game_asset": "facilities/centre-logistique",
+   "game_file": "centre-logistique-Dyc0JS6H.webp",
+   "size": 177232
+  },
+  {
+   "file": "illustrations/facilities/base-lunaire.webp",
+   "game_asset": "facilities/base-lunaire",
+   "game_file": "base-lunaire-BGGiHJhF.webp",
+   "size": 182396
+  },
+  {
+   "file": "illustrations/facilities/phalange-de-capteur.webp",
+   "game_asset": "facilities/phalange-de-capteur",
+   "game_file": "phalange-de-capteur-CWTTvqFT.webp",
+   "size": 154644
+  },
+  {
+   "file": "illustrations/facilities/porte-de-saut.webp",
+   "game_asset": "facilities/porte-de-saut",
+   "game_file": "porte-de-saut-Ds98LiRf.webp",
+   "size": 170730
+  },
+  {
+   "file": "illustrations/research/science-energetique.webp",
+   "game_asset": "research/science-energetique",
+   "game_file": "science-energetique-BZlDaMgE.webp",
+   "size": 208810
+  },
+  {
+   "file": "illustrations/research/maitrise-du-plasma.webp",
+   "game_asset": "research/maitrise-du-plasma",
+   "game_file": "maitrise-du-plasma-CjFMXywE.webp",
+   "size": 187146
+  },
+  {
+   "file": "illustrations/research/calcul-quantique.webp",
+   "game_asset": "research/calcul-quantique",
+   "game_file": "calcul-quantique-B-AZC9eR.webp",
+   "size": 201358
+  },
+  {
+   "file": "illustrations/research/collaboration-stellaire.webp",
+   "game_asset": "research/collaboration-stellaire",
+   "game_file": "collaboration-stellaire-BxVVn906.webp",
+   "size": 176760
+  },
+  {
+   "file": "illustrations/research/diplomatie-stellaire.webp",
+   "game_asset": "research/diplomatie-stellaire",
+   "game_file": "diplomatie-stellaire-C0Tlj2Wk.webp",
+   "size": 180814
+  },
+  {
+   "file": "illustrations/research/propulseur-chimique.webp",
+   "game_asset": "research/propulseur-chimique",
+   "game_file": "propulseur-chimique-8gmE25Qn.webp",
+   "size": 183694
+  },
+  {
+   "file": "illustrations/research/moteur-magnetique.webp",
+   "game_asset": "research/moteur-magnetique",
+   "game_file": "moteur-magnetique-Cp9jNXcN.webp",
+   "size": 170054
+  },
+  {
+   "file": "illustrations/research/navigation-transdimensionnelle.webp",
+   "game_asset": "research/navigation-transdimensionnelle",
+   "game_file": "navigation-transdimensionnelle-DAtoDJSI.webp",
+   "size": 201754
+  },
+  {
+   "file": "illustrations/research/systemes-photoniques.webp",
+   "game_asset": "research/systemes-photoniques",
+   "game_file": "systemes-photoniques-CcdIaWds.webp",
+   "size": 174038
+  },
+  {
+   "file": "illustrations/research/manipulation-ionique.webp",
+   "game_asset": "research/manipulation-ionique",
+   "game_file": "manipulation-ionique-DQWuzHtV.webp",
+   "size": 201898
+  },
+  {
+   "file": "illustrations/research/pliage-spatial.webp",
+   "game_asset": "research/pliage-spatial",
+   "game_file": "pliage-spatial-CfUtGhne.webp",
+   "size": 204228
+  },
+  {
+   "file": "illustrations/research/systemes-offensifs.webp",
+   "game_asset": "research/systemes-offensifs",
+   "game_file": "systemes-offensifs-Bngyj26q.webp",
+   "size": 169964
+  },
+  {
+   "file": "illustrations/research/champs-de-protection.webp",
+   "game_asset": "research/champs-de-protection",
+   "game_file": "champs-de-protection-B8uvSw1x.webp",
+   "size": 178686
+  },
+  {
+   "file": "illustrations/research/metallurgie-avancee.webp",
+   "game_asset": "research/metallurgie-avancee",
+   "game_file": "metallurgie-avancee-CHFIY1q4.webp",
+   "size": 196530
+  },
+  {
+   "file": "illustrations/research/manipulation-gravitationnelle.webp",
+   "game_asset": "research/manipulation-gravitationnelle",
+   "game_file": "manipulation-gravitationnelle-Ddp2N2yN.webp",
+   "size": 205288
+  },
+  {
+   "file": "illustrations/research/renseignement-tactique.webp",
+   "game_asset": "research/renseignement-tactique",
+   "game_file": "renseignement-tactique-CLmN4Rvf.webp",
+   "size": 185202
+  },
+  {
+   "file": "illustrations/research/cosmologie-appliquee.webp",
+   "game_asset": "research/cosmologie-appliquee",
+   "game_file": "cosmologie-appliquee-BtCqHOGx.webp",
+   "size": 177092
+  },
+  {
+   "file": "illustrations/resources/metal.webp",
+   "game_asset": "resources/metal",
+   "game_file": "metal-CBqnWiqp.webp",
+   "size": 129332
+  },
+  {
+   "file": "illustrations/resources/crystal.webp",
+   "game_asset": "resources/crystal",
+   "game_file": "crystal-B71OFkfW.webp",
+   "size": 136098
+  },
+  {
+   "file": "illustrations/resources/hydrogene.webp",
+   "game_asset": "resources/hydrogene",
+   "game_file": "hydrogene-BCmSVbY6.webp",
+   "size": 164802
+  },
+  {
+   "file": "illustrations/resources/energy.webp",
+   "game_asset": "resources/energy",
+   "game_file": "energy-CEEXyYsI.webp",
+   "size": 144342
+  },
+  {
+   "file": "illustrations/resources/stellar-points.webp",
+   "game_asset": "resources/stellar-points",
+   "game_file": "stellar-points-C4pA2v6B.webp",
+   "size": 126156
+  }
+ ]
+}

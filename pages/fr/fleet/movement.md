@@ -1,0 +1,82 @@
+---
+wiki_id: 35
+locale: "fr"
+path: "fleet/movement"
+url: "https://wiki.dynastynova.com/fr/fleet/movement"
+title: "Déplacements"
+description: "Vitesse, durée de vol, consommation d'hydrogène et emplacements de flotte."
+tags: ["fleet"]
+published: true
+created: "2026-10-02T13:08:52.470Z"
+updated: "2026-10-03T23:43:04.021Z"
+---
+
+# Déplacements
+
+> **En bref** : la durée d'un vol dépend de la distance, de la vitesse du vaisseau le plus lent et du pourcentage de vitesse choisi. Sa consommation d'hydrogène dépend de la distance, des vaisseaux envoyés et de la vitesse. Voler moins vite coûte beaucoup moins cher.
+{.is-info}
+
+> **Paramètre d'univers** : la vitesse des flottes peut être différente selon l'univers.
+> Par défaut : **×1** · Redline : **×1**
+{.is-info}
+
+## Règles
+
+### Emplacements de flotte
+1. Le nombre de flottes en vol en même temps est limité : **emplacements de flotte = 1 + niveau de Calcul Quantique**. Une expédition occupe aussi un emplacement.
+
+### Vitesse
+2. Vitesse d'un vaisseau = vitesse de base × (1 + bonus × niveau de la recherche de son moteur) : **+10 %** par niveau de Propulseur Chimique, **+20 %** de Moteur Magnétique, **+30 %** de Navigation Transdimensionnelle.
+3. Une flotte avance à la vitesse de son **vaisseau le plus lent**, augmentée du talent d'alliance Propulsion coordonnée.
+4. Vous choisissez un **pourcentage de vitesse** de 10 à 100 %, par pas de 10.
+
+### Durée
+5. **Durée (secondes)** = (10 + 35 000 / vitesse% × √(10 × distance / V)) / vitesse flottes de l'univers, arrondie, minimum 1 seconde. V est la vitesse de la flotte, vitesse% le pourcentage choisi.
+6. La distance se calcule selon les coordonnées (voir [Coordonnées](/fr/universe/coordinates)).
+
+### Consommation d'hydrogène
+7. **Consommation d'un trajet** = somme, pour chaque type de vaisseau, de : consommation × nombre × distance / 35 000 × (vitesse% / 100 × √(V flotte / V vaisseau) + 1)², arrondie à l'inférieur, minimum 1.
+8. Un vaisseau plus rapide que le reste de sa flotte consomme moins.
+9. **Le retour est payé au départ** (aller et retour facturés ensemble) pour toutes les missions, sauf **Colonisation** et **Stationnement**.
+10. Le talent d'alliance Ravitaillement optimisé retire 5 % par niveau. Aucune recherche ne réduit la consommation d'un vaisseau.
+
+### Rappel
+11. Une flotte peut être **rappelée à tout moment avant la fin de son trajet aller**. Le rappel ne redébite rien et **ne rembourse pas** l'hydrogène.
+
+## Exemple chiffré
+
+10 Intercepteurs (vitesse 20 000 avec Propulseur Chimique 6, consommation 20 chacun) attaquent de [2:40:8] vers [2:50:3]. Distance : 2 700 + 95 × 10 = **3 650**.
+
+| Vitesse | Durée d'un trajet | Hydrogène d'un trajet | Facturé au départ (aller-retour) |
+|---|---|---|---|
+| 100 % | 10 + 350 × √(10 × 3 650 / 20 000) ≈ **483 s** (8 min 3 s) | 20 × 10 × 3 650 / 35 000 × (1 + 1)² ≈ **83** | **166** |
+| 50 % | 10 + 700 × √1,825 ≈ **956 s** (15 min 56 s) | 20 × 10 × 3 650 / 35 000 × (0,5 + 1)² ≈ **46** | **92** |
+
+À mi-vitesse, le vol dure deux fois plus longtemps mais coûte **45 % d'hydrogène en moins**.
+
+## Données détaillées
+
+### Vitesse de base et moteur
+
+| Moteur | Bonus par niveau | Vaisseaux |
+|---|---|---|
+| Propulseur Chimique | +10 % | Navette de fret, Cargo stellaire, Récupérateur, Éclaireur, Intercepteur |
+| Moteur Magnétique | +20 % | Pionnier spatial, Assaillant, Corvette, Frappe-orbital |
+| Navigation Transdimensionnelle | +30 % | Cuirassé, Prédateur, Annihilateur, Colossus stellaire |
+
+Les vitesses et consommations de base sont sur la page [Liste des vaisseaux](/fr/fleet/ships).
+
+## Pièges fréquents
+
+- **Le plus lent impose son rythme** : un seul Récupérateur (vitesse 2 000) ralentit toute une flotte d'Intercepteurs.
+- **Le retour se paie au départ** : prévoyez l'hydrogène de l'aller-retour avant d'attaquer.
+- **Rappeler ne rembourse rien** : l'hydrogène dépensé est perdu.
+- **Calcul Quantique limite vos flottes** : au niveau 2, seulement 3 flottes en vol, expéditions comprises.
+
+## Pages liées
+
+- [Coordonnées](/fr/universe/coordinates)
+- [Les missions](/fr/fleet/missions)
+- [Liste des vaisseaux](/fr/fleet/ships)
+- [Expéditions](/fr/fleet/expeditions)
+- [Missions et station d'alliance](/fr/players/alliance-missions)

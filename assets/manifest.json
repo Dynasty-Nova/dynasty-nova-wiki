@@ -1,0 +1,590 @@
+{
+  "description": "Images issues du jeu pour le wiki. Chaque image garde la version du front dont elle provient.",
+  "game_version": "Serveur 2.1.0 · Client 3.1.0",
+  "wiki_folder": "/images (illustrations : /images/illustrations ; captures : /images/screenshots/french, english, spanish)",
+  "status": "67 illustrations et 4 captures en ligne le 2 octobre 2026",
+  "sources": {
+    "illustrations": "Fichiers du client 3.1.0 servis sous https://play.dynastynova.com/assets/<nom>-<hash>.webp (les chemins non hachés renvoient 404). Originaux 2048 px en local dans assets/illustrations/, versions 512 px JPEG (assets/wiki512/) envoyées au wiki.",
+    "captures": "Captures d'écran du jeu, interface en français pour les pages FR et en anglais pour les pages EN, fenêtre 1440 × 900"
+  },
+  "uploaded": [
+    {
+      "wiki_path": "/images/screenshots/english/galaxy-view.jpg",
+      "kind": "capture",
+      "game_screen": "vue galaxie, affichage liste, système sans planète espionnée",
+      "ui_language": "en",
+      "privacy": "pseudo, avatar et coordonnées masqués",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "captured": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/screenshots/english/galaxy-view-orbits.jpg",
+      "kind": "capture",
+      "game_screen": "vue galaxie, affichage orbites",
+      "ui_language": "en",
+      "privacy": "pseudo, avatar et coordonnées masqués",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "captured": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/screenshots/french/vue-galaxie.jpg",
+      "kind": "capture",
+      "game_screen": "vue galaxie, affichage liste",
+      "ui_language": "fr",
+      "privacy": "pseudo, avatar et coordonnées masqués",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "captured": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/screenshots/french/vue-galaxie-orbites.jpg",
+      "kind": "capture",
+      "game_screen": "vue galaxie, affichage orbites",
+      "ui_language": "fr",
+      "privacy": "pseudo, avatar et coordonnées masqués",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "captured": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/navette-de-fret.jpg",
+      "kind": "illustration",
+      "game_file": "navette-de-fret-0vavleR3.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/cargo-stellaire.jpg",
+      "kind": "illustration",
+      "game_file": "cargo-stellaire-BVRG9it0.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/pionnier-spatial.jpg",
+      "kind": "illustration",
+      "game_file": "pionnier-spatial-DRMW7Pjl.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/recuperateur.jpg",
+      "kind": "illustration",
+      "game_file": "recuperateur-CEq9CHP0.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/eclaireur.jpg",
+      "kind": "illustration",
+      "game_file": "eclaireur-DoyJiFPg.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/collecteur-solaire.jpg",
+      "kind": "illustration",
+      "game_file": "collecteur-solaire-CKMVp681.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/intercepteur.jpg",
+      "kind": "illustration",
+      "game_file": "intercepteur-NWLcD77E.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/assaillant.jpg",
+      "kind": "illustration",
+      "game_file": "assaillant-Ct3A0EZ7.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/corvette.jpg",
+      "kind": "illustration",
+      "game_file": "corvette-mnAr7KMa.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/cuirasse.jpg",
+      "kind": "illustration",
+      "game_file": "cuirasse-w3wVm49H.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/frappe-orbital.jpg",
+      "kind": "illustration",
+      "game_file": "frappe-orbital-Uru_CapU.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/predateur.jpg",
+      "kind": "illustration",
+      "game_file": "traqueur-DFu68oVt.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/annihilateur.jpg",
+      "kind": "illustration",
+      "game_file": "annihilateur-DhplO4nK.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/ships/colossus-stellaire.jpg",
+      "kind": "illustration",
+      "game_file": "colossus-stellaire-DViBXkiM.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/defense/projecteur-balistique.jpg",
+      "kind": "illustration",
+      "game_file": "projecteur-balistique-C8l4KB_D.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/defense/canon-photonique.jpg",
+      "kind": "illustration",
+      "game_file": "canon-photonique-B1wksSTe.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/defense/emetteur-a-haute-energie.jpg",
+      "kind": "illustration",
+      "game_file": "emetteur-a-haute-energie-CcuFqUz5.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/defense/batterie-ionique.jpg",
+      "kind": "illustration",
+      "game_file": "batterie-ionique-8Ld-gfJb.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/defense/accelerateur-magnetique.jpg",
+      "kind": "illustration",
+      "game_file": "accelerateur-magnetique-Bebxd2RP.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/defense/ejecteur-a-plasma.jpg",
+      "kind": "illustration",
+      "game_file": "ejecteur-a-plasma-Cu2gNyW9.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/defense/barriere-defensive.jpg",
+      "kind": "illustration",
+      "game_file": "barriere-defensive-CR0-hHDe.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/defense/dome-protecteur.jpg",
+      "kind": "illustration",
+      "game_file": "dome-protecteur-Co5kupJe.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/defense/intercepteurs.jpg",
+      "kind": "illustration",
+      "game_file": "intercepteurs-DxdbY0TG.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/defense/ogives-longue-portee.jpg",
+      "kind": "illustration",
+      "game_file": "ogives-longue-portee-RAfTqtGA.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/buildings/base-planetaire.jpg",
+      "kind": "illustration",
+      "game_file": "base-planetaire-CSzc2IDW.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/buildings/base-coloniale.jpg",
+      "kind": "illustration",
+      "game_file": "base-coloniale-B_T5kuta.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/buildings/excavateur-mineral.jpg",
+      "kind": "illustration",
+      "game_file": "excavateur-mineral-BxdyAwbz.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/buildings/extracteur-cristallin.jpg",
+      "kind": "illustration",
+      "game_file": "extracteur-cristallin-Dyr8Eek-.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/buildings/condensateur-d-hydrogene.jpg",
+      "kind": "illustration",
+      "game_file": "condensateur-d-hydrogene-BfMsV8t9.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/buildings/capteurs-photovoltaiques.jpg",
+      "kind": "illustration",
+      "game_file": "capteurs-photovoltaiques-BDc35Ejs.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/buildings/reacteur-thermonucleaire.jpg",
+      "kind": "illustration",
+      "game_file": "reacteur-thermonucleaire-BFy4W28F.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/buildings/depot-alliages.jpg",
+      "kind": "illustration",
+      "game_file": "depot-alliages-Cwjemo5G.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/buildings/chambre-cristalline.jpg",
+      "kind": "illustration",
+      "game_file": "chambre-cristalline-nG8FInkR.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/buildings/citerne-hydrogene.jpg",
+      "kind": "illustration",
+      "game_file": "citerne-hydrogene-DS8muf6t.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/facilities/centre-d-innovation.jpg",
+      "kind": "illustration",
+      "game_file": "centre-d-innovation-aBDOqs3q.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/facilities/fabrique-d-automates.jpg",
+      "kind": "illustration",
+      "game_file": "fabrique-d-automates-De7Mgt6c.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/facilities/dock-orbital.jpg",
+      "kind": "illustration",
+      "game_file": "dock-orbital-C2hU0R9Z.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/facilities/assembleur-moleculaire.jpg",
+      "kind": "illustration",
+      "game_file": "assembleur-moleculaire-BPwKFTSi.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/facilities/station-de-reparation.jpg",
+      "kind": "illustration",
+      "game_file": "station-de-reparation-Cfwphn3u.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/facilities/modulateur-planetaire.jpg",
+      "kind": "illustration",
+      "game_file": "modulateur-planetaire-VFPCQvyH.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/facilities/arsenal-balistique.jpg",
+      "kind": "illustration",
+      "game_file": "arsenal-balistique-CCJ0uF3G.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/facilities/centre-logistique.jpg",
+      "kind": "illustration",
+      "game_file": "centre-logistique-Dyc0JS6H.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/facilities/base-lunaire.jpg",
+      "kind": "illustration",
+      "game_file": "base-lunaire-BGGiHJhF.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/facilities/phalange-de-capteur.jpg",
+      "kind": "illustration",
+      "game_file": "phalange-de-capteur-CWTTvqFT.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/facilities/porte-de-saut.jpg",
+      "kind": "illustration",
+      "game_file": "porte-de-saut-Ds98LiRf.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/science-energetique.jpg",
+      "kind": "illustration",
+      "game_file": "science-energetique-BZlDaMgE.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/maitrise-du-plasma.jpg",
+      "kind": "illustration",
+      "game_file": "maitrise-du-plasma-CjFMXywE.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/calcul-quantique.jpg",
+      "kind": "illustration",
+      "game_file": "calcul-quantique-B-AZC9eR.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/collaboration-stellaire.jpg",
+      "kind": "illustration",
+      "game_file": "collaboration-stellaire-BxVVn906.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/diplomatie-stellaire.jpg",
+      "kind": "illustration",
+      "game_file": "diplomatie-stellaire-C0Tlj2Wk.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/propulseur-chimique.jpg",
+      "kind": "illustration",
+      "game_file": "propulseur-chimique-8gmE25Qn.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/moteur-magnetique.jpg",
+      "kind": "illustration",
+      "game_file": "moteur-magnetique-Cp9jNXcN.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/navigation-transdimensionnelle.jpg",
+      "kind": "illustration",
+      "game_file": "navigation-transdimensionnelle-DAtoDJSI.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/systemes-photoniques.jpg",
+      "kind": "illustration",
+      "game_file": "systemes-photoniques-CcdIaWds.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/manipulation-ionique.jpg",
+      "kind": "illustration",
+      "game_file": "manipulation-ionique-DQWuzHtV.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/pliage-spatial.jpg",
+      "kind": "illustration",
+      "game_file": "pliage-spatial-CfUtGhne.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/systemes-offensifs.jpg",
+      "kind": "illustration",
+      "game_file": "systemes-offensifs-Bngyj26q.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/champs-de-protection.jpg",
+      "kind": "illustration",
+      "game_file": "champs-de-protection-B8uvSw1x.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/metallurgie-avancee.jpg",
+      "kind": "illustration",
+      "game_file": "metallurgie-avancee-CHFIY1q4.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/manipulation-gravitationnelle.jpg",
+      "kind": "illustration",
+      "game_file": "manipulation-gravitationnelle-Ddp2N2yN.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/renseignement-tactique.jpg",
+      "kind": "illustration",
+      "game_file": "renseignement-tactique-CLmN4Rvf.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/research/cosmologie-appliquee.jpg",
+      "kind": "illustration",
+      "game_file": "cosmologie-appliquee-BtCqHOGx.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/resources/metal.jpg",
+      "kind": "illustration",
+      "game_file": "metal-CBqnWiqp.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/resources/crystal.jpg",
+      "kind": "illustration",
+      "game_file": "crystal-B71OFkfW.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/resources/hydrogene.jpg",
+      "kind": "illustration",
+      "game_file": "hydrogene-BCmSVbY6.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/resources/energy.jpg",
+      "kind": "illustration",
+      "game_file": "energy-CEEXyYsI.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    },
+    {
+      "wiki_path": "/images/illustrations/resources/stellar-points.jpg",
+      "kind": "illustration",
+      "game_file": "stellar-points-C4pA2v6B.webp",
+      "game_version": "Serveur 2.1.0 · Client 3.1.0",
+      "size_px": 512,
+      "fetched": "2026-10-02"
+    }
+  ],
+  "user_uploaded": [
+    {
+      "wiki_path": "/game/screenshot_2026-10-01_at_16.57.12.png",
+      "note": "envoyée par l'utilisateur, non utilisée"
+    }
+  ]
+}

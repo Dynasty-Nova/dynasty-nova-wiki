@@ -1,0 +1,130 @@
+{
+ "fr/universe/planets": [
+  [
+   "Le type de planète (désert, jungle, glace…) ne change que l'apparence.",
+   "Le type de planète (désert, jungle, glace…) ne change que l'apparence. Les colonies ont en plus un bonus de production selon leur position."
+  ],
+  [
+   "7. Au-delà de la dernière position s'étend l'**espace lointain** : aucune planète, seulement des champs de ruines et les flottes en expédition.\n",
+   "7. Au-delà de la dernière position s'étend l'**espace lointain** : aucune planète, seulement des champs de ruines et les flottes en expédition.\n8. **Bonus de position** (colonies uniquement) : l'Extracteur cristallin des positions 1 à 3 et l'Excavateur minéral des positions 6 à 10 produisent davantage (table ci-dessous). La planète mère n'en bénéficie jamais, pour ne pas créer d'inégalités au départ. Le bonus a sa propre ligne dans le détail de production.\n"
+  ],
+  [
+   "\n## Pièges fréquents",
+   "\n### Bonus de position (colonies uniquement)\n\n| Position | 1 | 2 | 3 | 6 | 7 | 8 | 9 | 10 |\n|---|---|---|---|---|---|---|---|---|\n| Extracteur cristallin (cristal) | +40 % | +30 % | +20 % | | | | | |\n| Excavateur minéral (métal) | | | | +17 % | +23 % | +35 % | +23 % | +17 % |\n\nLes positions 4, 5 et 11 à 15 n'ont pas de bonus. La planète mère n'en a jamais, quelle que soit sa position.\n\n## Pièges fréquents"
+  ],
+  [
+   "- **La planète mère ne suit pas la table** : elle a toujours 163 cases.",
+   "- **La planète mère ne suit pas la table** : elle a toujours 163 cases, et n'a pas de bonus de position.\n- **Pour une colonie, la position compte double** : cristal en positions 1 à 3, métal en positions 6 à 10 (+35 % en position 8)."
+  ]
+ ],
+ "en/universe/planets": [
+  [
+   "The planet type (desert, jungle, ice…) only changes its look.",
+   "The planet type (desert, jungle, ice…) only changes its look. Colonies also get an output bonus depending on their position."
+  ],
+  [
+   "7. Beyond the last position lies **deep space**: no planet, only debris fields and fleets on expedition.\n",
+   "7. Beyond the last position lies **deep space**: no planet, only debris fields and fleets on expedition.\n8. **Position bonus** (colonies only): the Crystal Extractor at positions 1 to 3 and the Mineral Excavator at positions 6 to 10 produce more (table below). The mother planet never gets it, so that nobody starts at an advantage. The bonus has its own line in the production breakdown.\n"
+  ],
+  [
+   "\n## Common pitfalls",
+   "\n### Position bonus (colonies only)\n\n| Position | 1 | 2 | 3 | 6 | 7 | 8 | 9 | 10 |\n|---|---|---|---|---|---|---|---|---|\n| Crystal Extractor (crystal) | +40% | +30% | +20% | | | | | |\n| Mineral Excavator (metal) | | | | +17% | +23% | +35% | +23% | +17% |\n\nPositions 4, 5 and 11 to 15 have no bonus. The mother planet never has one, whatever its position.\n\n## Common pitfalls"
+  ],
+  [
+   "- **The mother planet ignores the table**: it always has 163 fields.",
+   "- **The mother planet ignores the table**: it always has 163 fields, and has no position bonus.\n- **For a colony, position matters twice**: crystal at positions 1 to 3, metal at positions 6 to 10 (+35% at position 8)."
+  ]
+ ],
+ "fr/economy/resources": [
+  [
+   "8. Bonus possibles : technologie Maîtrise du Plasma, talent d'alliance Extraction coordonnée (+5 % par niveau), température de la planète pour l'hydrogène.",
+   "8. Bonus possibles : technologie Maîtrise du Plasma, talent d'alliance Extraction coordonnée (+5 % par niveau), température de la planète pour l'hydrogène, et **bonus de position** des colonies (jusqu'à +40 % de cristal en positions 1 à 3, jusqu'à +35 % de métal en positions 6 à 10 ; voir [Planètes](/fr/universe/planets))."
+  ]
+ ],
+ "en/economy/resources": [
+  [
+   "8. Possible bonuses: Plasma Technology, the Coordinated Extraction alliance talent (+5% per level), planet temperature for hydrogen.",
+   "8. Possible bonuses: Plasma Technology, the Coordinated extraction alliance talent (+5% per level), planet temperature for hydrogen, and the colonies' **position bonus** (up to +40% crystal at positions 1 to 3, up to +35% metal at positions 6 to 10; see [Planets](/en/universe/planets))."
+  ]
+ ],
+ "fr/universe/colonization": [
+  [
+   "- **Choisissez la position** : une position proche du soleil donne une petite planète chaude (énergie solaire), une position lointaine une grande planète froide (hydrogène).",
+   "- **Choisissez la position** : une position proche du soleil donne une petite planète chaude (énergie solaire), une position lointaine une grande planète froide (hydrogène). Une colonie a aussi un bonus de position : jusqu'à +40 % de cristal en positions 1 à 3, jusqu'à +35 % de métal en positions 6 à 10 (voir [Planètes](/fr/universe/planets))."
+  ]
+ ],
+ "en/universe/colonization": [
+  [
+   "- **Choose the position**: a position close to the sun gives a small hot planet (solar energy), a distant one a large cold planet (hydrogen).",
+   "- **Choose the position**: a position close to the sun gives a small hot planet (solar energy), a distant one a large cold planet (hydrogen). A colony also gets a position bonus: up to +40% crystal at positions 1 to 3, up to +35% metal at positions 6 to 10 (see [Planets](/en/universe/planets))."
+  ]
+ ],
+ "fr/getting-started/coming-from-ogame": [
+  [
+   "- **Température vivante**",
+   "- **Taille des galaxies** : le nombre de systèmes par galaxie dépend de l'univers (99 sur Redline, contre 499 fixes dans OGame).\n- **Bonus de position** : uniquement sur les colonies (cristal en positions 1 à 3, métal en positions 6 à 10), jamais sur la planète mère.\n- **Température vivante**"
+  ]
+ ],
+ "en/getting-started/coming-from-ogame": [
+  [
+   "- **Living temperature**",
+   "- **Galaxy size**: the number of systems per galaxy depends on the universe (99 on Redline, against a fixed 499 in OGame).\n- **Position bonus**: colonies only (crystal at positions 1 to 3, metal at positions 6 to 10), never on the mother planet.\n- **Living temperature**"
+  ]
+ ],
+ "fr/universe/coordinates": [
+  [
+   "Les systèmes vont de 1 à 99 ; le nombre de galaxies et de positions dépend de l'univers.",
+   "Le nombre de galaxies, de systèmes par galaxie et de positions par système dépend de l'univers (9 galaxies de 99 systèmes sur Redline)."
+  ],
+  [
+   "le nombre de galaxies et le nombre de positions par système (de 9 à 20) dépendent de l'univers.",
+   "le nombre de galaxies, le nombre de systèmes par galaxie et le nombre de positions par système (de 9 à 20) dépendent de l'univers."
+  ],
+  [
+   "2. Chaque galaxie compte **99 systèmes**, numérotés de 1 à 99.",
+   "2. Chaque galaxie compte un nombre fixe de **systèmes**, qui dépend de l'univers : **99** sur Redline, numérotés de 1 à 99."
+  ],
+  [
+   "et le système 99 n'est pas voisin du système 1.",
+   "et le dernier système n'est pas voisin du premier."
+  ],
+  [
+   "vaut déjà plus que la traversée complète d'une galaxie (2 700 + 95 × 98 = 12 010).",
+   "vaut déjà plus que la traversée complète d'une galaxie de 99 systèmes comme celles de Redline (2 700 + 95 × 98 = 12 010)."
+  ]
+ ],
+ "en/universe/coordinates": [
+  [
+   "Systems go from 1 to 99; the number of galaxies and positions depends on the universe.",
+   "The number of galaxies, of systems per galaxy and of positions per system depends on the universe (9 galaxies of 99 systems on Redline)."
+  ],
+  [
+   "the number of galaxies and of positions per system (9 to 20) depends on the universe.",
+   "the number of galaxies, of systems per galaxy and of positions per system (9 to 20) depends on the universe."
+  ],
+  [
+   "2. Each galaxy has **99 systems**, numbered 1 to 99.",
+   "2. Each galaxy has a fixed number of **systems**, which depends on the universe: **99** on Redline, numbered 1 to 99."
+  ],
+  [
+   "and system 99 is not next to system 1.",
+   "and the last system is not next to the first."
+  ],
+  [
+   "is already worth more than crossing a whole galaxy (2,700 + 95 × 98 = 12,010).",
+   "is already worth more than crossing a whole 99-system galaxy like Redline's (2,700 + 95 × 98 = 12,010)."
+  ]
+ ],
+ "fr/getting-started/glossary": [
+  [
+   "| Bonus de position | Position bonus | Bonificación de posición | Effet de la position sur la production |",
+   "| Bonus de position | Position bonus | Bonificación de posición | Bonus de production des colonies selon leur position |"
+  ]
+ ],
+ "en/getting-started/glossary": [
+  [
+   "| Position bonus | Bonus de position | Bonificación de posición | Effect of the position on output |",
+   "| Position bonus | Bonus de position | Bonificación de posición | Colony output bonus depending on position |"
+  ]
+ ]
+}

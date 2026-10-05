@@ -1,0 +1,46 @@
+{
+ "fr/misc": [
+  [
+   "- [Parrainage](/fr/misc/referral)\n",
+   "- [Parrainage](/fr/misc/referral)\n- [Univers privés](/fr/misc/private-universes)\n"
+  ]
+ ],
+ "en/misc": [
+  [
+   "- [Referral](/en/misc/referral)\n",
+   "- [Referral](/en/misc/referral)\n- [Private universes](/en/misc/private-universes)\n"
+  ]
+ ],
+ "fr/home": [
+  [
+   "- [Parrainage](/fr/misc/referral)\n",
+   "- [Parrainage](/fr/misc/referral)\n- [Univers privés](/fr/misc/private-universes)\n"
+  ],
+  [
+   "- **Une question rapide** : la [FAQ](/fr/getting-started/faq).",
+   "- **Une question rapide** : la [FAQ](/fr/getting-started/faq).\n- **Aucun pay to win** : rien de ce qui s'achète ne donne d'avantage de jeu (voir [Premium, boutique et Points stellaires](/fr/misc/premium))."
+  ]
+ ],
+ "en/home": [
+  [
+   "- [Referral](/en/misc/referral)\n",
+   "- [Referral](/en/misc/referral)\n- [Private universes](/en/misc/private-universes)\n"
+  ],
+  [
+   "- **A quick question**: the [FAQ](/en/getting-started/faq).",
+   "- **A quick question**: the [FAQ](/en/getting-started/faq).\n- **No pay-to-win**: nothing you can buy gives a gameplay advantage (see [Premium, shop and Stellar Points](/en/misc/premium))."
+  ]
+ ],
+ "fr/universe/universes": [
+  [
+   "\n\n## Exemple chiffré",
+   "\n8. Vous pouvez aussi créer votre propre **univers privé**, avec ses joueurs, ses vitesses et ses règles (voir [Univers privés](/fr/misc/private-universes)).\n\n## Exemple chiffré"
+  ]
+ ],
+ "en/universe/universes": [
+  [
+   "\n\n## Worked example",
+   "\n8. You can also create your own **private universe**, with its players, speeds and rules (see [Private universes](/en/misc/private-universes)).\n\n## Worked example"
+  ]
+ ]
+}

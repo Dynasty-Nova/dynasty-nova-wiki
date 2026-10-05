@@ -1,0 +1,826 @@
+{
+ "fr/fleet/ships": [
+  [
+   "| Navette de fret | civil | 2 000 | 2 000 | 0 | 4 | Petit transport rapide |",
+   "| <img src=\"/images/illustrations/ships/navette-de-fret.jpg\" width=\"48\" alt=\"Navette de fret\"> Navette de fret | civil | 2 000 | 2 000 | 0 | 4 | Petit transport rapide |"
+  ],
+  [
+   "| Cargo stellaire | civil | 6 000 | 6 000 | 0 | 12 | Gros transport |",
+   "| <img src=\"/images/illustrations/ships/cargo-stellaire.jpg\" width=\"48\" alt=\"Cargo stellaire\"> Cargo stellaire | civil | 6 000 | 6 000 | 0 | 12 | Gros transport |"
+  ],
+  [
+   "| Pionnier spatial | civil | 10 000 | 20 000 | 10 000 | 40 | Fonde une colonie |",
+   "| <img src=\"/images/illustrations/ships/pionnier-spatial.jpg\" width=\"48\" alt=\"Pionnier spatial\"> Pionnier spatial | civil | 10 000 | 20 000 | 10 000 | 40 | Fonde une colonie |"
+  ],
+  [
+   "| Récupérateur | civil | 10 000 | 6 000 | 2 000 | 18 | Recycle les champs de ruines |",
+   "| <img src=\"/images/illustrations/ships/recuperateur.jpg\" width=\"48\" alt=\"Récupérateur\"> Récupérateur | civil | 10 000 | 6 000 | 2 000 | 18 | Recycle les champs de ruines |"
+  ],
+  [
+   "| Éclaireur | civil | 0 | 1 000 | 0 | 1 | Sonde d'espionnage |",
+   "| <img src=\"/images/illustrations/ships/eclaireur.jpg\" width=\"48\" alt=\"Éclaireur\"> Éclaireur | civil | 0 | 1 000 | 0 | 1 | Sonde d'espionnage |"
+  ],
+  [
+   "| Collecteur solaire | spécial | 0 | 2 000 | 500 | 2,5 | Produit de l'énergie en orbite |",
+   "| <img src=\"/images/illustrations/ships/collecteur-solaire.jpg\" width=\"48\" alt=\"Collecteur solaire\"> Collecteur solaire | spécial | 0 | 2 000 | 500 | 2,5 | Produit de l'énergie en orbite |"
+  ],
+  [
+   "| Intercepteur | combat | 3 000 | 1 000 | 0 | 4 | Chasseur de base |",
+   "| <img src=\"/images/illustrations/ships/intercepteur.jpg\" width=\"48\" alt=\"Intercepteur\"> Intercepteur | combat | 3 000 | 1 000 | 0 | 4 | Chasseur de base |"
+  ],
+  [
+   "| Assaillant | combat | 6 000 | 4 000 | 0 | 10 | Chasseur plus résistant |",
+   "| <img src=\"/images/illustrations/ships/assaillant.jpg\" width=\"48\" alt=\"Assaillant\"> Assaillant | combat | 6 000 | 4 000 | 0 | 10 | Chasseur plus résistant |"
+  ],
+  [
+   "| Corvette | combat | 20 000 | 7 000 | 2 000 | 29 | Spécialiste anti-Intercepteur |",
+   "| <img src=\"/images/illustrations/ships/corvette.jpg\" width=\"48\" alt=\"Corvette\"> Corvette | combat | 20 000 | 7 000 | 2 000 | 29 | Spécialiste anti-Intercepteur |"
+  ],
+  [
+   "| Cuirassé | combat | 45 000 | 15 000 | 0 | 60 | Vaisseau de ligne |",
+   "| <img src=\"/images/illustrations/ships/cuirasse.jpg\" width=\"48\" alt=\"Cuirassé\"> Cuirassé | combat | 45 000 | 15 000 | 0 | 60 | Vaisseau de ligne |"
+  ],
+  [
+   "| Frappe-orbital | spécial | 50 000 | 25 000 | 15 000 | 90 | Spécialiste anti-défenses |",
+   "| <img src=\"/images/illustrations/ships/frappe-orbital.jpg\" width=\"48\" alt=\"Frappe-orbital\"> Frappe-orbital | spécial | 50 000 | 25 000 | 15 000 | 90 | Spécialiste anti-défenses |"
+  ],
+  [
+   "| Prédateur | spécial | 30 000 | 40 000 | 15 000 | 85 | Chasseur de flottes |",
+   "| <img src=\"/images/illustrations/ships/predateur.jpg\" width=\"48\" alt=\"Prédateur\"> Prédateur | spécial | 30 000 | 40 000 | 15 000 | 85 | Chasseur de flottes |"
+  ],
+  [
+   "| Annihilateur | spécial | 60 000 | 50 000 | 15 000 | 125 | Le plus puissant de la flotte standard |",
+   "| <img src=\"/images/illustrations/ships/annihilateur.jpg\" width=\"48\" alt=\"Annihilateur\"> Annihilateur | spécial | 60 000 | 50 000 | 15 000 | 125 | Le plus puissant de la flotte standard |"
+  ],
+  [
+   "| Colossus stellaire | spécial | 5 000 000 | 4 000 000 | 1 000 000 | 10 000 | Vaisseau ultime, détruit les lunes |",
+   "| <img src=\"/images/illustrations/ships/colossus-stellaire.jpg\" width=\"48\" alt=\"Colossus stellaire\"> Colossus stellaire | spécial | 5 000 000 | 4 000 000 | 1 000 000 | 10 000 | Vaisseau ultime, détruit les lunes |"
+  ]
+ ],
+ "en/fleet/ships": [
+  [
+   "| *Cargo Shuttle* (Navette de fret) | civil | 2,000 | 2,000 | 0 | 4 | Small fast transport |",
+   "| <img src=\"/images/illustrations/ships/navette-de-fret.jpg\" width=\"48\" alt=\"Cargo Shuttle (Navette de fret)\"> *Cargo Shuttle* (Navette de fret) | civil | 2,000 | 2,000 | 0 | 4 | Small fast transport |"
+  ],
+  [
+   "| *Stellar Freighter* (Cargo stellaire) | civil | 6,000 | 6,000 | 0 | 12 | Large transport |",
+   "| <img src=\"/images/illustrations/ships/cargo-stellaire.jpg\" width=\"48\" alt=\"Stellar Freighter (Cargo stellaire)\"> *Stellar Freighter* (Cargo stellaire) | civil | 6,000 | 6,000 | 0 | 12 | Large transport |"
+  ],
+  [
+   "| *Space Pioneer* (Pionnier spatial) | civil | 10,000 | 20,000 | 10,000 | 40 | Founds a colony |",
+   "| <img src=\"/images/illustrations/ships/pionnier-spatial.jpg\" width=\"48\" alt=\"Space Pioneer (Pionnier spatial)\"> *Space Pioneer* (Pionnier spatial) | civil | 10,000 | 20,000 | 10,000 | 40 | Founds a colony |"
+  ],
+  [
+   "| *Salvager* (Récupérateur) | civil | 10,000 | 6,000 | 2,000 | 18 | Recycles debris fields |",
+   "| <img src=\"/images/illustrations/ships/recuperateur.jpg\" width=\"48\" alt=\"Salvager (Récupérateur)\"> *Salvager* (Récupérateur) | civil | 10,000 | 6,000 | 2,000 | 18 | Recycles debris fields |"
+  ],
+  [
+   "| *Scout* (Éclaireur) | civil | 0 | 1,000 | 0 | 1 | Espionage probe |",
+   "| <img src=\"/images/illustrations/ships/eclaireur.jpg\" width=\"48\" alt=\"Scout (Éclaireur)\"> *Scout* (Éclaireur) | civil | 0 | 1,000 | 0 | 1 | Espionage probe |"
+  ],
+  [
+   "| *Solar Collector* (Collecteur solaire) | special | 0 | 2,000 | 500 | 2.5 | Produces energy in orbit |",
+   "| <img src=\"/images/illustrations/ships/collecteur-solaire.jpg\" width=\"48\" alt=\"Solar Collector (Collecteur solaire)\"> *Solar Collector* (Collecteur solaire) | special | 0 | 2,000 | 500 | 2.5 | Produces energy in orbit |"
+  ],
+  [
+   "| *Interceptor* (Intercepteur) | combat | 3,000 | 1,000 | 0 | 4 | Basic fighter |",
+   "| <img src=\"/images/illustrations/ships/intercepteur.jpg\" width=\"48\" alt=\"Interceptor (Intercepteur)\"> *Interceptor* (Intercepteur) | combat | 3,000 | 1,000 | 0 | 4 | Basic fighter |"
+  ],
+  [
+   "| *Assailant* (Assaillant) | combat | 6,000 | 4,000 | 0 | 10 | Tougher fighter |",
+   "| <img src=\"/images/illustrations/ships/assaillant.jpg\" width=\"48\" alt=\"Assailant (Assaillant)\"> *Assailant* (Assaillant) | combat | 6,000 | 4,000 | 0 | 10 | Tougher fighter |"
+  ],
+  [
+   "| *Corvette* (Corvette) | combat | 20,000 | 7,000 | 2,000 | 29 | Anti-Interceptor specialist |",
+   "| <img src=\"/images/illustrations/ships/corvette.jpg\" width=\"48\" alt=\"Corvette (Corvette)\"> *Corvette* (Corvette) | combat | 20,000 | 7,000 | 2,000 | 29 | Anti-Interceptor specialist |"
+  ],
+  [
+   "| *Battleship* (Cuirassé) | combat | 45,000 | 15,000 | 0 | 60 | Line ship |",
+   "| <img src=\"/images/illustrations/ships/cuirasse.jpg\" width=\"48\" alt=\"Battleship (Cuirassé)\"> *Battleship* (Cuirassé) | combat | 45,000 | 15,000 | 0 | 60 | Line ship |"
+  ],
+  [
+   "| *Orbital Striker* (Frappe-orbital) | special | 50,000 | 25,000 | 15,000 | 90 | Anti-defense specialist |",
+   "| <img src=\"/images/illustrations/ships/frappe-orbital.jpg\" width=\"48\" alt=\"Orbital Striker (Frappe-orbital)\"> *Orbital Striker* (Frappe-orbital) | special | 50,000 | 25,000 | 15,000 | 90 | Anti-defense specialist |"
+  ],
+  [
+   "| *Predator* (Prédateur) | special | 30,000 | 40,000 | 15,000 | 85 | Fleet hunter |",
+   "| <img src=\"/images/illustrations/ships/predateur.jpg\" width=\"48\" alt=\"Predator (Prédateur)\"> *Predator* (Prédateur) | special | 30,000 | 40,000 | 15,000 | 85 | Fleet hunter |"
+  ],
+  [
+   "| *Annihilator* (Annihilateur) | special | 60,000 | 50,000 | 15,000 | 125 | Strongest standard ship |",
+   "| <img src=\"/images/illustrations/ships/annihilateur.jpg\" width=\"48\" alt=\"Annihilator (Annihilateur)\"> *Annihilator* (Annihilateur) | special | 60,000 | 50,000 | 15,000 | 125 | Strongest standard ship |"
+  ],
+  [
+   "| Stellar Colossus (Colossus stellaire) | special | 5,000,000 | 4,000,000 | 1,000,000 | 10,000 | Ultimate ship, destroys moons |",
+   "| <img src=\"/images/illustrations/ships/colossus-stellaire.jpg\" width=\"48\" alt=\"Stellar Colossus (Colossus stellaire)\"> Stellar Colossus (Colossus stellaire) | special | 5,000,000 | 4,000,000 | 1,000,000 | 10,000 | Ultimate ship, destroys moons |"
+  ]
+ ],
+ "fr/defense/defenses": [
+  [
+   "| Projecteur balistique | 2 000 | 0 | 0 | 2 | 2 000 | 200 | 20 | 80 |",
+   "| <img src=\"/images/illustrations/defense/projecteur-balistique.jpg\" width=\"48\" alt=\"Projecteur balistique\"> Projecteur balistique | 2 000 | 0 | 0 | 2 | 2 000 | 200 | 20 | 80 |"
+  ],
+  [
+   "| Canon photonique | 1 500 | 500 | 0 | 2 | 2 000 | 200 | 25 | 100 |",
+   "| <img src=\"/images/illustrations/defense/canon-photonique.jpg\" width=\"48\" alt=\"Canon photonique\"> Canon photonique | 1 500 | 500 | 0 | 2 | 2 000 | 200 | 25 | 100 |"
+  ],
+  [
+   "| Émetteur à haute énergie | 6 000 | 2 000 | 0 | 8 | 8 000 | 800 | 100 | 250 |",
+   "| <img src=\"/images/illustrations/defense/emetteur-a-haute-energie.jpg\" width=\"48\" alt=\"Émetteur à haute énergie\"> Émetteur à haute énergie | 6 000 | 2 000 | 0 | 8 | 8 000 | 800 | 100 | 250 |"
+  ],
+  [
+   "| Batterie ionique | 2 000 | 6 000 | 0 | 8 | 8 000 | 800 | 500 | 150 |",
+   "| <img src=\"/images/illustrations/defense/batterie-ionique.jpg\" width=\"48\" alt=\"Batterie ionique\"> Batterie ionique | 2 000 | 6 000 | 0 | 8 | 8 000 | 800 | 500 | 150 |"
+  ],
+  [
+   "| Accélérateur magnétique | 20 000 | 15 000 | 2 000 | 37 | 35 000 | 3 500 | 200 | 1 100 |",
+   "| <img src=\"/images/illustrations/defense/accelerateur-magnetique.jpg\" width=\"48\" alt=\"Accélérateur magnétique\"> Accélérateur magnétique | 20 000 | 15 000 | 2 000 | 37 | 35 000 | 3 500 | 200 | 1 100 |"
+  ],
+  [
+   "| Éjecteur à plasma | 50 000 | 50 000 | 30 000 | 130 | 100 000 | 10 000 | 300 | 3 000 |",
+   "| <img src=\"/images/illustrations/defense/ejecteur-a-plasma.jpg\" width=\"48\" alt=\"Éjecteur à plasma\"> Éjecteur à plasma | 50 000 | 50 000 | 30 000 | 130 | 100 000 | 10 000 | 300 | 3 000 |"
+  ],
+  [
+   "| Barrière défensive | 10 000 | 10 000 | 0 | 20 | 20 000 | 2 000 | 2 000 | 1 |",
+   "| <img src=\"/images/illustrations/defense/barriere-defensive.jpg\" width=\"48\" alt=\"Barrière défensive\"> Barrière défensive | 10 000 | 10 000 | 0 | 20 | 20 000 | 2 000 | 2 000 | 1 |"
+  ],
+  [
+   "| Dôme protecteur | 50 000 | 50 000 | 0 | 100 | 100 000 | 10 000 | 10 000 | 1 |",
+   "| <img src=\"/images/illustrations/defense/dome-protecteur.jpg\" width=\"48\" alt=\"Dôme protecteur\"> Dôme protecteur | 50 000 | 50 000 | 0 | 100 | 100 000 | 10 000 | 10 000 | 1 |"
+  ]
+ ],
+ "en/defense/defenses": [
+  [
+   "| Ballistic Projector | 2,000 | 0 | 0 | 2 | 2,000 | 200 | 20 | 80 |",
+   "| <img src=\"/images/illustrations/defense/projecteur-balistique.jpg\" width=\"48\" alt=\"Ballistic Projector\"> Ballistic Projector | 2,000 | 0 | 0 | 2 | 2,000 | 200 | 20 | 80 |"
+  ],
+  [
+   "| Photonic Cannon | 1,500 | 500 | 0 | 2 | 2,000 | 200 | 25 | 100 |",
+   "| <img src=\"/images/illustrations/defense/canon-photonique.jpg\" width=\"48\" alt=\"Photonic Cannon\"> Photonic Cannon | 1,500 | 500 | 0 | 2 | 2,000 | 200 | 25 | 100 |"
+  ],
+  [
+   "| High-Energy Emitter | 6,000 | 2,000 | 0 | 8 | 8,000 | 800 | 100 | 250 |",
+   "| <img src=\"/images/illustrations/defense/emetteur-a-haute-energie.jpg\" width=\"48\" alt=\"High-Energy Emitter\"> High-Energy Emitter | 6,000 | 2,000 | 0 | 8 | 8,000 | 800 | 100 | 250 |"
+  ],
+  [
+   "| Ion Battery | 2,000 | 6,000 | 0 | 8 | 8,000 | 800 | 500 | 150 |",
+   "| <img src=\"/images/illustrations/defense/batterie-ionique.jpg\" width=\"48\" alt=\"Ion Battery\"> Ion Battery | 2,000 | 6,000 | 0 | 8 | 8,000 | 800 | 500 | 150 |"
+  ],
+  [
+   "| Magnetic Accelerator | 20,000 | 15,000 | 2,000 | 37 | 35,000 | 3,500 | 200 | 1,100 |",
+   "| <img src=\"/images/illustrations/defense/accelerateur-magnetique.jpg\" width=\"48\" alt=\"Magnetic Accelerator\"> Magnetic Accelerator | 20,000 | 15,000 | 2,000 | 37 | 35,000 | 3,500 | 200 | 1,100 |"
+  ],
+  [
+   "| Plasma Ejector | 50,000 | 50,000 | 30,000 | 130 | 100,000 | 10,000 | 300 | 3,000 |",
+   "| <img src=\"/images/illustrations/defense/ejecteur-a-plasma.jpg\" width=\"48\" alt=\"Plasma Ejector\"> Plasma Ejector | 50,000 | 50,000 | 30,000 | 130 | 100,000 | 10,000 | 300 | 3,000 |"
+  ],
+  [
+   "| Defensive Barrier | 10,000 | 10,000 | 0 | 20 | 20,000 | 2,000 | 2,000 | 1 |",
+   "| <img src=\"/images/illustrations/defense/barriere-defensive.jpg\" width=\"48\" alt=\"Defensive Barrier\"> Defensive Barrier | 10,000 | 10,000 | 0 | 20 | 20,000 | 2,000 | 2,000 | 1 |"
+  ],
+  [
+   "| Protective Dome | 50,000 | 50,000 | 0 | 100 | 100,000 | 10,000 | 10,000 | 1 |",
+   "| <img src=\"/images/illustrations/defense/dome-protecteur.jpg\" width=\"48\" alt=\"Protective Dome\"> Protective Dome | 50,000 | 50,000 | 0 | 100 | 100,000 | 10,000 | 10,000 | 1 |"
+  ]
+ ],
+ "fr/economy/buildings": [
+  [
+   "| Base planetaire / Base Coloniale | base | Cœur de la planète : stockage de base (10 000 de chaque ressource), revenu fixe (20 métal et 10 cristal par heure) | 1 | aucun |",
+   "| <img src=\"/images/illustrations/buildings/base-planetaire.jpg\" width=\"48\" alt=\"Base planetaire / Base Coloniale\"> Base planetaire / Base Coloniale | base | Cœur de la planète : stockage de base (10 000 de chaque ressource), revenu fixe (20 métal et 10 cristal par heure) | 1 | aucun |"
+  ],
+  [
+   "| Excavateur minéral | production | Produit le métal | 50 | aucun |",
+   "| <img src=\"/images/illustrations/buildings/excavateur-mineral.jpg\" width=\"48\" alt=\"Excavateur minéral\"> Excavateur minéral | production | Produit le métal | 50 | aucun |"
+  ],
+  [
+   "| Extracteur cristallin | production | Produit le cristal | 50 | aucun |",
+   "| <img src=\"/images/illustrations/buildings/extracteur-cristallin.jpg\" width=\"48\" alt=\"Extracteur cristallin\"> Extracteur cristallin | production | Produit le cristal | 50 | aucun |"
+  ],
+  [
+   "| Condensateur d'hydrogène | production | Produit l'hydrogène, davantage sur une planète froide | 50 | aucun |",
+   "| <img src=\"/images/illustrations/buildings/condensateur-d-hydrogene.jpg\" width=\"48\" alt=\"Condensateur d'hydrogène\"> Condensateur d'hydrogène | production | Produit l'hydrogène, davantage sur une planète froide | 50 | aucun |"
+  ],
+  [
+   "| Capteurs photovoltaïques | énergie | Produit l'énergie, davantage sur une planète chaude | 50 | aucun |",
+   "| <img src=\"/images/illustrations/buildings/capteurs-photovoltaiques.jpg\" width=\"48\" alt=\"Capteurs photovoltaïques\"> Capteurs photovoltaïques | énergie | Produit l'énergie, davantage sur une planète chaude | 50 | aucun |"
+  ],
+  [
+   "| Réacteur thermonucléaire | énergie | Produit de l'énergie en consommant de l'hydrogène | 50 | Condensateur d'hydrogène 5, Science Énergétique 3 |",
+   "| <img src=\"/images/illustrations/buildings/reacteur-thermonucleaire.jpg\" width=\"48\" alt=\"Réacteur thermonucléaire\"> Réacteur thermonucléaire | énergie | Produit de l'énergie en consommant de l'hydrogène | 50 | Condensateur d'hydrogène 5, Science Énergétique 3 |"
+  ],
+  [
+   "| Dépôt d'alliages | stockage | Augmente le stockage de métal | 20 | aucun |",
+   "| <img src=\"/images/illustrations/buildings/depot-alliages.jpg\" width=\"48\" alt=\"Dépôt d'alliages\"> Dépôt d'alliages | stockage | Augmente le stockage de métal | 20 | aucun |"
+  ],
+  [
+   "| Chambre cristalline | stockage | Augmente le stockage de cristal | 20 | aucun |",
+   "| <img src=\"/images/illustrations/buildings/chambre-cristalline.jpg\" width=\"48\" alt=\"Chambre cristalline\"> Chambre cristalline | stockage | Augmente le stockage de cristal | 20 | aucun |"
+  ],
+  [
+   "| Citerne d'hydrogène | stockage | Augmente le stockage d'hydrogène | 20 | aucun |",
+   "| <img src=\"/images/illustrations/buildings/citerne-hydrogene.jpg\" width=\"48\" alt=\"Citerne d'hydrogène\"> Citerne d'hydrogène | stockage | Augmente le stockage d'hydrogène | 20 | aucun |"
+  ],
+  [
+   "| Centre d'innovation | recherche | Permet la recherche et la rend plus rapide | 12 | aucun |",
+   "| <img src=\"/images/illustrations/facilities/centre-d-innovation.jpg\" width=\"48\" alt=\"Centre d'innovation\"> Centre d'innovation | recherche | Permet la recherche et la rend plus rapide | 12 | aucun |"
+  ],
+  [
+   "| Fabrique d'automates | installation | Accélère la construction des bâtiments | 10 | aucun |",
+   "| <img src=\"/images/illustrations/facilities/fabrique-d-automates.jpg\" width=\"48\" alt=\"Fabrique d'automates\"> Fabrique d'automates | installation | Accélère la construction des bâtiments | 10 | aucun |"
+  ],
+  [
+   "| Dock orbital | installation | Construit vaisseaux et défenses | 12 | Fabrique d'automates 2 |",
+   "| <img src=\"/images/illustrations/facilities/dock-orbital.jpg\" width=\"48\" alt=\"Dock orbital\"> Dock orbital | installation | Construit vaisseaux et défenses | 12 | Fabrique d'automates 2 |"
+  ],
+  [
+   "| Assembleur moléculaire | installation | Accélère fortement la construction | 10 | Fabrique d'automates 10, Calcul Quantique 10 |",
+   "| <img src=\"/images/illustrations/facilities/assembleur-moleculaire.jpg\" width=\"48\" alt=\"Assembleur moléculaire\"> Assembleur moléculaire | installation | Accélère fortement la construction | 10 | Fabrique d'automates 10, Calcul Quantique 10 |"
+  ],
+  [
+   "| Station de réparation | chantier | Récupère une part des vaisseaux détruits en défense | 10 | Dock orbital 2 |",
+   "| <img src=\"/images/illustrations/facilities/station-de-reparation.jpg\" width=\"48\" alt=\"Station de réparation\"> Station de réparation | chantier | Récupère une part des vaisseaux détruits en défense | 10 | Dock orbital 2 |"
+  ],
+  [
+   "| Modulateur planétaire | ressource | Ajoute des cases à la planète | 10 | Assembleur moléculaire 1, Science Énergétique 12 |",
+   "| <img src=\"/images/illustrations/facilities/modulateur-planetaire.jpg\" width=\"48\" alt=\"Modulateur planétaire\"> Modulateur planétaire | ressource | Ajoute des cases à la planète | 10 | Assembleur moléculaire 1, Science Énergétique 12 |"
+  ],
+  [
+   "| Arsenal balistique | ressource | Stocke les missiles | 10 | Dock orbital 1 |",
+   "| <img src=\"/images/illustrations/facilities/arsenal-balistique.jpg\" width=\"48\" alt=\"Arsenal balistique\"> Arsenal balistique | ressource | Stocke les missiles | 10 | Dock orbital 1 |"
+  ],
+  [
+   "| Centre logistique | ressource | Agrandit les entrepôts de 10 % par niveau | 10 | Calcul Quantique 2 |",
+   "| <img src=\"/images/illustrations/facilities/centre-logistique.jpg\" width=\"48\" alt=\"Centre logistique\"> Centre logistique | ressource | Agrandit les entrepôts de 10 % par niveau | 10 | Calcul Quantique 2 |"
+  ],
+  [
+   "| Base lunaire | Rend la surface d'une lune constructible : chaque niveau ouvre 3 cases et en occupe 1 |",
+   "| <img src=\"/images/illustrations/facilities/base-lunaire.jpg\" width=\"48\" alt=\"Base lunaire\"> Base lunaire | Rend la surface d'une lune constructible : chaque niveau ouvre 3 cases et en occupe 1 |"
+  ],
+  [
+   "| Phalange de capteur | Repère les flottes autour d'une planète (voir [Phalange de capteur](/fr/espionage/sensor-phalanx)) |",
+   "| <img src=\"/images/illustrations/facilities/phalange-de-capteur.jpg\" width=\"48\" alt=\"Phalange de capteur\"> Phalange de capteur | Repère les flottes autour d'une planète (voir [Phalange de capteur](/fr/espionage/sensor-phalanx)) |"
+  ],
+  [
+   "| Porte de saut | Saut instantané entre deux lunes (voir [Porte de saut](/fr/fleet/jump-gate)) |",
+   "| <img src=\"/images/illustrations/facilities/porte-de-saut.jpg\" width=\"48\" alt=\"Porte de saut\"> Porte de saut | Saut instantané entre deux lunes (voir [Porte de saut](/fr/fleet/jump-gate)) |"
+  ]
+ ],
+ "en/economy/buildings": [
+  [
+   "| Planetary Base / Colonial Base | base | Heart of the planet: base storage (10,000 of each resource), fixed income (20 metal and 10 crystal per hour) | 1 | none |",
+   "| <img src=\"/images/illustrations/buildings/base-planetaire.jpg\" width=\"48\" alt=\"Planetary Base / Colonial Base\"> Planetary Base / Colonial Base | base | Heart of the planet: base storage (10,000 of each resource), fixed income (20 metal and 10 crystal per hour) | 1 | none |"
+  ],
+  [
+   "| Mineral Excavator | production | Produces metal | 50 | none |",
+   "| <img src=\"/images/illustrations/buildings/excavateur-mineral.jpg\" width=\"48\" alt=\"Mineral Excavator\"> Mineral Excavator | production | Produces metal | 50 | none |"
+  ],
+  [
+   "| Crystal Extractor | production | Produces crystal | 50 | none |",
+   "| <img src=\"/images/illustrations/buildings/extracteur-cristallin.jpg\" width=\"48\" alt=\"Crystal Extractor\"> Crystal Extractor | production | Produces crystal | 50 | none |"
+  ],
+  [
+   "| Hydrogen Condenser | production | Produces hydrogen, more on a cold planet | 50 | none |",
+   "| <img src=\"/images/illustrations/buildings/condensateur-d-hydrogene.jpg\" width=\"48\" alt=\"Hydrogen Condenser\"> Hydrogen Condenser | production | Produces hydrogen, more on a cold planet | 50 | none |"
+  ],
+  [
+   "| Photovoltaic Sensors | energy | Produces energy, more on a hot planet | 50 | none |",
+   "| <img src=\"/images/illustrations/buildings/capteurs-photovoltaiques.jpg\" width=\"48\" alt=\"Photovoltaic Sensors\"> Photovoltaic Sensors | energy | Produces energy, more on a hot planet | 50 | none |"
+  ],
+  [
+   "| Thermonuclear Reactor | energy | Produces energy by burning hydrogen | 50 | Hydrogen Condenser 5, Energy Science 3 |",
+   "| <img src=\"/images/illustrations/buildings/reacteur-thermonucleaire.jpg\" width=\"48\" alt=\"Thermonuclear Reactor\"> Thermonuclear Reactor | energy | Produces energy by burning hydrogen | 50 | Hydrogen Condenser 5, Energy Science 3 |"
+  ],
+  [
+   "| Alloy Depot | storage | Raises metal storage | 20 | none |",
+   "| <img src=\"/images/illustrations/buildings/depot-alliages.jpg\" width=\"48\" alt=\"Alloy Depot\"> Alloy Depot | storage | Raises metal storage | 20 | none |"
+  ],
+  [
+   "| Crystal Chamber | storage | Raises crystal storage | 20 | none |",
+   "| <img src=\"/images/illustrations/buildings/chambre-cristalline.jpg\" width=\"48\" alt=\"Crystal Chamber\"> Crystal Chamber | storage | Raises crystal storage | 20 | none |"
+  ],
+  [
+   "| Hydrogen Tank | storage | Raises hydrogen storage | 20 | none |",
+   "| <img src=\"/images/illustrations/buildings/citerne-hydrogene.jpg\" width=\"48\" alt=\"Hydrogen Tank\"> Hydrogen Tank | storage | Raises hydrogen storage | 20 | none |"
+  ],
+  [
+   "| Innovation Center | research | Enables research and speeds it up | 12 | none |",
+   "| <img src=\"/images/illustrations/facilities/centre-d-innovation.jpg\" width=\"48\" alt=\"Innovation Center\"> Innovation Center | research | Enables research and speeds it up | 12 | none |"
+  ],
+  [
+   "| Automaton Factory | facility | Speeds up building construction | 10 | none |",
+   "| <img src=\"/images/illustrations/facilities/fabrique-d-automates.jpg\" width=\"48\" alt=\"Automaton Factory\"> Automaton Factory | facility | Speeds up building construction | 10 | none |"
+  ],
+  [
+   "| Orbital Dock | facility | Builds ships and defenses | 12 | Automaton Factory 2 |",
+   "| <img src=\"/images/illustrations/facilities/dock-orbital.jpg\" width=\"48\" alt=\"Orbital Dock\"> Orbital Dock | facility | Builds ships and defenses | 12 | Automaton Factory 2 |"
+  ],
+  [
+   "| Molecular Assembler | facility | Greatly speeds up construction | 10 | Automaton Factory 10, Quantum Computing 10 |",
+   "| <img src=\"/images/illustrations/facilities/assembleur-moleculaire.jpg\" width=\"48\" alt=\"Molecular Assembler\"> Molecular Assembler | facility | Greatly speeds up construction | 10 | Automaton Factory 10, Quantum Computing 10 |"
+  ],
+  [
+   "| Repair Station | shipyard | Recovers part of the ships destroyed in defense | 10 | Orbital Dock 2 |",
+   "| <img src=\"/images/illustrations/facilities/station-de-reparation.jpg\" width=\"48\" alt=\"Repair Station\"> Repair Station | shipyard | Recovers part of the ships destroyed in defense | 10 | Orbital Dock 2 |"
+  ],
+  [
+   "| Planetary Modulator | resource | Adds fields to the planet | 10 | Molecular Assembler 1, Energy Science 12 |",
+   "| <img src=\"/images/illustrations/facilities/modulateur-planetaire.jpg\" width=\"48\" alt=\"Planetary Modulator\"> Planetary Modulator | resource | Adds fields to the planet | 10 | Molecular Assembler 1, Energy Science 12 |"
+  ],
+  [
+   "| Ballistic Arsenal | resource | Stores missiles | 10 | Orbital Dock 1 |",
+   "| <img src=\"/images/illustrations/facilities/arsenal-balistique.jpg\" width=\"48\" alt=\"Ballistic Arsenal\"> Ballistic Arsenal | resource | Stores missiles | 10 | Orbital Dock 1 |"
+  ],
+  [
+   "| Logistics Center | resource | Enlarges storage by 10% per level | 10 | Quantum Computing 2 |",
+   "| <img src=\"/images/illustrations/facilities/centre-logistique.jpg\" width=\"48\" alt=\"Logistics Center\"> Logistics Center | resource | Enlarges storage by 10% per level | 10 | Quantum Computing 2 |"
+  ],
+  [
+   "| Lunar base | Makes a moon's surface buildable: each level opens 3 fields and takes 1 |",
+   "| <img src=\"/images/illustrations/facilities/base-lunaire.jpg\" width=\"48\" alt=\"Lunar base\"> Lunar base | Makes a moon's surface buildable: each level opens 3 fields and takes 1 |"
+  ],
+  [
+   "| Sensor phalanx | Spots fleets around a planet (see [Sensor phalanx](/en/espionage/sensor-phalanx)) |",
+   "| <img src=\"/images/illustrations/facilities/phalange-de-capteur.jpg\" width=\"48\" alt=\"Sensor phalanx\"> Sensor phalanx | Spots fleets around a planet (see [Sensor phalanx](/en/espionage/sensor-phalanx)) |"
+  ],
+  [
+   "| Jump gate | Instant jump between two moons (see [Jump gate](/en/fleet/jump-gate)) |",
+   "| <img src=\"/images/illustrations/facilities/porte-de-saut.jpg\" width=\"48\" alt=\"Jump gate\"> Jump gate | Instant jump between two moons (see [Jump gate](/en/fleet/jump-gate)) |"
+  ]
+ ],
+ "fr/research/technologies": [
+  [
+   "| Science Énergétique | Augmente la production du Réacteur thermonucléaire. Prérequis de nombreuses technologies. |",
+   "| <img src=\"/images/illustrations/research/science-energetique.jpg\" width=\"48\" alt=\"Science Énergétique\"> Science Énergétique | Augmente la production du Réacteur thermonucléaire. Prérequis de nombreuses technologies. |"
+  ],
+  [
+   "| Maîtrise du Plasma | Augmente la production de métal et de cristal (exemple relevé : +13 métal/h et +5 cristal/h au niveau 1, sur une planète avec Excavateur minéral 13 et Extracteur cristallin 13). |",
+   "| <img src=\"/images/illustrations/research/maitrise-du-plasma.jpg\" width=\"48\" alt=\"Maîtrise du Plasma\"> Maîtrise du Plasma | Augmente la production de métal et de cristal (exemple relevé : +13 métal/h et +5 cristal/h au niveau 1, sur une planète avec Excavateur minéral 13 et Extracteur cristallin 13). |"
+  ],
+  [
+   "| Calcul Quantique | Emplacements de flotte = 1 + niveau. Une expédition occupe aussi un emplacement. |",
+   "| <img src=\"/images/illustrations/research/calcul-quantique.jpg\" width=\"48\" alt=\"Calcul Quantique\"> Calcul Quantique | Emplacements de flotte = 1 + niveau. Une expédition occupe aussi un emplacement. |"
+  ],
+  [
+   "| Collaboration Stellaire | Met en réseau vos Centres d'innovation pour accélérer la recherche. |",
+   "| <img src=\"/images/illustrations/research/collaboration-stellaire.jpg\" width=\"48\" alt=\"Collaboration Stellaire\"> Collaboration Stellaire | Met en réseau vos Centres d'innovation pour accélérer la recherche. |"
+  ],
+  [
+   "| Diplomatie Stellaire | Capacité de l'alliance que vous fondez (voir ci-dessous). Niveau 1 requis pour fonder une alliance. |",
+   "| <img src=\"/images/illustrations/research/diplomatie-stellaire.jpg\" width=\"48\" alt=\"Diplomatie Stellaire\"> Diplomatie Stellaire | Capacité de l'alliance que vous fondez (voir ci-dessous). Niveau 1 requis pour fonder une alliance. |"
+  ],
+  [
+   "| Propulseur Chimique | +10 % de vitesse par niveau pour les vaisseaux équipés de ce moteur. |",
+   "| <img src=\"/images/illustrations/research/propulseur-chimique.jpg\" width=\"48\" alt=\"Propulseur Chimique\"> Propulseur Chimique | +10 % de vitesse par niveau pour les vaisseaux équipés de ce moteur. |"
+  ],
+  [
+   "| Moteur Magnétique | +20 % de vitesse par niveau pour les vaisseaux équipés de ce moteur. |",
+   "| <img src=\"/images/illustrations/research/moteur-magnetique.jpg\" width=\"48\" alt=\"Moteur Magnétique\"> Moteur Magnétique | +20 % de vitesse par niveau pour les vaisseaux équipés de ce moteur. |"
+  ],
+  [
+   "| Navigation Transdimensionnelle | +30 % de vitesse par niveau pour les vaisseaux équipés de ce moteur. |",
+   "| <img src=\"/images/illustrations/research/navigation-transdimensionnelle.jpg\" width=\"48\" alt=\"Navigation Transdimensionnelle\"> Navigation Transdimensionnelle | +30 % de vitesse par niveau pour les vaisseaux équipés de ce moteur. |"
+  ],
+  [
+   "| Systèmes Photoniques | Prérequis de défenses, de vaisseaux et d'autres technologies. |",
+   "| <img src=\"/images/illustrations/research/systemes-photoniques.jpg\" width=\"48\" alt=\"Systèmes Photoniques\"> Systèmes Photoniques | Prérequis de défenses, de vaisseaux et d'autres technologies. |"
+  ],
+  [
+   "| Manipulation Ionique | Prérequis de défenses, de vaisseaux et d'autres technologies. |",
+   "| <img src=\"/images/illustrations/research/manipulation-ionique.jpg\" width=\"48\" alt=\"Manipulation Ionique\"> Manipulation Ionique | Prérequis de défenses, de vaisseaux et d'autres technologies. |"
+  ],
+  [
+   "| Pliage Spatial | +5 % de capacité de soute par niveau (transport, pillage, recyclage, trouvailles d'expédition). Niveau 7 requis pour la Porte de saut. |",
+   "| <img src=\"/images/illustrations/research/pliage-spatial.jpg\" width=\"48\" alt=\"Pliage Spatial\"> Pliage Spatial | +5 % de capacité de soute par niveau (transport, pillage, recyclage, trouvailles d'expédition). Niveau 7 requis pour la Porte de saut. |"
+  ],
+  [
+   "| Systèmes Offensifs | +10 % d'attaque par niveau (vaisseaux et défenses). |",
+   "| <img src=\"/images/illustrations/research/systemes-offensifs.jpg\" width=\"48\" alt=\"Systèmes Offensifs\"> Systèmes Offensifs | +10 % d'attaque par niveau (vaisseaux et défenses). |"
+  ],
+  [
+   "| Champs de Protection | +10 % de bouclier par niveau (vaisseaux et défenses). |",
+   "| <img src=\"/images/illustrations/research/champs-de-protection.jpg\" width=\"48\" alt=\"Champs de Protection\"> Champs de Protection | +10 % de bouclier par niveau (vaisseaux et défenses). |"
+  ],
+  [
+   "| Métallurgie Avancée | +10 % de structure par niveau (vaisseaux et défenses). |",
+   "| <img src=\"/images/illustrations/research/metallurgie-avancee.jpg\" width=\"48\" alt=\"Métallurgie Avancée\"> Métallurgie Avancée | +10 % de structure par niveau (vaisseaux et défenses). |"
+  ],
+  [
+   "| Manipulation Gravitationnelle | Prérequis du Colossus stellaire. Se paie en énergie et ne prend aucun temps. |",
+   "| <img src=\"/images/illustrations/research/manipulation-gravitationnelle.jpg\" width=\"48\" alt=\"Manipulation Gravitationnelle\"> Manipulation Gravitationnelle | Prérequis du Colossus stellaire. Se paie en énergie et ne prend aucun temps. |"
+  ],
+  [
+   "| Renseignement Tactique | Détail des rapports d'espionnage et contre-espionnage ; −5 % par niveau sur l'hydrogène des missions d'espionnage (jusqu'à −50 %) ; au niveau 10, une case espionnée reste découverte durablement. |",
+   "| <img src=\"/images/illustrations/research/renseignement-tactique.jpg\" width=\"48\" alt=\"Renseignement Tactique\"> Renseignement Tactique | Détail des rapports d'espionnage et contre-espionnage ; −5 % par niveau sur l'hydrogène des missions d'espionnage (jusqu'à −50 %) ; au niveau 10, une case espionnée reste découverte durablement. |"
+  ],
+  [
+   "| Cosmologie Appliquée | Nombre de planètes, expéditions simultanées et durée maximale des expéditions (voir ci-dessous). |",
+   "| <img src=\"/images/illustrations/research/cosmologie-appliquee.jpg\" width=\"48\" alt=\"Cosmologie Appliquée\"> Cosmologie Appliquée | Nombre de planètes, expéditions simultanées et durée maximale des expéditions (voir ci-dessous). |"
+  ]
+ ],
+ "en/research/technologies": [
+  [
+   "| Energy Science | Raises the Thermonuclear Reactor's output. Required by many technologies. |",
+   "| <img src=\"/images/illustrations/research/science-energetique.jpg\" width=\"48\" alt=\"Energy Science\"> Energy Science | Raises the Thermonuclear Reactor's output. Required by many technologies. |"
+  ],
+  [
+   "| Plasma Technology | Raises metal and crystal output (example seen in game: +13 metal/h and +5 crystal/h at level 1, on a planet with Mineral Excavator 13 and Crystal Extractor 13). |",
+   "| <img src=\"/images/illustrations/research/maitrise-du-plasma.jpg\" width=\"48\" alt=\"Plasma Technology\"> Plasma Technology | Raises metal and crystal output (example seen in game: +13 metal/h and +5 crystal/h at level 1, on a planet with Mineral Excavator 13 and Crystal Extractor 13). |"
+  ],
+  [
+   "| Quantum Computing | Fleet slots = 1 + level. An expedition also takes a slot. |",
+   "| <img src=\"/images/illustrations/research/calcul-quantique.jpg\" width=\"48\" alt=\"Quantum Computing\"> Quantum Computing | Fleet slots = 1 + level. An expedition also takes a slot. |"
+  ],
+  [
+   "| Stellar Collaboration | Networks your Innovation Centers to speed up research. |",
+   "| <img src=\"/images/illustrations/research/collaboration-stellaire.jpg\" width=\"48\" alt=\"Stellar Collaboration\"> Stellar Collaboration | Networks your Innovation Centers to speed up research. |"
+  ],
+  [
+   "| Stellar Diplomacy | Capacity of the alliance you found (see below). Level 1 is required to found an alliance. |",
+   "| <img src=\"/images/illustrations/research/diplomatie-stellaire.jpg\" width=\"48\" alt=\"Stellar Diplomacy\"> Stellar Diplomacy | Capacity of the alliance you found (see below). Level 1 is required to found an alliance. |"
+  ],
+  [
+   "| Combustion Drive | +10% speed per level for ships using this drive. |",
+   "| <img src=\"/images/illustrations/research/propulseur-chimique.jpg\" width=\"48\" alt=\"Combustion Drive\"> Combustion Drive | +10% speed per level for ships using this drive. |"
+  ],
+  [
+   "| Impulse Drive | +20% speed per level for ships using this drive. |",
+   "| <img src=\"/images/illustrations/research/moteur-magnetique.jpg\" width=\"48\" alt=\"Impulse Drive\"> Impulse Drive | +20% speed per level for ships using this drive. |"
+  ],
+  [
+   "| Hyperspace Drive | +30% speed per level for ships using this drive. |",
+   "| <img src=\"/images/illustrations/research/navigation-transdimensionnelle.jpg\" width=\"48\" alt=\"Hyperspace Drive\"> Hyperspace Drive | +30% speed per level for ships using this drive. |"
+  ],
+  [
+   "| Laser Technology | Required by defenses, ships and other technologies. |",
+   "| <img src=\"/images/illustrations/research/systemes-photoniques.jpg\" width=\"48\" alt=\"Laser Technology\"> Laser Technology | Required by defenses, ships and other technologies. |"
+  ],
+  [
+   "| Ion Technology | Required by defenses, ships and other technologies. |",
+   "| <img src=\"/images/illustrations/research/manipulation-ionique.jpg\" width=\"48\" alt=\"Ion Technology\"> Ion Technology | Required by defenses, ships and other technologies. |"
+  ],
+  [
+   "| Hyperspace Technology | +5% cargo capacity per level (transport, plunder, recycling, expedition finds). Level 7 is required for the Jump gate. |",
+   "| <img src=\"/images/illustrations/research/pliage-spatial.jpg\" width=\"48\" alt=\"Hyperspace Technology\"> Hyperspace Technology | +5% cargo capacity per level (transport, plunder, recycling, expedition finds). Level 7 is required for the Jump gate. |"
+  ],
+  [
+   "| Weapon Systems | +10% attack per level (ships and defenses). |",
+   "| <img src=\"/images/illustrations/research/systemes-offensifs.jpg\" width=\"48\" alt=\"Weapon Systems\"> Weapon Systems | +10% attack per level (ships and defenses). |"
+  ],
+  [
+   "| Shielding Technology | +10% shield per level (ships and defenses). |",
+   "| <img src=\"/images/illustrations/research/champs-de-protection.jpg\" width=\"48\" alt=\"Shielding Technology\"> Shielding Technology | +10% shield per level (ships and defenses). |"
+  ],
+  [
+   "| Armor Technology | +10% structure per level (ships and defenses). |",
+   "| <img src=\"/images/illustrations/research/metallurgie-avancee.jpg\" width=\"48\" alt=\"Armor Technology\"> Armor Technology | +10% structure per level (ships and defenses). |"
+  ],
+  [
+   "| Graviton Technology | Required by the Stellar Colossus. Paid in energy and takes no time. |",
+   "| <img src=\"/images/illustrations/research/manipulation-gravitationnelle.jpg\" width=\"48\" alt=\"Graviton Technology\"> Graviton Technology | Required by the Stellar Colossus. Paid in energy and takes no time. |"
+  ],
+  [
+   "| Espionage Technology | Spy report detail and counter-espionage; −5% per level on hydrogen for spy missions (down to −50%); at level 10, a spied cell stays discovered for good. |",
+   "| <img src=\"/images/illustrations/research/renseignement-tactique.jpg\" width=\"48\" alt=\"Espionage Technology\"> Espionage Technology | Spy report detail and counter-espionage; −5% per level on hydrogen for spy missions (down to −50%); at level 10, a spied cell stays discovered for good. |"
+  ],
+  [
+   "| Astrophysics | Number of planets, simultaneous expeditions and maximum expedition duration (see below). |",
+   "| <img src=\"/images/illustrations/research/cosmologie-appliquee.jpg\" width=\"48\" alt=\"Astrophysics\"> Astrophysics | Number of planets, simultaneous expeditions and maximum expedition duration (see below). |"
+  ]
+ ],
+ "fr/economy/repair-station": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/facilities/station-de-reparation.jpg\" width=\"180\" alt=\"Station de réparation\">\n\n## Règles\n"
+  ]
+ ],
+ "en/economy/repair-station": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/facilities/station-de-reparation.jpg\" width=\"180\" alt=\"Repair Station\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/economy/terraformer-and-logistics": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/facilities/modulateur-planetaire.jpg\" width=\"180\" alt=\"Modulateur planétaire\"> <img src=\"/images/illustrations/facilities/centre-logistique.jpg\" width=\"180\" alt=\"Centre logistique\">\n\n## Règles\n"
+  ]
+ ],
+ "en/economy/terraformer-and-logistics": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/facilities/modulateur-planetaire.jpg\" width=\"180\" alt=\"Planetary Modulator\"> <img src=\"/images/illustrations/facilities/centre-logistique.jpg\" width=\"180\" alt=\"Logistics Center\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/fleet/jump-gate": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/facilities/porte-de-saut.jpg\" width=\"180\" alt=\"Porte de saut\">\n\n## Règles\n"
+  ]
+ ],
+ "en/fleet/jump-gate": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/facilities/porte-de-saut.jpg\" width=\"180\" alt=\"Jump gate\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/espionage/sensor-phalanx": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/facilities/phalange-de-capteur.jpg\" width=\"180\" alt=\"Phalange de capteur\">\n\n## Règles\n"
+  ]
+ ],
+ "en/espionage/sensor-phalanx": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/facilities/phalange-de-capteur.jpg\" width=\"180\" alt=\"Sensor phalanx\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/defense/missiles": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/facilities/arsenal-balistique.jpg\" width=\"180\" alt=\"Arsenal balistique\"> <img src=\"/images/illustrations/defense/intercepteurs.jpg\" width=\"180\" alt=\"Intercepteurs\"> <img src=\"/images/illustrations/defense/ogives-longue-portee.jpg\" width=\"180\" alt=\"Ogives longue portée\">\n\n## Règles\n"
+  ]
+ ],
+ "en/defense/missiles": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/facilities/arsenal-balistique.jpg\" width=\"180\" alt=\"Ballistic Arsenal\"> <img src=\"/images/illustrations/defense/intercepteurs.jpg\" width=\"180\" alt=\"Interception Missile\"> <img src=\"/images/illustrations/defense/ogives-longue-portee.jpg\" width=\"180\" alt=\"Long-Range Warheads\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/defense/shield-domes": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/defense/barriere-defensive.jpg\" width=\"180\" alt=\"Barrière défensive\"> <img src=\"/images/illustrations/defense/dome-protecteur.jpg\" width=\"180\" alt=\"Dôme protecteur\">\n\n## Règles\n"
+  ]
+ ],
+ "en/defense/shield-domes": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/defense/barriere-defensive.jpg\" width=\"180\" alt=\"Defensive Barrier\"> <img src=\"/images/illustrations/defense/dome-protecteur.jpg\" width=\"180\" alt=\"Protective Dome\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/universe/colonization": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/ships/pionnier-spatial.jpg\" width=\"180\" alt=\"Pionnier spatial\">\n\n## Règles\n"
+  ]
+ ],
+ "en/universe/colonization": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/ships/pionnier-spatial.jpg\" width=\"180\" alt=\"Space Pioneer\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/combat/debris": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/ships/recuperateur.jpg\" width=\"180\" alt=\"Récupérateur\">\n\n## Règles\n"
+  ]
+ ],
+ "en/combat/debris": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/ships/recuperateur.jpg\" width=\"180\" alt=\"Salvager\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/espionage/spying": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/ships/eclaireur.jpg\" width=\"180\" alt=\"Éclaireur\">\n\n## Règles\n"
+  ],
+  [
+   "ou d'un clic avec le bouton d'espionnage rapide de la [vue galaxie](/fr/universe/galaxy-view).",
+   "ou d'un clic avec le bouton d'espionnage rapide de la [vue galaxie](/fr/universe/galaxy-view). Espionner une case **révèle** aussi, dans la vue galaxie, sa planète et son propriétaire, masqués jusque-là par une écriture illisible."
+  ]
+ ],
+ "en/espionage/spying": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/ships/eclaireur.jpg\" width=\"180\" alt=\"Scout\">\n\n## Rules\n"
+  ],
+  [
+   "or in one click with the quick spy button of the [galaxy view](/en/universe/galaxy-view).",
+   "or in one click with the quick spy button of the [galaxy view](/en/universe/galaxy-view). Spying on a cell also **reveals** its planet and owner in the galaxy view, hidden until then behind an unreadable script."
+  ]
+ ],
+ "fr/combat/moon-destruction": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/ships/colossus-stellaire.jpg\" width=\"180\" alt=\"Colossus stellaire\">\n\n## Règles\n"
+  ]
+ ],
+ "en/combat/moon-destruction": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/ships/colossus-stellaire.jpg\" width=\"180\" alt=\"Stellar Colossus\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/economy/resources": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/resources/metal.jpg\" width=\"180\" alt=\"Métal\"> <img src=\"/images/illustrations/resources/crystal.jpg\" width=\"180\" alt=\"Cristal\"> <img src=\"/images/illustrations/resources/hydrogene.jpg\" width=\"180\" alt=\"Hydrogène\"> <img src=\"/images/illustrations/resources/energy.jpg\" width=\"180\" alt=\"Énergie\">\n\n## Règles\n"
+  ]
+ ],
+ "en/economy/resources": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/resources/metal.jpg\" width=\"180\" alt=\"Metal\"> <img src=\"/images/illustrations/resources/crystal.jpg\" width=\"180\" alt=\"Crystal\"> <img src=\"/images/illustrations/resources/hydrogene.jpg\" width=\"180\" alt=\"Hydrogen\"> <img src=\"/images/illustrations/resources/energy.jpg\" width=\"180\" alt=\"Energy\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/economy/energy": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/buildings/capteurs-photovoltaiques.jpg\" width=\"180\" alt=\"Capteurs photovoltaïques\"> <img src=\"/images/illustrations/buildings/reacteur-thermonucleaire.jpg\" width=\"180\" alt=\"Réacteur thermonucléaire\"> <img src=\"/images/illustrations/ships/collecteur-solaire.jpg\" width=\"180\" alt=\"Collecteur solaire\">\n\n## Règles\n"
+  ]
+ ],
+ "en/economy/energy": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/buildings/capteurs-photovoltaiques.jpg\" width=\"180\" alt=\"Photovoltaic Sensors\"> <img src=\"/images/illustrations/buildings/reacteur-thermonucleaire.jpg\" width=\"180\" alt=\"Thermonuclear Reactor\"> <img src=\"/images/illustrations/ships/collecteur-solaire.jpg\" width=\"180\" alt=\"Solar Collector\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/economy/storage": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/buildings/depot-alliages.jpg\" width=\"180\" alt=\"Dépôt d'alliages\"> <img src=\"/images/illustrations/buildings/chambre-cristalline.jpg\" width=\"180\" alt=\"Chambre cristalline\"> <img src=\"/images/illustrations/buildings/citerne-hydrogene.jpg\" width=\"180\" alt=\"Citerne d'hydrogène\">\n\n## Règles\n"
+  ]
+ ],
+ "en/economy/storage": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/buildings/depot-alliages.jpg\" width=\"180\" alt=\"Alloy Depot\"> <img src=\"/images/illustrations/buildings/chambre-cristalline.jpg\" width=\"180\" alt=\"Crystal Chamber\"> <img src=\"/images/illustrations/buildings/citerne-hydrogene.jpg\" width=\"180\" alt=\"Hydrogen Tank\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/research/stellar-collaboration": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/research/collaboration-stellaire.jpg\" width=\"180\" alt=\"Collaboration Stellaire\">\n\n## Règles\n"
+  ]
+ ],
+ "en/research/stellar-collaboration": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/research/collaboration-stellaire.jpg\" width=\"180\" alt=\"Stellar Collaboration\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/misc/premium": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/resources/stellar-points.jpg\" width=\"180\" alt=\"Points Stellaires\">\n\n## Règles\n"
+  ],
+  [
+   "## Règles\n\n### Premium\n",
+   "## Règles\n\n### Aucun « pay to win »\nC'est un parti pris fort de Dynasty Nova : dans les univers PvP, **aucun achat ne donne d'avantage de jeu**. On ne peut acheter ni ressources, ni bonus de production, ni accélération de construction, de recherche ou de production militaire. Ce que l'on achète sert à l'apparence (avatars, cadres, couleurs de pseudo, emblèmes, skins de planète), au renommage des planètes et au Premium, qui apporte du confort de jeu.\n\n### Premium\n"
+  ],
+  [
+   "\n## Exemple chiffré",
+   "\n### Skins de planète\nUn skin remplace l'apparence de votre planète dans le jeu. Il s'obtient en boutique, ou dans le lot mensuel du Premium. Il ne change rien d'autre : ni la production, ni la taille, ni la température.\n\n## Exemple chiffré"
+  ]
+ ],
+ "en/misc/premium": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/resources/stellar-points.jpg\" width=\"180\" alt=\"Stellar Points\">\n\n## Rules\n"
+  ],
+  [
+   "## Rules\n\n### Premium\n",
+   "## Rules\n\n### No pay-to-win\nThis is a strong choice in Dynasty Nova: in PvP universes, **no purchase gives a gameplay advantage**. You cannot buy resources, production bonuses, or speed-ups for construction, research or military production. What you buy is for looks (avatars, frames, username colours, emblems, planet skins), planet renaming and Premium, which adds comfort.\n\n### Premium\n"
+  ],
+  [
+   "\n## Worked example",
+   "\n### Planet skins\nA skin replaces your planet's look in the game. You get it from the shop, or in the Premium monthly set. It changes nothing else: neither output, size nor temperature.\n\n## Worked example"
+  ]
+ ],
+ "fr/players/alliances": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/research/diplomatie-stellaire.jpg\" width=\"180\" alt=\"Diplomatie Stellaire\">\n\n## Règles\n"
+  ]
+ ],
+ "en/players/alliances": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/research/diplomatie-stellaire.jpg\" width=\"180\" alt=\"Stellar Diplomacy\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/fleet/expeditions": [
+  [
+   "\n## Règles\n",
+   "\n<img src=\"/images/illustrations/research/cosmologie-appliquee.jpg\" width=\"180\" alt=\"Cosmologie Appliquée\">\n\n## Règles\n"
+  ]
+ ],
+ "en/fleet/expeditions": [
+  [
+   "\n## Rules\n",
+   "\n<img src=\"/images/illustrations/research/cosmologie-appliquee.jpg\" width=\"180\" alt=\"Astrophysics\">\n\n## Rules\n"
+  ]
+ ],
+ "fr/universe/galaxy-view": [
+  [
+   "![La vue galaxie, en affichage liste](/images/screenshots/french/vue-galaxie.jpg)\n*La vue galaxie, système [2:86], en affichage liste. Capture du jeu en version Serveur 2.1.0 · Client 3.1.0.*",
+   "![La vue galaxie en affichage orbites](/images/screenshots/french/vue-galaxie-orbites.jpg)\n*La vue galaxie en affichage orbites : chaque planète a son aspect, selon son type et son biome. Capture du jeu en version Serveur 2.1.0 · Client 3.1.0.*\n\n![La vue galaxie en affichage liste](/images/screenshots/french/vue-galaxie.jpg)\n*En affichage liste, les positions pas encore espionnées restent illisibles. Capture du jeu en version Serveur 2.1.0 · Client 3.1.0.*"
+  ],
+  [
+   "4. Pour chaque position occupée, la ligne indique le propriétaire, ses points et ses **statuts**.",
+   "4. **Positions masquées** : tant qu'une position n'a pas été espionnée, tout y reste caché. Une écriture exotique, illisible, remplace le nom de la planète et celui de son propriétaire. Une case illisible peut être libre ou occupée : seul l'espionnage le révèle.\n5. Une position **espionnée** dévoile la planète, son propriétaire, ses points et ses **statuts**. Avec Renseignement Tactique 10, une case espionnée reste découverte durablement."
+  ],
+  [
+   "5. Le compteur",
+   "6. Le compteur"
+  ],
+  [
+   "6. Le bouton d'**espionnage rapide**",
+   "7. Le bouton d'**espionnage rapide**"
+  ],
+  [
+   "7. La fiche d'une case",
+   "8. La fiche d'une case"
+  ],
+  [
+   "8. Vous pouvez **partager une position**",
+   "9. Vous pouvez **partager une position**"
+  ],
+  [
+   "9. Une **étoile**",
+   "10. Une **étoile**"
+  ],
+  [
+   "- **Le compteur d'attaques est par joueur**",
+   "- **Une case illisible ne dit rien** : elle peut cacher un joueur comme être vide. Envoyez un Éclaireur avant de conclure.\n- **Le compteur d'attaques est par joueur**"
+  ]
+ ],
+ "en/universe/galaxy-view": [
+  [
+   "![The galaxy view, list layout](/images/screenshots/english/galaxy-view.jpg)\n*The galaxy view, system [2:86], list layout. Screenshot from game version Server 2.1.0 · Client 3.1.0.*",
+   "![The galaxy view, orbit layout](/images/screenshots/english/galaxy-view-orbits.jpg)\n*The galaxy view in orbit layout: each planet has its own look, set by its type and biome. Screenshot from game version Server 2.1.0 · Client 3.1.0.*\n\n![The galaxy view, list layout](/images/screenshots/english/galaxy-view.jpg)\n*In list layout, positions not yet spied on stay unreadable. Screenshot from game version Server 2.1.0 · Client 3.1.0.*"
+  ],
+  [
+   "4. For each occupied position, the row shows the owner, their points and their **statuses**.",
+   "4. **Hidden positions**: until a position has been spied on, everything there stays hidden. An exotic, unreadable script replaces the planet's name and its owner's. An unreadable cell may be free or occupied: only espionage tells.\n5. A **spied** position reveals the planet, its owner, their points and their **statuses**. With Espionage Technology 10, a spied cell stays discovered for good."
+  ],
+  [
+   "5. The **\"Attacks remaining",
+   "6. The **\"Attacks remaining"
+  ],
+  [
+   "6. The **quick spy**",
+   "7. The **quick spy**"
+  ],
+  [
+   "7. A cell's sheet",
+   "8. A cell's sheet"
+  ],
+  [
+   "8. You can **share a position**",
+   "9. You can **share a position**"
+  ],
+  [
+   "9. A **star**",
+   "10. A **star**"
+  ],
+  [
+   "- **The attack counter is per player**",
+   "- **An unreadable cell tells nothing**: it may hide a player or be empty. Send a Scout before drawing conclusions.\n- **The attack counter is per player**"
+  ]
+ ],
+ "fr/universe/planets": [
+  [
+   "6. **Type et apparence** : le type (désert, aride, normal, jungle, eau, glace, gaz) et la variante visuelle ne changent que le nom généré et les images. Un skin acheté en boutique remplace l'apparence.",
+   "6. **Type, biome et apparence** : chaque planète a un type (désert, aride, normal, jungle, eau, glace, gaz) et un **biome**, une variante visuelle tirée à sa création. Ensemble, ils donnent à chaque planète son aspect propre, dans la vue galaxie comme en 3D. Ils ne changent que le nom généré et les images, pas la production. Un **skin de planète**, obtenu en boutique ou dans le lot mensuel Premium, remplace l'apparence de votre planète."
+  ],
+  [
+   "\n## Règles\n",
+   "\n![Un système en affichage orbites](/images/screenshots/french/vue-galaxie-orbites.jpg)\n*Un système en affichage orbites : chaque planète a l'aspect de son type et de son biome. Capture du jeu en version Serveur 2.1.0 · Client 3.1.0.*\n\n## Règles\n"
+  ]
+ ],
+ "en/universe/planets": [
+  [
+   "6. **Type and look**: the type (desert, dry, normal, jungle, water, ice, gas) and visual variant only change the generated name and the pictures. A skin bought in the shop replaces the look.",
+   "6. **Type, biome and look**: each planet has a type (desert, dry, normal, jungle, water, ice, gas) and a **biome**, a visual variant rolled when it is created. Together they give each planet its own look, in the galaxy view as in 3D. They only change the generated name and the pictures, not output. A **planet skin**, from the shop or the Premium monthly set, replaces your planet's look."
+  ],
+  [
+   "\n## Rules\n",
+   "\n![A system in orbit layout](/images/screenshots/english/galaxy-view-orbits.jpg)\n*A system in orbit layout: each planet looks like its type and biome. Screenshot from game version Server 2.1.0 · Client 3.1.0.*\n\n## Rules\n"
+  ]
+ ],
+ "fr/getting-started/coming-from-ogame": [
+  [
+   "### Ce qui n'existe pas\n",
+   "### Ce qui n'existe pas\n- **Pay to win** : dans les univers PvP, aucun achat ne donne de ressources, de production ou d'accélération. C'est un parti pris fort, à l'opposé des officiers et de la matière noire.\n"
+  ],
+  [
+   "### Ce qui est nouveau\n",
+   "### Ce qui est nouveau\n- **Positions masquées** : dans la vue galaxie, une position reste illisible tant qu'elle n'a pas été espionnée. Une écriture exotique cache le nom de la planète et celui de son propriétaire.\n- **Planètes illustrées** : chaque planète a un type et un biome qui fixent son aspect, en liste, en orbites et en 3D. Des **skins de planète** permettent de personnaliser la vôtre.\n- **Univers privés** : vous pouvez ouvrir votre propre univers payant, avec ses joueurs, ses vitesses et ses règles (voir [Univers privés](/fr/misc/private-universes)).\n"
+  ]
+ ],
+ "en/getting-started/coming-from-ogame": [
+  [
+   "### What does not exist\n",
+   "### What does not exist\n- **Pay-to-win**: in PvP universes, no purchase gives resources, output or speed-ups. It is a strong choice, the opposite of officers and dark matter.\n"
+  ],
+  [
+   "### What is new\n",
+   "### What is new\n- **Hidden positions**: in the galaxy view, a position stays unreadable until it has been spied on. An exotic script hides the planet's name and its owner's.\n- **Illustrated planets**: each planet has a type and a biome that set its look, in list, orbit and 3D views. **Planet skins** let you customise yours.\n- **Private universes**: you can open your own paid universe, with its players, speeds and rules (see [Private universes](/en/misc/private-universes)).\n"
+  ]
+ ]
+}
