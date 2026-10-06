@@ -163,13 +163,13 @@ Chaque page porte un identifiant de page (P-xx). Abréviations : *[B]* = ton bri
 | P-95 | `misc/referral` | Parrainage | | [J] | `misc-03` |
 | P-97 | `misc/changelog` | Historique du wiki | | | |
 
-### `dynasty`, dynastie et talents (ajoutée le 6 octobre 2026, non publiée jusqu'à la sortie : `dynasty-01`)
+### `dynasty`, dynastie et talents (ajoutée le 6 octobre 2026, non publiée jusqu'à la sortie)
 | ID | Chemin | Page | Contenu | Sources | Manque |
 |---|---|---|---|---|---|
-| P-100 | `dynasty` | Dynastie et talents (index) | Modèle dynastie + classe + arbre commun, sommaire. | Code [E] | `dynasty-01` |
+| P-100 | `dynasty` | Dynastie et talents (index) | Modèle dynastie + classe + arbre commun, sommaire. | Code [E] | |
 | P-101 | `dynasty/dynasties` | Les dynasties | L'Héritage, L'Accord, Le Chœur ; traits et classes exclusives. | Code [E] | |
-| P-102 | `dynasty/classes` | Les classes | Les 10 classes, maîtrise, changement de classe. | Code [E] | `dynasty-02` |
-| P-103 | `dynasty/talents` | Les talents | Deux arbres, points par niveau, portes, brouillon, réinitialisation, plafonds et accents. | Code [E] | `dynasty-02`, `dynasty-04` |
+| P-102 | `dynasty/classes` | Les classes | Les 10 classes, maîtrise, changement de classe. | Code [E] | |
+| P-103 | `dynasty/talents` | Les talents | Deux arbres, points par niveau, portes, brouillon, réinitialisation, plafonds et accents. | Code [E] | `dynasty-04` |
 | P-104 | `dynasty/common-tree` | L'arbre commun | Prospérité, Exploration, Logistique, builds à 50 points. | Code [E] | |
 | P-105 à P-114 | `dynasty/classes/<code>` | Un arbre de classe par page | `admiral`, `builder`, `energist`, `theorist`, `navigator`, `shadow`, `archivist`, `veteran`, `symbiote`, `oracle` : 3 branches × 9 rangées, exemples, builds à 25 points. | Code [E] | `dynasty-05` à `dynasty-20` |
 
