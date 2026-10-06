@@ -26,14 +26,14 @@ published: false
    - depth: **+1 effective level** at most (The Threshold), never counted by the detection roll; the Scout bonus stays capped at +5;
    - tiers: **1 tier earlier** at most per category, the Listening Far dynasty trait included, and only for resources and fleet;
    - detection: **8 points** at most of destruction chance taken off (attacking) or added (defending), the 5% to 25% band still applied afterwards;
-   - survival of a caught wave's probes: **50%** at most;
+   - survival of a caught wave's Scouts: **50%** at most;
    - tracing: **+15 points** at most of chance to be traced.
 
 ## Worked example
 
 **Economical Probes: reading buildings with 4 Scouts**
 - Your Espionage Technology is 2 levels above the target's. Buildings need effective level 7: you need +5 from Scouts, so **10 Scouts**.
-- At rank 3 of Economical Probes, your wave counts for 6 more probes: **4 Scouts** count as 10, i.e. +5. Effective level: 2 + 5 = **7**.
+- At rank 3 of Economical Probes, your wave counts for 6 more Scouts: **4 Scouts** count as 10, i.e. +5. Effective level: 2 + 5 = **7**.
 
 **The Threshold**
 - Same 2-level edge, with 8 Scouts: 2 + 4 + 1 = **7**: buildings show.
@@ -46,7 +46,7 @@ published: false
 | Row | Type | Node | Effect (example) | Value |
 |---|---|---|---|---|
 | 1 | key | **Stock on Arrival** | every report works out what the planet will hold when your raid lands, production included and within its storage (180,000 metal at 12,000/h, 1 h raid: 192,000 on arrival, 96,000 plunderable) | unlock |
-| 2 | 3 ranks | **Economical Probes** | your wave counts for 2 more Scouts per rank in the effective level, never past the +5 probes give (buildings at a +2 edge with 4 Scouts instead of 10) | 3 × 2 probes |
+| 2 | 3 ranks | **Economical Probes** | your wave counts for 2 more Scouts per rank in the effective level, never past the +5 the Scouts give (buildings at a +2 edge with 4 Scouts instead of 10) | 3 × 2 probes |
 | 3 | choice | **A · Reading the Holds** / **B · Reading the Hangars** | A: resources read 1 tier earlier, so always, even with a negative edge and a single Scout <br> B: the fleet reads 1 tier earlier (from effective level 2: at an even edge, 4 Scouts instead of 6) | 1 tier |
 | 4 | 3 ranks | **Living Dossier** | every new report carries over, dated, the sections your reports read over the last 8 hours per rank: 24 h at rank 3. One full wave in the morning, then light passes keep buildings and defenses | 3 × 8 h |
 | 5 | key | **Orbital Glance** | a wave also reads the other body of the cell (a planet's moon, a moon's planet), 2 levels lower, in a second report: that is where sheltered fleets hide | −2 levels |

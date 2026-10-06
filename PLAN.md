@@ -373,9 +373,9 @@ Règle : aucune de ces formules ne va dans le wiki avant confirmation. Les pages
 ---
 
 ### Dynastie et talents (6 octobre 2026)
-- `dynasty-01` ⏳ **Date de sortie** des dynasties et des talents v2 (fusionnés dans le code, absents de la version 2.7.0). Les 30 pages de la rubrique `dynasty` restent non publiées jusque-là ; les modifications des pages existantes sont prêtes dans `edits/2026-10-06-dynasty-release.json`, à appliquer à la sortie.
-- `dynasty-02` ⏳ **Pay to win** : le changement de classe (50 Points stellaires) et les réinitialisations après la première (20 Points stellaires) se paient en Points stellaires, qui s'achètent. Comment le présenter face à la règle « aucun achat ne donne d'avantage de jeu » de l'accueil ? Les pages s'en tiennent aux faits.
-- `dynasty-03` ⏳ **Textes du jeu** : les descriptions des talents emploient des noms génériques (laboratoire, recycleurs, centrale solaire, satellites solaires, synthétiseur, chantier spatial, hangars, sondes) au lieu des noms affichés (Centre d'innovation, Récupérateur, Capteurs photovoltaïques, Collecteur solaire, Condensateur d'hydrogène, Dock orbital, entrepôts, Éclaireur). Le wiki emploie les noms du jeu ; à remonter (DONNEES §11.9).
+- `dynasty-01` ✅ Le wiki n'annonce aucune date de sortie. Les pages restent non publiées tant que la fonctionnalité n'est pas en jeu ; les modifications des pages existantes sont prêtes dans `edits/2026-10-06-dynasty-release.json`, à appliquer à ce moment-là.
+- `dynasty-02` ✅ Ce n'est pas du pay to win : changer de classe ou réinitialiser un arbre ne donne aucune puissance de plus. Les pages donnent les prix sans les présenter comme un avantage.
+- `dynasty-03` ✅ Le wiki emploie les noms du jeu, d'après les traductions du client (Centre d'innovation, Récupérateur, Capteurs photovoltaïques, Collecteur solaire, Condensateur d'hydrogène, Dock orbital, Éclaireur…). Les noms des talents restent ceux qu'affiche le jeu.
 - `dynasty-04` ⏳ Protection contre le pillage : plafond de classe de 15 points pour le Vétéran (arbre commun compris) ; le plafond de 5 de l'Oracle porte-t-il sur La cache seule ou sur le total ?
 - `dynasty-05` ⏳ Amiral, Vétéran : La lune tient et Briseur de lunes baissent-ils le risque de 25 % en relatif (27 % → 20 %) ou en points ?
 - `dynasty-06` ⏳ Amiral : le « +20 % d'efficacité » de Chantier de démontage s'ajoute-t-il en points à la part de la Station de réparation, ou la multiplie-t-il ?
