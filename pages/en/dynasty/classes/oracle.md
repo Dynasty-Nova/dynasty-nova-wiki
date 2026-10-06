@@ -113,7 +113,7 @@ The alert never gives the enemy fleet's composition: at most its size or its pow
 - **Forewarned Guard needs a 90-second alert**: the minute the game gives everyone is not enough. Take at least *Keen Ear*.
 - **No moon, no Watch**: the Phalanx is built on a moon and never targets a moon; *Moon and Planet* only shows the fleets leaving or reaching the moon.
 - **Prepared Strike** only applies to an attack launched less than 30 minutes after your spy report on the same target. It counts toward the class's speed accent (10% at most).
-- **The Cache and Buried Vaults do not stack**: the Oracle is capped at 5 points of plunder protection, common tree included. Take one or the other.
+- **The Cache and Buried Vaults stack**: 10 points of protection in total, plunder suffered drops from 50 to 40%. That is the Oracle's cap.
 
 ## Related pages
 

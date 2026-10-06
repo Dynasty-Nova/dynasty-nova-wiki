@@ -58,7 +58,7 @@ Row types: *key* (1 point), *3 ranks*, *choice* (one point, option A or B), *ult
 | | | **B: Public Library** | A level is known as soon as 10% of the active players hold it. | 10% |
 | 4 | 3 ranks | **Archive Holdings** | Your known levels are studied faster still. | +5% per rank (+25% in total) |
 | 5 | key | **Momentum** | When you complete a known level, the next level of the same research, if known, starts with part of its time already done. | 10% |
-| 6 | choice | **A: Catching Up** | On a research where you are 5 levels or more behind the most common level, Archive Holdings counts double. | ×2 |
+| 6 | choice | **A: Catching Up** | On a research where you are 5 levels or more behind the most common level, Archive Holdings counts double: 10 + 15 × 2 = +40% on a known level. | ×2 |
 | | | **B: Neck and Neck** | Any level the player ranked just above you holds counts as known. | unlock |
 | 7 | 3 ranks | **Headway** | Momentum gives the next level more head start. | +5% per rank (25%) |
 | 8 | key | **Working Memory** | A known level starts without the Innovation Center level it requires: the other requirements are enough. | unlock |

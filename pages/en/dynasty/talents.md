@@ -107,7 +107,7 @@ Past level 50, experience keeps counting but gives no more points.
 | Costs | | −5% (Builder) | −5% | |
 | Planet fields | +2 | +2 (Symbiote) | +4 | |
 | Plunder of abandoned targets | +20 points | | +20 points | |
-| Resources sheltered from plunder | 5 points | Veteran (Underground Shelter), Oracle (The Cache) | 15 points for the Veteran, 5 for the Oracle, common tree included | plunder rate never below 30% |
+| Resources sheltered from plunder | 5 points | Veteran (Underground Shelter), Oracle (The Cache) | 15 points for the Veteran, 10 for the Oracle, common tree included | plunder rate never below 30% |
 
 The bonuses that only serve you, between your own planets or on your returns (Tailwind, Inner Lanes, Victorious Return…), are **outside** the speed cap.
 

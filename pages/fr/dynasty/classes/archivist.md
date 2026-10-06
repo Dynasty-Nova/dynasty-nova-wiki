@@ -55,7 +55,7 @@ Types de rangée : *clé* (1 point), *3 rangs*, *choix* (un point, option A ou B
 | | | **B : Bibliothèque publique** | Un niveau est connu dès que 10 % des joueurs actifs le détiennent. | 10 % |
 | 4 | 3 rangs | **Fonds d'archives** | Vos niveaux connus s'étudient encore plus vite. | +5 % par rang (+25 % au total) |
 | 5 | clé | **Élan** | Quand vous terminez un niveau connu, le niveau suivant de la même recherche, s'il est connu, démarre avec une part de son temps déjà faite. | 10 % |
-| 6 | choix | **A : Retard comblé** | Sur une recherche où vous avez 5 niveaux de retard ou plus sur le niveau le plus répandu, Fonds d'archives compte double. | ×2 |
+| 6 | choix | **A : Retard comblé** | Sur une recherche où vous avez 5 niveaux de retard ou plus sur le niveau le plus répandu, Fonds d'archives compte double : 10 + 15 × 2 = +40 % sur un niveau connu. | ×2 |
 | | | **B : Au coude à coude** | Tout niveau que détient le joueur classé juste au-dessus de vous compte comme connu. | déblocage |
 | 7 | 3 rangs | **Lancée** | L'Élan donne plus d'avance au niveau suivant. | +5 % par rang (25 %) |
 | 8 | clé | **Mémoire vive** | Un niveau connu se lance sans le niveau de Centre d'innovation requis : il suffit d'avoir les autres prérequis. | déblocage |

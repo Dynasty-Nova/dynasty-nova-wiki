@@ -110,7 +110,7 @@ L'alerte ne donne jamais la composition de la flotte ennemie : au plus sa taille
 - **Garde prévenue demande 90 secondes d'alerte** : la minute que le jeu donne à tous ne suffit pas. Il faut au moins *Oreille tendue*.
 - **Pas de lune, pas de Veille** : la Phalange se construit sur une lune et ne cible jamais une lune ; *Lune et planète* montre seulement les flottes qui partent de la lune ou y arrivent.
 - **Frappe préparée** ne vaut que pour une attaque lancée moins de 30 minutes après votre rapport d'espionnage sur la même cible. Elle compte dans l'accent de vitesse de la classe (10 % au plus).
-- **La cache et Coffres enterrés ne se cumulent pas** : l'Oracle est plafonné à 5 points de protection contre le pillage, arbre commun compris. Prenez l'un ou l'autre.
+- **La cache et Coffres enterrés se cumulent** : 10 points de protection au total, le pillage subi passe de 50 à 40 %. C'est le plafond de l'Oracle.
 
 ## Pages liées
 

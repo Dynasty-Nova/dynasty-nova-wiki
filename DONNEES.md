@@ -837,7 +837,7 @@ Source : code du serveur (dépôt Backend, fusion « dynasties, classes and tale
 ### Plafonds (talents / total avec l'alliance)
 - Vitesse de flotte : commun 40 %, accent 10 %, talents 50 %, total 60 %. Les bonus de vitesse divisent la durée. Vent arrière (25 %), Liaisons internes (40 %), Retour victorieux (30 %) hors budget.
 - Hydrogène : commun 20 %, accent 5 %, talents 25 %, total 45 %. Soutes 25 %. Flottes en vol +3.
-- Recherche 25 / 45 %. Mines 25 / 45 %. Bâtiments 25 / 45 %, accent 15 % sur une famille (50 % au total). Vaisseaux et défenses 10 %, accent 15 %. Coûts 5 % (accent). Cases +4. Pillage des cibles abandonnées +20 points. Protection contre le pillage 20 points au catalogue (15 pour le Vétéran), taux de pillage jamais sous 30 %.
+- Recherche 25 / 45 %. Mines 25 / 45 %. Bâtiments 25 / 45 %, accent 15 % sur une famille (50 % au total). Vaisseaux et défenses 10 %, accent 15 %. Coûts 5 % (accent). Cases +4. Pillage des cibles abandonnées +20 points. Protection contre le pillage 20 points au catalogue (15 pour le Vétéran, 10 pour l'Oracle), taux de pillage jamais sous 30 %.
 - Combat : armement des vaisseaux 9 %, coque 11 %, bouclier 3 % ; défenses : armement 9 %, bouclier 5 %, coque 10 % ; dégâts sur tirs rapides 15 % (trait compris).
 
 ### Arbre commun
@@ -857,7 +857,7 @@ Valeurs par rang tirées du catalogue de chaque classe (`AdmiralTalents`, `Build
 - Épaves fraîches : +20 points ajoutés après le plafond de 25 % de Ferrailleur et Tri des métaux (jusqu'à 45 %). Indemnité : payée ressource par ressource sur le coût des vaisseaux perdus.
 - Formation serrée : seul le vaisseau le plus lent est accéléré, plafonné par le plus rapide ; la flotte vole à une seule vitesse.
 - Prudence : comparée au risque après les bornes de 5 % et 25 %.
-- Protection contre le pillage : le plafond de classe porte sur le total, arbre commun compris (Vétéran 15 points ; Oracle 5 points). Baisse en points du taux de pillage, jamais sous 30 %.
-- Écouter loin et Lecture des hangars : un palier plus tôt au plus pour la flotte, les deux ne se cumulent pas.
+- Protection contre le pillage : le plafond de classe porte sur le total, arbre commun compris (Vétéran 15 points ; Oracle 10 points, d'après Backend #476). Baisse en points du taux de pillage, jamais sous 30 %.
+- Écouter loin et Lecture des hangars se cumulent : 2 paliers plus tôt pour la flotte (décision de l'équipe, Backend #476). Retard comblé ne double que Fonds d'archives : 40 % au plus sur un niveau connu (Backend #476).
 - Température actuelle d'une planète (code `Map::getTemperatureAt`) : suit le mois du calendrier, minimale le 1er, maximale au jour floor(jours du mois / 2) (le 15, le 14 en février), minimale le dernier jour, linéaire jour par jour, arrondie.
 - Alerte d'attaque : 60 s avant l'impact (code `Fleet::ATTACK_ALERT_LEAD_TIME_IN_SECONDS`), jusqu'à 360 s avec les talents de l'Oracle.
