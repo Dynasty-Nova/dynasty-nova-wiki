@@ -24,7 +24,7 @@ published: false
 2. The Shadow's talents build on the rules of [espionage](/en/espionage/spying): effective level, report tiers (resources from 1, fleet from 3, defenses from 5, buildings from 7, research from 9), destruction chance bounded between 5% and 25%.
 3. The Shadow's **caps**:
    - depth: **+1 effective level** at most (The Threshold), never counted by the detection roll; the Scout bonus stays capped at +5;
-   - tiers: **1 tier earlier** at most per category, the Listening Far dynasty trait included, and only for resources and fleet;
+   - tiers: **1 tier earlier** at most per category from talents, only for resources and fleet; the Listening Far dynasty trait adds to it;
    - detection: **8 points** at most of destruction chance taken off (attacking) or added (defending), the 5% to 25% band still applied afterwards;
    - survival of a caught wave's Scouts: **50%** at most;
    - tracing: **+15 points** at most of chance to be traced.
@@ -97,7 +97,7 @@ Hidden Vault and Veiled Fleet mislead about quantities, never about what exists,
 
 ## Common pitfalls
 
-- **Listening Far and Reading the Hangars do not stack**: a Shadow of The Accord already reads the fleet one tier earlier thanks to their dynasty trait; Reading the Hangars adds nothing. Prefer Reading the Holds.
+- **Listening Far and Reading the Hangars stack**: a Shadow of The Accord who takes Reading the Hangars reads the fleet **two tiers** earlier.
 - **The Threshold does not lower the risk**: it adds depth, never stealth.
 - **No more "all or nothing"**: with Dropped Probes and Silent Hulls, some Scouts of a caught wave come home; without these talents, the whole wave still goes down.
 - **Hidden Vault protects nothing**: it skews the enemy report, the stock stays fully plunderable.

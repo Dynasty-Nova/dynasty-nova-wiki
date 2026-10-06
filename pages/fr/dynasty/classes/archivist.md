@@ -72,7 +72,7 @@ Types de rangée : *clé* (1 point), *3 rangs*, *choix* (un point, option A ou B
 | 4 | 3 rangs | **Tri des métaux** | Vos récoltes de débris rapportent encore plus. | +5 % par rang (+25 % au total) |
 | 5 | clé | **Alerte d'épave** | Vous êtes prévenu dès qu'un champ de plus de 50 000 ressources apparaît dans la portée de votre radar. | 50 000 |
 | 6 | choix | **A : Garnison de récupération** | Quand une de vos planètes est attaquée, ses Récupérateurs à quai récoltent le champ dès la fin du combat, avant ceux de l'attaquant. | déblocage |
-| | | **B : Épaves fraîches** | Sur un champ apparu il y a moins d'1 h, vos récoltes rapportent 20 points de plus, en plus de Ferrailleur et Tri des métaux (25 % → 45 % avec la branche pleine). | +20 points |
+| | | **B : Épaves fraîches** | Sur un champ apparu il y a moins d'1 h, vos récoltes rapportent 20 points de plus, en plus de Ferrailleur et Tri des métaux. Comme eux, ce bonus est créé au retour : il ne vide pas davantage le champ (25 % → 45 % avec la branche pleine). | +20 points |
 | 7 | 3 rangs | **Équipe d'astreinte** | Quand l'alerte sonne, vos Récupérateurs partent seuls depuis la planète la plus proche, même si vous dormez. | 1 départ par jour et par rang (3) |
 | 8 | clé | **Ramasse-tout** | Dans le même vol, vos Récupérateurs récoltent aussi les champs des positions voisines (±1 dans le même système), dans la limite de leur soute. | ±1 position |
 | 9 | ultime | **Scellés** | Une fois toutes les 24 h, vous mettez sous scellés un champ que vous voyez : pendant 1 h, les autres joueurs ne le voient plus et ne peuvent plus y envoyer de Récupérateurs. Ceux déjà en vol arrivent normalement. | 1 h |

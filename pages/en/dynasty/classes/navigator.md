@@ -98,7 +98,7 @@ Razzia only hits abandoned targets (inactive players, ruined worlds, game-contro
 ## Common pitfalls
 
 - **Fuel takes up cargo space**: without Fuel Hold, a distant combat fleet may be unable to leave for lack of cargo.
-- **Tight Formation only speeds up the slowest ship**: only the fleet's slowest ship is sped up, never past the fastest, and the whole fleet flies at that speed. With three types or more, the middle types do not matter. A fleet of a single type gains nothing.
+- **Tight Formation levels speeds out**: every ship except the fastest flies 15% faster, never past the fastest. The fleet still flies at its slowest ship's speed. A fleet of a single type gains nothing.
 - **Hunting Route only targets abandoned targets**: an attack on an active player keeps its normal speed.
 - **Relaunch and Holding Pattern** do not work on an outbound attack.
 - **Shuttles**: only transports and stationings between your own planets are outside the slots.

@@ -75,7 +75,7 @@ Row types: *key* (1 point), *3 ranks*, *choice* (one point, option A or B), *ult
 | 4 | 3 ranks | **Metal Sorting** | Your debris harvests yield more still. | +5% per rank (+25% in total) |
 | 5 | key | **Wreck Alert** | You are warned as soon as a field of more than 50,000 resources appears within your radar's range. | 50,000 |
 | 6 | choice | **A: Salvage Garrison** | When one of your planets is attacked, its docked Salvagers harvest the field as soon as the battle ends, before the attacker's. | unlock |
-| | | **B: Fresh Wrecks** | On a field that appeared less than 1 h ago, your harvests yield 20 points more, on top of Scrapper and Metal Sorting (25% → 45% with the full branch). | +20 points |
+| | | **B: Fresh Wrecks** | On a field that appeared less than 1 h ago, your harvests yield 20 points more, on top of Scrapper and Metal Sorting. Like them, the bonus is created on the way home: it does not empty the field further (25% → 45% with the full branch). | +20 points |
 | 7 | 3 ranks | **On-Call Crew** | When the alert rings, your Salvagers leave on their own from the nearest planet, even while you sleep. | 1 departure a day per rank (3) |
 | 8 | key | **Sweep-All** | In the same flight, your Salvagers also harvest the fields of the neighbouring positions (±1 in the same system), as far as their holds allow. | ±1 position |
 | 9 | ultimate | **Seals** | Once every 24 h, you seal a field you can see: for 1 h, other players no longer see it nor send Salvagers to it. Those already flying arrive as usual. | 1 h |

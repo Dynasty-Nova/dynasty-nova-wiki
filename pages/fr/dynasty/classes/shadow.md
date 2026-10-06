@@ -21,7 +21,7 @@ published: false
 2. Les talents de l'Ombre s'appuient sur les règles de l'[espionnage](/fr/espionage/spying) : niveau effectif, paliers du rapport (ressources dès 1, flotte dès 3, défenses dès 5, bâtiments dès 7, recherches dès 9), chance de destruction bornée entre 5 % et 25 %.
 3. **Plafonds** de l'Ombre :
    - profondeur : **+1 niveau effectif** au plus (Le seuil), jamais compté par le jet de détection ; le bonus tiré des Éclaireurs reste plafonné à +5 ;
-   - paliers : **1 palier plus tôt** au plus par catégorie, le trait de dynastie Écouter loin compris, et seulement pour les ressources et la flotte ;
+   - paliers : **1 palier plus tôt** au plus par catégorie pour les talents, seulement pour les ressources et la flotte ; le trait de dynastie Écouter loin s'y ajoute ;
    - détection : **8 points** au plus de chance de destruction en moins (en attaque) ou en plus (en défense), la borne de 5 % à 25 % restant appliquée ensuite ;
    - survie des sondes d'une vague prise : **50 %** au plus ;
    - pistage : **+15 points** au plus de chance d'être tracé.
@@ -94,7 +94,7 @@ Coffre caché et Flotte voilée trompent sur la quantité, jamais sur ce qui exi
 
 ## Pièges fréquents
 
-- **Écouter loin et Lecture des hangars ne se cumulent pas** : une Ombre de L'Accord lit déjà la flotte un palier plus tôt grâce à son trait de dynastie ; Lecture des hangars ne lui apporte rien de plus. Préférez Lecture des cales.
+- **Écouter loin et Lecture des hangars se cumulent** : une Ombre de L'Accord qui prend Lecture des hangars lit la flotte **deux paliers** plus tôt.
 - **Le seuil ne réduit pas le risque** : il ajoute de la profondeur, jamais de discrétion.
 - **Plus de « toutes ou aucune »** : avec Sondes larguées et Coques muettes, une partie des Éclaireurs d'une vague prise rentre ; sans ces talents, la règle reste que toute la vague tombe.
 - **Coffre caché ne protège rien** : il fausse le rapport ennemi, le stock reste entièrement pillable.

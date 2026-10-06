@@ -95,7 +95,7 @@ Razzia ne touche que les cibles abandonnées (joueurs inactifs, mondes en ruine,
 ## Pièges fréquents
 
 - **Le carburant prend de la place en soute** : sans Soute à carburant, une flotte de combat lointaine peut ne pas pouvoir partir faute de soute.
-- **Formation serrée n'accélère que le plus lent** : seul le vaisseau le plus lent de la flotte est accéléré, sans dépasser le plus rapide, et toute la flotte vole à cette vitesse. Avec trois types ou plus, les types intermédiaires ne comptent pas. Une flotte d'un seul type n'en profite pas.
+- **Formation serrée nivelle les vitesses** : tous les vaisseaux sauf le plus rapide volent 15 % plus vite, sans jamais dépasser le plus rapide. La flotte avance toujours à la vitesse du plus lent. Une flotte d'un seul type n'en profite pas.
 - **Route de chasse ne vise que les cibles abandonnées** : une attaque contre un joueur actif garde sa vitesse normale.
 - **Relance et Mise en attente** ne marchent pas sur une attaque à l'aller.
 - **Navettes** : seuls les transports et stationnements entre vos propres planètes sont hors emplacement.
