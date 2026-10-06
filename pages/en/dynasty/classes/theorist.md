@@ -23,7 +23,7 @@ published: false
 3. Generic research speed, the Space Pioneer's cost and young colonies are in the [common tree](/en/dynasty/common-tree) (Exploration). The Theorist's tree only holds mechanics of its own.
 4. **Head starts**: Unbroken Thread and Flying Start make a study start with part of its time already elapsed. Together, these head starts never exceed **10%** of the study. Flash of Genius, Kept Draft and Symposium sit outside this ceiling.
 5. **Study network**: without talents, [Stellar Collaboration](/en/research/stellar-collaboration) only networks Innovation Centers at least as advanced as the one of the studying base. Uplink and Distant Antenna accept lower Centers.
-6. **Prototype**: after a civil or drive research level completes, the player enjoys the next level's effect for a while. The prototype only applies to the three combat technologies with Combat Prototype (or Test Bench, Specialty, Revolution).
+6. **Prototype**: after a civil or drive research level completes (a civil research is one that raises neither military power nor ship speed), the player enjoys the next level's effect for a while. The prototype only applies to the three combat technologies with Combat Prototype (or Test Bench, Specialty, Revolution).
 7. Two of the class's bonuses are **accents** (with a ceiling of their own, see [Talent system](/en/dynasty/talents)): the build speed of Innovation Centers (Flat-Pack Benches) and the cost of research levels past level 10 (Patents).
 
 ## Worked example

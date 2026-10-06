@@ -78,7 +78,7 @@ La rangée 3 amplifie votre force, la rangée 6 corrige votre faiblesse : le jou
 | 5 | **Marcottage** | Le bonus de position est encore plus fort. | 1 rang | +30 % (+45 % avec Racines) |
 | 6 | **A · Terrain gagné** ou **B · Lune pleine** | A : chacune de vos planètes gagne 2 cases (accent). <br> B : vos lunes ne sont plus limitées par leur diamètre. | 1 rang | A : +2 cases <br> B : déblocage |
 | 7 | **Sol vivant** | Le Modulateur planétaire et la Base lunaire coûtent moins cher. | 3 × 8 % | −24 % |
-| 8 | **Terraformeur vivant** | Chaque niveau de Modulateur planétaire donne une case de plus. | 1 rang | +1 case par niveau |
+| 8 | **Terraformeur vivant** | Chaque niveau de Modulateur planétaire donne une case de plus, en plus de la case des niveaux pairs (Modulateur 6 : 33 → 39 cases). | 1 rang | +1 case par niveau |
 | 9 | **Transplantation** *(ultime)* | Une fois par semaine, vous déplacez une colonie vers une position libre de son système, bâtiments et lune compris, si aucune flotte n'est en vol vers elle ou depuis elle. | 1 rang | 1 par semaine |
 
 Chaque point de Croissance vaut sur les bonnes positions et rien sur les autres ; l'ultime répare un mauvais placement.

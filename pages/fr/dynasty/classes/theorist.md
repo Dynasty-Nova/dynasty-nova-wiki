@@ -20,7 +20,7 @@ published: false
 3. La vitesse de recherche générique, le coût du Pionnier spatial et les colonies jeunes sont dans l'[arbre commun](/fr/dynasty/common-tree) (Exploration). L'arbre du Théoricien ne contient que des mécaniques qui lui sont propres.
 4. **Avances au départ** : Fil continu et Départ lancé font partir une étude avec une partie de son temps déjà écoulé. Ensemble, ces avances ne dépassent jamais **10 %** de l'étude. Éclair de génie, Brouillon conservé et Symposium sont hors de ce plafond.
 5. **Réseau d'étude** : sans talent, [Collaboration Stellaire](/fr/research/stellar-collaboration) ne met en réseau que les Centres d'innovation au moins aussi avancés que celui de la base qui étudie. Liaison montante et Antenne lointaine acceptent des Centres plus bas.
-6. **Prototype** : après la fin d'un niveau de recherche civile ou de propulsion, le joueur profite pendant un temps de l'effet du niveau suivant. Le prototype ne s'applique aux trois technologies de combat qu'avec Prototype de combat (ou Banc d'essai, Spécialité, Révolution).
+6. **Prototype** : après la fin d'un niveau de recherche civile ou de propulsion (une recherche civile est une recherche qui n'augmente ni la puissance militaire ni la vitesse des vaisseaux), le joueur profite pendant un temps de l'effet du niveau suivant. Le prototype ne s'applique aux trois technologies de combat qu'avec Prototype de combat (ou Banc d'essai, Spécialité, Révolution).
 7. Deux bonus de la classe sont des **accents** (plafond propre, voir [Système de talents](/fr/dynasty/talents)) : la vitesse de construction des Centres d'innovation (Paillasses en kit) et le coût des niveaux de recherche au-delà du 10e (Brevets).
 
 ## Exemple chiffré

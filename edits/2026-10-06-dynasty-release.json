@@ -46,5 +46,17 @@
       "### [Miscellaneous](/en/misc)",
       "### [Dynasty and talents](/en/dynasty)\n- [The dynasties](/en/dynasty/dynasties)\n- [The classes](/en/dynasty/classes)\n- [Talents](/en/dynasty/talents)\n- [The common tree](/en/dynasty/common-tree)\n\n### [Miscellaneous](/en/misc)"
     ]
+  ],
+  "fr/espionage/spying": [
+    [
+      "13. **Un seul tirage pour toute la vague** : toutes les sondes sont détruites, ou aucune. Le nombre de sondes ne change pas le risque. Il n'y a pas de combat.",
+      "13. **Un seul tirage pour toute la vague** : toutes les sondes sont détruites, ou aucune. Le nombre de sondes ne change pas le risque. Il n'y a pas de combat. Exception : les talents de l'[Ombre](/fr/dynasty/classes/shadow) Sondes larguées et Coques muettes font survivre une partie d'une vague prise."
+    ]
+  ],
+  "en/espionage/spying": [
+    [
+      "13. **A single roll for the whole wave**: all probes are destroyed, or none. The number of probes does not change the risk. There is no battle.",
+      "13. **A single roll for the whole wave**: all probes are destroyed, or none. The number of probes does not change the risk. There is no battle. Exception: the [Shadow](/en/dynasty/classes/shadow)'s Dropped Probes and Silent Hulls talents let part of a caught wave survive."
+    ]
   ]
 }

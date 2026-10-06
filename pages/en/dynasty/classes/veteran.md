@@ -52,7 +52,7 @@ published: false
 | 5 | **Battle Stations** | While an attack is on its way to one of your planets, its defenses build faster: the attacker's spy report ages during the flight. | 1 rank | ×2 |
 | 6 | **A · Underground Shelter** or **B · War Prize** | A: the loot rate you suffer drops by 10 points (accent). <br> B: after a won defense, 20% of the enemy fleet's debris drops straight into your depots. | 1 rank | A: −10 pts <br> B: 20% |
 | 7 | **Front Rank** | In the first round, while the enemy fleet is still whole, your defenses deal more damage. | 3 × 3% | +9% |
-| 8 | **The Moon Holds** | The chance of destroying your moons drops. | 1 rank | −25% |
+| 8 | **The Moon Holds** | The chance of destroying your moons is multiplied by 0.75 (27% → 20%). | 1 rank | −25% |
 | 9 | **Last Salvo** *(ultimate)* | If a battle ends in a draw, your defenses fire one more salvo on their own before the attacker leaves. | 1 rank | 1 salvo |
 
 ### Relief
@@ -85,7 +85,7 @@ published: false
 | 6 | **A · Automatic Riposte** or **B · Mass Production** | A: when a strike hits one of your planets, it fires back at once at the base of origin as many warheads as it received, up to 10, taken only from those you mark as the riposte reserve. <br> B: your missiles build 15% faster (accent). | 1 rank | A: 10 warheads <br> B: +15% |
 | 7 | **Impulse Reach** | Your missiles reach further. | 3 × 1 system | +3 systems |
 | 8 | **Lunar Silo** | You can build a Ballistic Arsenal on your moons and launch your missiles from them. | 1 rank | unlock |
-| 9 | **Steel Rain** *(ultimate)* | Once every 24 h, a salvo of at least 20 warheads cannot be intercepted. | 1 rank | 1 / 24 h |
+| 9 | **Steel Rain** *(ultimate)* | A salvo of at least 20 warheads cannot be intercepted. Once per rolling 24 h: the next one is possible 24 h after the previous one. | 1 rank | 1 / 24 h |
 
 Class caps: Arsenal capacity +15%, missile range +5 systems, warhead damage +9%.
 

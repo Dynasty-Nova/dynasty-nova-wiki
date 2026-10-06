@@ -57,7 +57,7 @@ A level 20 Mineral Excavator produces **4,036 metal per hour** and draws **1,345
 
 | Row | Type | Talent | Effect | Value |
 |---|---|---|---|---|
-| 1 | key | **The Night Is Short** | After a defense, part of your destroyed Solar Collectors is raised again for free, on the share that does not go to debris. | 49% |
+| 1 | key | **The Night Is Short** | After a defense, part of your destroyed Solar Collectors is raised again for free, on the share that does not go to debris. With 30% debris, 70% of the destroyed Collectors remain, and 49% of those come back: 100 destroyed → 34 raised. | 49% |
 | 2 | 3 ranks | **Sails** | Your Solar Collectors produce more energy. | +5% per rank (15%) |
 | 3 | choice | **A: Full Sun** / **B: Cold Core** | A: your Photovoltaic Sensors produce more energy. <br> B: your Thermonuclear Reactor burns less hydrogen. | +10% / −20% |
 | 4 | 3 ranks | **High Noon** | Your Photovoltaic Sensors read a temperature closer to the month's maximum. | 15% per rank (45%) |

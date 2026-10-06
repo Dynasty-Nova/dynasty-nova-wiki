@@ -52,7 +52,7 @@ published: false
 | 5 | key | **Tight Formation** | in a mixed fleet, slow ships fly 15% faster, never faster than the fastest (Stellar Freighter 7,500 → 8,625 alongside Interceptors at 12,500) | 15% |
 | 6 | choice | **A · Relaunch** / **B · Holding Pattern** | A: a fleet sent at reduced speed can go back to 100% in flight, the extra hydrogen paid when it does (a fleet sheltered at 10% for 8 h, relaunched halfway: the remaining 4 h become about 24 min) <br> B: a fleet flying home or on a peaceful mission can slow down in flight to as low as 10%, the hydrogen saved is returned (30 min left become about 5 h) | unlock / unlock |
 | 7 | 3 ranks | **Slipstream** | Tight Formation +5% per rank: 30% at rank 3 (Stellar Freighter 7,500 → 9,750) | 3 × 5% |
-| 8 | key | **Emergency Takeoff** | once every 24 h, when an attack weighing at least 5% of your docked fleet's power comes at one of your planets (a Scout does not count), the fleet takes off on its own 3 min before impact, to your nearest planet. It comes back at a random time 1 h to 3 h later (adjustable window). Attack at 4:12: takeoff at 4:09, back between 5:09 and 7:09 | unlock |
+| 8 | key | **Emergency Takeoff** | once every 24 h, when an attack weighing at least 5% of your docked fleet's power comes at one of your planets (a Scout does not count), the fleet takes off on its own 3 min before impact, to your nearest planet. It comes back at a random time 1 h to 3 h after its takeoff (adjustable window). Attack at 4:12: takeoff at 4:09, back between 5:09 and 7:09 | unlock |
 | 9 | ultimate | **Return Jump** | 2 charges per rolling 24 h: a fleet flying home from its mission lands there at once, unloaded like any return | 2 charges |
 
 Afterburner on an outbound attack: the defender's alert is updated with the new arrival time. Relaunch and Holding Pattern never apply to an outbound Attack, Espionage or Moon destruction: a strike never lands at a time the defender cannot see.
@@ -98,7 +98,7 @@ Razzia only hits abandoned targets (inactive players, ruined worlds, game-contro
 ## Common pitfalls
 
 - **Fuel takes up cargo space**: without Fuel Hold, a distant combat fleet may be unable to leave for lack of cargo.
-- **Tight Formation only speeds up slow ships**: a fleet of a single ship type gains nothing.
+- **Tight Formation only speeds up the slowest ship**: only the fleet's slowest ship is sped up, never past the fastest, and the whole fleet flies at that speed. With three types or more, the middle types do not matter. A fleet of a single type gains nothing.
 - **Hunting Route only targets abandoned targets**: an attack on an active player keeps its normal speed.
 - **Relaunch and Holding Pattern** do not work on an outbound attack.
 - **Shuttles**: only transports and stationings between your own planets are outside the slots.

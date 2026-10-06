@@ -845,3 +845,19 @@ Valeurs par rang (code `CommonTalents`), identiques au document de conception : 
 
 ### Arbres de classe
 Valeurs par rang tirées du catalogue de chaque classe (`AdmiralTalents`, `BuilderTalents`…) et des plafonds de classe (`ClassCaps`). Écarts avec le document de conception, retenus d'après le code : Lire la coque 3,5 %/rang, Feu concentré 7,5 %, Contre-batterie 2 %/rang, Premier rang 3 %/rang, coque de l'Amiral plafonnée à 11 %.
+
+### Réponses et vérifications du 6 octobre 2026 (questions `dynasty-04` à `dynasty-20`)
+- Vaisseaux de combat (Amiral) : les 8 vaisseaux non civils hors Collecteur solaire (Intercepteur, Assaillant, Corvette, Cuirassé, Frappe-orbital, Prédateur, Annihilateur, Colossus stellaire).
+- Pluie d'acier : 24 h glissantes. Décollage d'urgence : fenêtre de retour comptée depuis le décollage.
+- La nuit est courte : 49 % de la part qui ne part pas en débris (30 % de débris : 0,7 × 0,49 ≈ 34 % des Collecteurs détruits).
+- Recherche « civile » (Prototype) : toute recherche qui n'augmente ni la puissance militaire ni la vitesse des vaisseaux.
+- Terraformeur vivant : se cumule avec la case des niveaux pairs (Modulateur 6 : 33 → 39 cases).
+- La lune tient et Briseur de lunes : en relatif, chance ou risque × 0,75 (code `MoonDestructionOdds`).
+- Chantier de démontage : part de la Station de réparation × 1,2 (code `RepairDock`).
+- Épaves fraîches : +20 points ajoutés après le plafond de 25 % de Ferrailleur et Tri des métaux (jusqu'à 45 %). Indemnité : payée ressource par ressource sur le coût des vaisseaux perdus.
+- Formation serrée : seul le vaisseau le plus lent est accéléré, plafonné par le plus rapide ; la flotte vole à une seule vitesse.
+- Prudence : comparée au risque après les bornes de 5 % et 25 %.
+- Protection contre le pillage : le plafond de classe porte sur le total, arbre commun compris (Vétéran 15 points ; Oracle 5 points). Baisse en points du taux de pillage, jamais sous 30 %.
+- Écouter loin et Lecture des hangars : un palier plus tôt au plus pour la flotte, les deux ne se cumulent pas.
+- Température actuelle d'une planète (code `Map::getTemperatureAt`) : suit le mois du calendrier, minimale le 1er, maximale au jour floor(jours du mois / 2) (le 15, le 14 en février), minimale le dernier jour, linéaire jour par jour, arrondie.
+- Alerte d'attaque : 60 s avant l'impact (code `Fleet::ATTACK_ALERT_LEAD_TIME_IN_SECONDS`), jusqu'à 360 s avec les talents de l'Oracle.

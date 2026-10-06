@@ -104,7 +104,7 @@ Au-delà du niveau 50, l'expérience continue de compter mais ne donne plus de p
 | Coûts | | −5 % (Bâtisseur) | −5 % | |
 | Cases de planète | +2 | +2 (Symbiote) | +4 | |
 | Pillage des cibles abandonnées | +20 points | | +20 points | |
-| Ressources à l'abri du pillage | 5 points | Vétéran (Abri souterrain), Oracle (La cache) | 15 points pour le Vétéran, arbre commun compris | taux de pillage jamais sous 30 % |
+| Ressources à l'abri du pillage | 5 points | Vétéran (Abri souterrain), Oracle (La cache) | 15 points pour le Vétéran, 5 pour l'Oracle, arbre commun compris | taux de pillage jamais sous 30 % |
 
 Les bonus qui ne servent qu'à vous, entre vos propres planètes ou sur vos retours (Vent arrière, Liaisons internes, Retour victorieux…), sont **hors** du plafond de vitesse.
 

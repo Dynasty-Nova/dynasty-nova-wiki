@@ -49,7 +49,7 @@ published: false
 | 5 | **Branle-bas de combat** | Tant qu'une attaque est en route vers une de vos planètes, ses défenses se construisent plus vite : le rapport d'espionnage de l'attaquant vieillit pendant son vol. | 1 rang | ×2 |
 | 6 | **A · Abri souterrain** ou **B · Prise de guerre** | A : le taux de pillage que vous subissez baisse de 10 points (accent). <br> B : après une défense gagnée, 20 % des débris de la flotte ennemie tombent directement dans vos entrepôts. | 1 rang | A : −10 pts <br> B : 20 % |
 | 7 | **Premier rang** | Au premier round, quand la flotte ennemie est encore entière, vos défenses font plus de dégâts. | 3 × 3 % | +9 % |
-| 8 | **La lune tient** | La chance de détruire vos lunes baisse. | 1 rang | −25 % |
+| 8 | **La lune tient** | La chance de détruire vos lunes est multipliée par 0,75 (27 % → 20 %). | 1 rang | −25 % |
 | 9 | **Dernière salve** *(ultime)* | Si une bataille finit en match nul, vos défenses tirent seules une salve de plus avant que l'attaquant reparte. | 1 rang | 1 salve |
 
 ### Relève
@@ -82,7 +82,7 @@ published: false
 | 6 | **A · Riposte automatique** ou **B · Production en série** | A : quand une frappe touche une de vos planètes, elle renvoie aussitôt sur la base d'origine autant d'ogives qu'elle en a reçu, jusqu'à 10, prises seulement parmi celles que vous marquez « réserve de riposte ». <br> B : vos missiles se construisent 15 % plus vite (accent). | 1 rang | A : 10 ogives <br> B : +15 % |
 | 7 | **Portée d'impulsion** | Vos missiles portent encore plus loin. | 3 × 1 système | +3 systèmes |
 | 8 | **Silo lunaire** | Vous pouvez construire un Arsenal balistique sur vos lunes et lancer vos missiles depuis elles. | 1 rang | déblocage |
-| 9 | **Pluie d'acier** *(ultime)* | Une fois toutes les 24 h, une salve d'au moins 20 ogives ne peut pas être interceptée. | 1 rang | 1 / 24 h |
+| 9 | **Pluie d'acier** *(ultime)* | Une salve d'au moins 20 ogives ne peut pas être interceptée. Une fois par 24 h glissantes : la suivante est possible 24 h après la précédente. | 1 rang | 1 / 24 h |
 
 Plafonds de la classe : capacité de l'Arsenal +15 %, portée des missiles +5 systèmes, dégâts des ogives +9 %.
 

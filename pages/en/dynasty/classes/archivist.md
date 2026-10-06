@@ -75,7 +75,7 @@ Row types: *key* (1 point), *3 ranks*, *choice* (one point, option A or B), *ult
 | 4 | 3 ranks | **Metal Sorting** | Your debris harvests yield more still. | +5% per rank (+25% in total) |
 | 5 | key | **Wreck Alert** | You are warned as soon as a field of more than 50,000 resources appears within your radar's range. | 50,000 |
 | 6 | choice | **A: Salvage Garrison** | When one of your planets is attacked, its docked Salvagers harvest the field as soon as the battle ends, before the attacker's. | unlock |
-| | | **B: Fresh Wrecks** | On a field that appeared less than 1 h ago, your harvests yield more. | +20% |
+| | | **B: Fresh Wrecks** | On a field that appeared less than 1 h ago, your harvests yield 20 points more, on top of Scrapper and Metal Sorting (25% → 45% with the full branch). | +20 points |
 | 7 | 3 ranks | **On-Call Crew** | When the alert rings, your Salvagers leave on their own from the nearest planet, even while you sleep. | 1 departure a day per rank (3) |
 | 8 | key | **Sweep-All** | In the same flight, your Salvagers also harvest the fields of the neighbouring positions (±1 in the same system), as far as their holds allow. | ±1 position |
 | 9 | ultimate | **Seals** | Once every 24 h, you seal a field you can see: for 1 h, other players no longer see it nor send Salvagers to it. Those already flying arrive as usual. | 1 h |
@@ -89,7 +89,7 @@ Row types: *key* (1 point), *3 ranks*, *choice* (one point, option A or B), *ult
 | 3 | choice | **A: Swift Relief** | For 24 h after a loss, the registry rebuilds faster still. | +20% |
 | | | **B: Long Memory** | The registry keeps your losses for 21 days instead of 7. | 21 days |
 | 4 | 3 ranks | **Relief Lines** | Registry ships are rebuilt faster still. | +5% per rank (+30% in total) |
-| 5 | key | **Indemnity** | After a battle in which you lose ships, part of their value is paid at once to the planet they left from. | 5% |
+| 5 | key | **Indemnity** | After a battle in which you lose ships, part of their cost is paid at once to the planet they left from, resource by resource. | 5% |
 | 6 | choice | **A: Back to the Front** | Registry ships are rebuilt faster still. | +20% (+50% in total) |
 | | | **B: War Discount** | Registry ships cost less still. | −8% (−20% in total) |
 | 7 | 3 ranks | **War Chest** | Indemnity pays more of the value lost. | +1 point per rank (8%) |

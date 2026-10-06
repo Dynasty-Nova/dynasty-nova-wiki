@@ -19,6 +19,7 @@ published: false
 2. Son arbre compte **trois branches** : Ligne de feu, Campagne et Butin de guerre.
 3. Chaque branche a 9 rangées et coûte 15 points. Avec 25 points au maximum, vous complétez une branche et son ultime, plus une seconde branche jusqu'à la rangée 6. Le fonctionnement des points, des portes et des choix est décrit sur [Talents](/fr/dynasty/talents).
 4. La vitesse de flotte, l'hydrogène et les soutes génériques viennent de l'[arbre commun](/fr/dynasty/common-tree). L'Amiral n'y ajoute que des accents étroits : les missions d'attaque, d'espionnage et de destruction, l'hydrogène et la construction des vaisseaux de combat, et une flotte réservée aux attaques.
+5. Les **vaisseaux de combat** sont tous les vaisseaux non civils, sauf le Collecteur solaire : Intercepteur, Assaillant, Corvette, Cuirassé, Frappe-orbital, Prédateur, Annihilateur et Colossus stellaire.
 
 ## Exemple chiffré
 
@@ -48,7 +49,7 @@ published: false
 | 5 | **Le maître de cadence** | Désignez un type de vaisseau : ses tirs rapides d'au moins 10 montent de 1. | 1 rang | +1 |
 | 6 | **A · Salve de siège** ou **B · Contre-mesures** | A : vos tirs rapides contre les défenses enchaînent 10 % de tirs en plus. <br> B : vous subissez 10 % de dégâts en moins des unités qui vous contrent. | 1 rang | 10 % |
 | 7 | **Lire la coque** | Vos tirs font plus de dégâts contre les unités que vous contrez. | 3 × 3,5 % | +10,5 % |
-| 8 | **Briseur de lunes** | Quand vous détruisez une lune, le risque de perdre vos vaisseaux baisse. | 1 rang | −25 % |
+| 8 | **Briseur de lunes** | Quand vous détruisez une lune, le risque de perdre vos vaisseaux est multiplié par 0,75. | 1 rang | −25 % |
 | 9 | **Feu concentré** *(ultime)* | Avant une attaque, désignez un type d'unité ennemie : tous vos tirs contre lui font plus de dégâts. | 1 rang | +7,5 % |
 
 Plafonds de la classe : armement des vaisseaux 9 %, coque 11 %, bouclier 3 %.
@@ -82,7 +83,7 @@ Plafonds de la classe : armement des vaisseaux 9 %, coque 11 %, bouclier 3 %.
 | 5 | **Recyclage de combat** | Les Récupérateurs envoyés avec une attaque ramassent le champ de ruines dès la fin du combat. | 1 rang | déblocage |
 | 6 | **A · Réparation d'urgence** ou **B · Recycleurs rapides** | A : la réparation la plus courte à la Station de réparation dure 15 min de moins (30 min d'habitude). <br> B : vos missions de recyclage vont 10 % plus vite (accent). | 1 rang | A : −15 min <br> B : +10 % |
 | 7 | **Raffinage** | Chaque récolte de débris vous rapporte aussi une part de son tonnage en hydrogène. | 3 × 4 % | 12 % |
-| 8 | **Chantier de démontage** | Votre Station de réparation récupère vos vaisseaux perdus en défense avec plus d'efficacité. | 1 rang | +20 % |
+| 8 | **Chantier de démontage** | Votre Station de réparation récupère vos vaisseaux perdus en défense avec plus d'efficacité : sa part est multipliée par 1,2. | 1 rang | ×1,2 |
 | 9 | **Rapaces** *(ultime)* | Après une attaque gagnée, vos vaisseaux de combat chargent une part des débris dans leurs soutes libres, après le pillage. | 1 rang | 30 % |
 
 Le remorquage utilise un **arrondi probabiliste** : la partie décimale devient une chance d'avoir un vaisseau de plus, si bien qu'un petit raid ramène aussi des vaisseaux.

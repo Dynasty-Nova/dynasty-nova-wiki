@@ -63,7 +63,7 @@ published: false
 | 2 | 3 ranks | **Low Signature** | −2 points of chance to be detected per rank: −6 at rank 3 (16% → 10%). A well-guarded target's 25% bound applies afterwards | 3 × 2 pts |
 | 3 | choice | **A · Dropped Probes** / **B · No Address** | A: 20% of a caught wave's Scouts survive and come back (10 caught → 2 come back) <br> B: a caught wave is identified but never traced: the defender learns who, never from where | 20% / unlock |
 | 4 | 3 ranks | **Silent Hulls** | +7% survival per rank for a caught wave's Scouts: +21% at rank 3 (41% with Dropped Probes: 10 caught → 4 come back) | 3 × 7% |
-| 5 | key | **Caution** | a wave facing 15% risk or more turns back before orbit: no report, no loss, no alert. It told you the target is guarded. Can be switched off at the send | 15% |
+| 5 | key | **Caution** | a wave facing 15% risk or more turns back before orbit: no report, no loss, no alert. It told you the target is guarded. The risk compared is the one displayed, 5% and 25% bounds included. Can be switched off at the send | 15% |
 | 6 | choice | **A · Silhouette** / **B · Smoke Screen** | A: enemy [Sensor phalanxes](/en/espionage/sensor-phalanx) see your fleets, but not their composition or cargo <br> B: your attacks show at their target as an "unknown fleet", with no ship count, until 15 min before impact | unlock |
 | 7 | 3 ranks | **False Trail** | a traced wave has a 30% chance per rank to give the defender a false origin (an inactive planet of your galaxy): 90% at rank 3 | 3 × 30% |
 | 8 | key | **The Perfect Void** | a wave that ran no risk (a target half as advanced, or an empty orbit) leaves only a vague trace: "activity spotted in your system", no planet, no name, to the hour | unlock |

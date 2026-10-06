@@ -376,23 +376,23 @@ Règle : aucune de ces formules ne va dans le wiki avant confirmation. Les pages
 - `dynasty-01` ✅ Le wiki n'annonce aucune date de sortie. Les pages restent non publiées tant que la fonctionnalité n'est pas en jeu ; les modifications des pages existantes sont prêtes dans `edits/2026-10-06-dynasty-release.json`, à appliquer à ce moment-là.
 - `dynasty-02` ✅ Ce n'est pas du pay to win : changer de classe ou réinitialiser un arbre ne donne aucune puissance de plus. Les pages donnent les prix sans les présenter comme un avantage.
 - `dynasty-03` ✅ Le wiki emploie les noms du jeu, d'après les traductions du client (Centre d'innovation, Récupérateur, Capteurs photovoltaïques, Collecteur solaire, Condensateur d'hydrogène, Dock orbital, Éclaireur…). Les noms des talents restent ceux qu'affiche le jeu.
-- `dynasty-04` ⏳ Protection contre le pillage : plafond de classe de 15 points pour le Vétéran (arbre commun compris) ; le plafond de 5 de l'Oracle porte-t-il sur La cache seule ou sur le total ?
-- `dynasty-05` ⏳ Amiral, Vétéran : La lune tient et Briseur de lunes baissent-ils le risque de 25 % en relatif (27 % → 20 %) ou en points ?
-- `dynasty-06` ⏳ Amiral : le « +20 % d'efficacité » de Chantier de démontage s'ajoute-t-il en points à la part de la Station de réparation, ou la multiplie-t-il ?
-- `dynasty-07` ⏳ Amiral : quels vaisseaux comptent comme « vaisseaux de combat » (Chantier de guerre, Économie de guerre, Rapaces) ? Seulement la catégorie combat (Intercepteur, Assaillant, Corvette, Cuirassé) ou aussi Frappe-orbital, Prédateur, Annihilateur, Colossus stellaire ?
-- `dynasty-08` ⏳ Vétéran : le cycle de 24 h de Pluie d'acier est-il glissant ou calendaire ? Amiral : Remorquage pour une flotte partie d'une lune ?
-- `dynasty-09` ⏳ Énergéticien : La nuit est courte (49 %) s'applique-t-elle à tous les Collecteurs solaires détruits ou seulement à la part qui ne part pas en débris ?
-- `dynasty-10` ⏳ Énergéticien : Plein midi parle du « maximum du mois ». Le cycle mensuel de la température des Capteurs photovoltaïques n'est pas décrit sur le wiki (`economy/energy` parle de la température actuelle).
-- `dynasty-11` ⏳ Archiviste : Retard comblé double-t-il seulement Fonds d'archives ou toute la vitesse des niveaux connus (plafond de 25 % dans le code) ?
-- `dynasty-12` ⏳ Archiviste : Épaves fraîches (+20 %) s'ajoute-t-il ou se multiplie-t-il avec Ferrailleur et Tri des métaux ? L'Indemnité est-elle versée ressource par ressource ?
-- `dynasty-13` ⏳ Théoricien : quelles recherches sont « civiles » pour Prototype ?
-- `dynasty-14` ⏳ Navigateur : effet exact de Formation serrée sur une flotte de plus de deux types de vaisseaux.
-- `dynasty-15` ⏳ Navigateur : la fenêtre de retour de Décollage d'urgence (1 h à 3 h) compte-t-elle depuis le décollage ou depuis l'impact ?
-- `dynasty-16` ⏳ Ombre : le seuil de 15 % de Prudence se compare-t-il à la chance avant ou après les bornes de 5 % et 25 % ?
-- `dynasty-17` ⏳ Ombre : Sondes larguées et Coques muettes contredisent la règle « toute la vague tombe » de `espionage/spying` ; à nuancer sur cette page à la sortie.
-- `dynasty-18` ⏳ Ombre : Écouter loin (trait de L'Accord) et Lecture des hangars ne se cumulent pas (un palier plus tôt au plus par catégorie). Voulu ?
-- `dynasty-19` ⏳ Oracle : l'alerte d'attaque de base (60 s avant l'impact, d'après le code) n'est décrite sur aucune page du wiki.
-- `dynasty-20` ⏳ Symbiote : la case de plus par niveau de Modulateur planétaire (Terraformeur vivant) se cumule-t-elle avec la case de plus aux niveaux pairs ?
+- `dynasty-04` ✅ (code) Le plafond de classe porte sur le total, arbre commun compris. ⚠️ L'Oracle est plafonné à 5 points : avec Coffres enterrés (5), La cache n'ajoute rien. Bug ou voulu ? Question initiale : Protection contre le pillage : plafond de classe de 15 points pour le Vétéran (arbre commun compris) ; le plafond de 5 de l'Oracle porte-t-il sur La cache seule ou sur le total ?
+- `dynasty-05` ✅ (code) En relatif : × 0,75. Question initiale : Amiral, Vétéran : La lune tient et Briseur de lunes baissent-ils le risque de 25 % en relatif (27 % → 20 %) ou en points ?
+- `dynasty-06` ✅ (code) Multiplicatif : part de la Station de réparation × 1,2. Question initiale : Amiral : le « +20 % d'efficacité » de Chantier de démontage s'ajoute-t-il en points à la part de la Station de réparation, ou la multiplie-t-il ?
+- `dynasty-07` ✅ Tous les vaisseaux non civils ; le code exclut le Collecteur solaire. Question initiale : Amiral : quels vaisseaux comptent comme « vaisseaux de combat » (Chantier de guerre, Économie de guerre, Rapaces) ? Seulement la catégorie combat (Intercepteur, Assaillant, Corvette, Cuirassé) ou aussi Frappe-orbital, Prédateur, Annihilateur, Colossus stellaire ?
+- `dynasty-08` ✅ 24 h glissantes. Remorquage depuis une lune : non traité. Question initiale : Vétéran : le cycle de 24 h de Pluie d'acier est-il glissant ou calendaire ? Amiral : Remorquage pour une flotte partie d'une lune ?
+- `dynasty-09` ✅ 49 % de la part qui ne part pas en débris. Question initiale : Énergéticien : La nuit est courte (49 %) s'applique-t-elle à tous les Collecteurs solaires détruits ou seulement à la part qui ne part pas en débris ?
+- `dynasty-10` ✅ Le cycle de température suit le mois du calendrier (formule dans DONNEES §18) ; pages `universe/planets` FR et EN précisées. Question initiale : Énergéticien : Plein midi parle du « maximum du mois ». Le cycle mensuel de la température des Capteurs photovoltaïques n'est pas décrit sur le wiki (`economy/energy` parle de la température actuelle).
+- `dynasty-11` ⚠️ Le texte dit « Fonds d'archives compte double » ; le code double toute la vitesse des niveaux connus (15 → 30 %, au-delà du plafond de 25). Lequel est juste ? Question initiale : Archiviste : Retard comblé double-t-il seulement Fonds d'archives ou toute la vitesse des niveaux connus (plafond de 25 % dans le code) ?
+- `dynasty-12` ✅ (code) Additif, après le plafond de 25 % ; Indemnité ressource par ressource. Question initiale : Archiviste : Épaves fraîches (+20 %) s'ajoute-t-il ou se multiplie-t-il avec Ferrailleur et Tri des métaux ? L'Indemnité est-elle versée ressource par ressource ?
+- `dynasty-13` ✅ Civile = n'augmente ni la puissance militaire ni la vitesse des vaisseaux. Question initiale : Théoricien : quelles recherches sont « civiles » pour Prototype ?
+- `dynasty-14` ✅ (code) Seul le plus lent est accéléré. Question initiale : Navigateur : effet exact de Formation serrée sur une flotte de plus de deux types de vaisseaux.
+- `dynasty-15` ✅ Depuis le décollage. Question initiale : Navigateur : la fenêtre de retour de Décollage d'urgence (1 h à 3 h) compte-t-elle depuis le décollage ou depuis l'impact ?
+- `dynasty-16` ✅ (code) Après les bornes. Question initiale : Ombre : le seuil de 15 % de Prudence se compare-t-il à la chance avant ou après les bornes de 5 % et 25 % ?
+- `dynasty-17` ⏳ Nuance à ajouter à `espionage/spying` à la sortie. ⚠️ Plafond de survie de l'Ombre à 41 % alors que l'arbre ne monte qu'à 27 %. Question initiale : Ombre : Sondes larguées et Coques muettes contredisent la règle « toute la vague tombe » de `espionage/spying` ; à nuancer sur cette page à la sortie.
+- `dynasty-18` ⏳ Le code limite à un palier : Lecture des hangars ne sert à rien à une Ombre de L'Accord. Voulu ? Question initiale : Ombre : Écouter loin (trait de L'Accord) et Lecture des hangars ne se cumulent pas (un palier plus tôt au plus par catégorie). Voulu ?
+- `dynasty-19` ✅ Ajoutée à `fleet/missions` FR et EN (60 s, jusqu'à 6 min avec l'Oracle). Question initiale : Oracle : l'alerte d'attaque de base (60 s avant l'impact, d'après le code) n'est décrite sur aucune page du wiki.
+- `dynasty-20` ✅ Se cumule avec la case des niveaux pairs. Question initiale : Symbiote : la case de plus par niveau de Modulateur planétaire (Terraformeur vivant) se cumule-t-elle avec la case de plus aux niveaux pairs ?
 
 ## 8. Conventions issues des réponses
 

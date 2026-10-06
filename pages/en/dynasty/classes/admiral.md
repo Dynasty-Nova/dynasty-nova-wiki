@@ -22,6 +22,7 @@ published: false
 2. Its tree has **three branches**: Firing Line, Campaign and Spoils of War.
 3. Each branch has 9 rows and costs 15 points. With 25 points at most, you complete one branch and its ultimate, plus a second branch down to row 6. Points, gates and choices are explained on [Talents](/en/dynasty/talents).
 4. Generic fleet speed, hydrogen and cargo come from the [common tree](/en/dynasty/common-tree). The Admiral only adds narrow accents: attack, espionage and moon destruction missions, combat ships' hydrogen and build speed, and one fleet kept for attacks.
+5. **Combat ships** are every non-civil ship except the Solar Collector: Interceptor, Assailant, Corvette, Battleship, Orbital Striker, Predator, Annihilator and Stellar Colossus.
 
 ## Worked example
 
@@ -51,7 +52,7 @@ published: false
 | 5 | **Master of Cadence** | Designate a ship type: its rapid fires of 10 or more go up by 1. | 1 rank | +1 |
 | 6 | **A · Siege Volley** or **B · Countermeasures** | A: your rapid fires against defenses chain 10% more shots. <br> B: you take 10% less damage from the units that counter you. | 1 rank | 10% |
 | 7 | **Read the Hull** | Your shots deal more damage to the units you counter. | 3 × 3.5% | +10.5% |
-| 8 | **Moonbreaker** | When you destroy a moon, the risk of losing your ships drops. | 1 rank | −25% |
+| 8 | **Moonbreaker** | When you destroy a moon, the risk of losing your ships is multiplied by 0.75. | 1 rank | −25% |
 | 9 | **Focused Fire** *(ultimate)* | Before an attack, designate an enemy unit type: every shot you fire at it deals more damage. | 1 rank | +7.5% |
 
 Class caps: ship weapons 9%, hull 11%, shields 3%.
@@ -85,7 +86,7 @@ Class caps: ship weapons 9%, hull 11%, shields 3%.
 | 5 | **Combat Recycling** | The Salvagers sent with an attack pick up the debris field as soon as the fight ends. | 1 rank | unlock |
 | 6 | **A · Emergency Repair** or **B · Fast Recyclers** | A: the Repair Station's shortest repair takes 15 min less (30 min usually). <br> B: your recycling missions go 10% faster (accent). | 1 rank | A: −15 min <br> B: +10% |
 | 7 | **Refining** | Every debris harvest also brings you a share of its tonnage in hydrogen. | 3 × 4% | 12% |
-| 8 | **Breaking Yard** | Your Repair Station recovers your ships lost in defense with more efficiency. | 1 rank | +20% |
+| 8 | **Breaking Yard** | Your Repair Station recovers your ships lost in defense with more efficiency: its share is multiplied by 1.2. | 1 rank | ×1.2 |
 | 9 | **Raptors** *(ultimate)* | After a won attack, your combat ships load a share of the debris into their free holds, after the loot. | 1 rank | 30% |
 
 Towing uses **probabilistic rounding**: the decimal part becomes a chance of one more ship, so a small raid brings ships back too.

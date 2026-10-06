@@ -81,7 +81,7 @@ Row 3 amplifies your strength, row 6 fixes your weakness: the player of cold pla
 | 5 | **Layering** | The position bonus is stronger still. | 1 rank | +30% (+45% with Roots) |
 | 6 | **A · Ground Gained** or **B · Full Moon** | A: each of your planets gains 2 fields (accent). <br> B: your moons are no longer bounded by their diameter. | 1 rank | A: +2 fields <br> B: unlock |
 | 7 | **Living Soil** | The Planetary Modulator and the Lunar base cost less. | 3 × 8% | −24% |
-| 8 | **Living Terraformer** | Each Planetary Modulator level gives one more field. | 1 rank | +1 field per level |
+| 8 | **Living Terraformer** | Each Planetary Modulator level gives one more field, on top of the extra field at even levels (Modulator 6: 33 → 39 fields). | 1 rank | +1 field per level |
 | 9 | **Transplantation** *(ultimate)* | Once a week, you move a colony to a free position of its system, buildings and moon included, if no fleet is flying to or from it. | 1 rank | 1 per week |
 
 Every Growth point is worth something on the right positions and nothing elsewhere; the ultimate fixes a bad placement.

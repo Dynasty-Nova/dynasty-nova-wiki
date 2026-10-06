@@ -49,7 +49,7 @@ published: false
 | 5 | clé | **Formation serrée** | dans une flotte mixte, les vaisseaux lents volent 15 % plus vite, jamais plus vite que le plus rapide (Cargo stellaire 7 500 → 8 625 avec des Intercepteurs à 12 500) | 15 % |
 | 6 | choix | **A · Relance** / **B · Mise en attente** | A : une flotte partie à vitesse réduite peut repasser à 100 % en vol, l'hydrogène en plus payé à la relance (une mise à l'abri lancée à 10 % pour 8 h, relancée à mi-chemin : les 4 h restantes deviennent environ 24 min) <br> B : une flotte qui rentre ou en mission pacifique peut ralentir en vol jusqu'à 10 %, l'hydrogène économisé est rendu (30 min restantes deviennent environ 5 h) | déblocage / déblocage |
 | 7 | 3 rangs | **Sillage** | Formation serrée +5 % par rang : 30 % au rang 3 (Cargo stellaire 7 500 → 9 750) | 3 × 5 % |
-| 8 | clé | **Décollage d'urgence** | une fois par 24 h, quand une attaque pesant au moins 5 % de la puissance de votre flotte à quai arrive sur une de vos planètes (un Éclaireur ne compte pas), la flotte décolle seule 3 min avant l'impact vers votre planète la plus proche. Elle revient à un moment tiré au sort entre 1 h et 3 h plus tard (fenêtre réglable). Attaque à 4 h 12 : départ à 4 h 09, retour entre 5 h 09 et 7 h 09 | déblocage |
+| 8 | clé | **Décollage d'urgence** | une fois par 24 h, quand une attaque pesant au moins 5 % de la puissance de votre flotte à quai arrive sur une de vos planètes (un Éclaireur ne compte pas), la flotte décolle seule 3 min avant l'impact vers votre planète la plus proche. Elle revient à un moment tiré au sort entre 1 h et 3 h après son décollage (fenêtre réglable). Attaque à 4 h 12 : départ à 4 h 09, retour entre 5 h 09 et 7 h 09 | déblocage |
 | 9 | ultime | **Saut de retour** | 2 charges par 24 h glissantes : une flotte qui rentre de mission arrive chez elle à l'instant, déchargée comme à un retour normal | 2 charges |
 
 Postcombustion sur une attaque à l'aller : l'alerte du défenseur est mise à jour avec la nouvelle heure d'arrivée. Relance et Mise en attente ne s'appliquent jamais à une Attaque, un Espionnage ou une Destruction de lune à l'aller : une frappe n'arrive jamais à une heure que le défenseur ne voit pas.
@@ -95,7 +95,7 @@ Razzia ne touche que les cibles abandonnées (joueurs inactifs, mondes en ruine,
 ## Pièges fréquents
 
 - **Le carburant prend de la place en soute** : sans Soute à carburant, une flotte de combat lointaine peut ne pas pouvoir partir faute de soute.
-- **Formation serrée n'accélère que les lents** : une flotte d'un seul type de vaisseau n'en profite pas.
+- **Formation serrée n'accélère que le plus lent** : seul le vaisseau le plus lent de la flotte est accéléré, sans dépasser le plus rapide, et toute la flotte vole à cette vitesse. Avec trois types ou plus, les types intermédiaires ne comptent pas. Une flotte d'un seul type n'en profite pas.
 - **Route de chasse ne vise que les cibles abandonnées** : une attaque contre un joueur actif garde sa vitesse normale.
 - **Relance et Mise en attente** ne marchent pas sur une attaque à l'aller.
 - **Navettes** : seuls les transports et stationnements entre vos propres planètes sont hors emplacement.

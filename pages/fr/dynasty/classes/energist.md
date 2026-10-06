@@ -54,7 +54,7 @@ Un Excavateur minéral au niveau 20 produit **4 036 métal par heure** et consom
 
 | Rangée | Type | Talent | Effet | Valeur |
 |---|---|---|---|---|
-| 1 | clé | **La nuit est courte** | Après une défense, une part de vos Collecteurs solaires détruits est relevée gratuitement, sur la part qui ne part pas en débris. | 49 % |
+| 1 | clé | **La nuit est courte** | Après une défense, une part de vos Collecteurs solaires détruits est relevée gratuitement, sur la part qui ne part pas en débris. Avec 30 % de débris, 70 % des Collecteurs détruits restent, et 49 % de ceux-là reviennent : 100 détruits → 34 relevés. | 49 % |
 | 2 | 3 rangs | **Voilure** | Vos Collecteurs solaires produisent plus d'énergie. | +5 % par rang (15 %) |
 | 3 | choix | **A : Plein soleil** / **B : Cœur froid** | A : vos Capteurs photovoltaïques produisent plus d'énergie. <br> B : votre Réacteur thermonucléaire brûle moins d'hydrogène. | +10 % / −20 % |
 | 4 | 3 rangs | **Plein midi** | Vos Capteurs photovoltaïques lisent une température rapprochée du maximum du mois. | 15 % par rang (45 %) |
