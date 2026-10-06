@@ -810,7 +810,7 @@ Source : page Actualités du jeu (https://play.dynastynova.com/news), API `GET /
 
 ## 18. Dynasties et talents (code du jeu, relevé le 6 octobre 2026)
 
-Source : code du serveur (dépôt Backend, fusion « dynasties, classes and talents v2 », #469, puis #473 et #474) et textes du client (`talents.json`, `classes.json`, `dynasties.json`, FR et EN). Règles confirmées par l'équipe (déduites du code). **Pas encore en jeu au 6 octobre 2026** (dernière version serveur publiée : 2.7.0) : les pages de la rubrique `dynasty` restent non publiées jusqu'à la sortie.
+Source : code du serveur (dépôt Backend, fusion « dynasties, classes and talents v2 », #469, puis #473 et #474) et textes du client (`talents.json`, `classes.json`, `dynasties.json`, FR et EN). Règles confirmées par l'équipe (déduites du code). Rubrique `dynasty` publiée le 6 octobre 2026 à la demande de l'équipe.
 
 ### Dynasties et traits
 - Une dynastie par univers, choisie une fois, jamais changée. Deux traits passifs, deux classes exclusives.

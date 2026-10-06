@@ -163,7 +163,7 @@ Chaque page porte un identifiant de page (P-xx). Abréviations : *[B]* = ton bri
 | P-95 | `misc/referral` | Parrainage | | [J] | `misc-03` |
 | P-97 | `misc/changelog` | Historique du wiki | | | |
 
-### `dynasty`, dynastie et talents (ajoutée le 6 octobre 2026, non publiée jusqu'à la sortie)
+### `dynasty`, dynastie et talents (publiée le 6 octobre 2026)
 | ID | Chemin | Page | Contenu | Sources | Manque |
 |---|---|---|---|---|---|
 | P-100 | `dynasty` | Dynastie et talents (index) | Modèle dynastie + classe + arbre commun, sommaire. | Code [E] | |
@@ -373,7 +373,7 @@ Règle : aucune de ces formules ne va dans le wiki avant confirmation. Les pages
 ---
 
 ### Dynastie et talents (6 octobre 2026)
-- `dynasty-01` ✅ Le wiki n'annonce aucune date de sortie. Les pages restent non publiées tant que la fonctionnalité n'est pas en jeu ; les modifications des pages existantes sont prêtes dans `edits/2026-10-06-dynasty-release.json`, à appliquer à ce moment-là.
+- `dynasty-01` ✅ Le wiki n'annonce aucune date de sortie. Rubrique publiée le 6 octobre 2026 à la demande de l'équipe ; lot `edits/2026-10-06-dynasty-release.json` appliqué le même jour.
 - `dynasty-02` ✅ Ce n'est pas du pay to win : changer de classe ou réinitialiser un arbre ne donne aucune puissance de plus. Les pages donnent les prix sans les présenter comme un avantage.
 - `dynasty-03` ✅ Le wiki emploie les noms du jeu, d'après les traductions du client (Centre d'innovation, Récupérateur, Capteurs photovoltaïques, Collecteur solaire, Condensateur d'hydrogène, Dock orbital, Éclaireur…). Les noms des talents restent ceux qu'affiche le jeu.
 - `dynasty-04` ✅ Le plafond de classe compte l'arbre commun : Vétéran 15 points (pillage 35 %), Oracle 10 points (pillage 40 %, La cache s'ajoute à Coffres enterrés). Code corrigé (Backend #476). Question initiale : Protection contre le pillage : plafond de classe de 15 points pour le Vétéran (arbre commun compris) ; le plafond de 5 de l'Oracle porte-t-il sur La cache seule ou sur le total ?
@@ -449,7 +449,7 @@ Traduction des noms français, à utiliser dans les pages EN (et ES tant que le 
 
 **Publiées** : P-96, P-29, P-02, P-03, P-05, P-06, P-07, P-11, P-12, P-13, P-14, P-15, P-16, P-21, P-22, P-23, P-24, P-26, P-27, P-28, P-31, P-32, P-33, P-41, P-42, P-44, P-45, P-46, P-47, P-51, P-52, P-53, P-61, P-62, P-63, P-64, P-65, P-66, P-67, P-71, P-72, P-73, P-81, P-82, P-83, P-84, P-85, P-86, P-87, P-88, P-89, P-92, P-93, P-94, P-95, P-97, et les 10 pages de rubrique.
 
-**Rubrique `dynasty` (6 octobre 2026)** : 15 pages FR et 15 pages EN rédigées en local (P-100 à P-114), **non créées sur le wiki** (pas de clé d'API sur ce poste) et non publiées tant que la fonctionnalité n'est pas en jeu (`dynasty-01`). À la sortie : `create`, application de `edits/2026-10-06-dynasty-release.json` (déplacements, didacticiel, reconstruction des défenses, accueil), ligne d'historique FR et EN, publication.
+**Rubrique `dynasty` (6 octobre 2026)** : 15 pages FR et 15 pages EN (P-100 à P-114) créées et **publiées** le 6 octobre 2026. Lot `edits/2026-10-06-dynasty-release.json` appliqué (déplacements, didacticiel, reconstruction des défenses, espionnage, accueil), ligne d'historique FR et EN ajoutée. `status` : 174/174 pages identiques.
 
 **Bloquées** :
 | Page | Bloquée par |

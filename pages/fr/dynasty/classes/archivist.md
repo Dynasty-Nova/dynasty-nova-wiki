@@ -1,11 +1,14 @@
 ---
+wiki_id: 152
 locale: "fr"
 path: "dynasty/classes/archivist"
 url: "https://wiki.dynastynova.com/fr/dynasty/classes/archivist"
 title: "L'Archiviste"
 description: "Arbre de classe de l'Archiviste : Mémoire, Épave, Registre."
 tags: ["dynasty"]
-published: false
+published: true
+updated: "2026-10-06T10:29:39.722Z"
+created: "2026-10-06T10:29:38.434Z"
 ---
 
 # L'Archiviste

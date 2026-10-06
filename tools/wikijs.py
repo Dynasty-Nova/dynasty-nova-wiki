@@ -30,6 +30,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SEPARATOR = '\n---\n\n'
 URL = os.environ.get('WIKIJS_URL', 'https://wiki.dynastynova.com').rstrip('/')
+# Cloudflare refuse l'agent par défaut de Python (« Python-urllib ») avec un 403.
+USER_AGENT = 'dynasty-nova-wiki-tools/1.0'
 FIELDS = 'id locale path title description isPublished isPrivate editor scriptCss scriptJs updatedAt createdAt content tags { tag }'
 
 
@@ -72,7 +74,7 @@ def token():
 def gql(query, variables=None):
     data = json.dumps({'query': query, 'variables': variables or {}}).encode()
     req = urllib.request.Request(f'{URL}/graphql', data=data, headers={
-        'Content-Type': 'application/json', 'Authorization': f'Bearer {token()}'})
+        'Content-Type': 'application/json', 'Authorization': f'Bearer {token()}', 'User-Agent': USER_AGENT})
     with urllib.request.urlopen(req, timeout=60) as res:
         out = json.load(res)
     if out.get('errors'):
@@ -207,7 +209,7 @@ def cmd_upload(args):
             f'Content-Type: {mime}\r\n\r\n'.encode() + path.read_bytes() + b'\r\n',
             f'--{boundary}--\r\n'.encode()]
         req = urllib.request.Request(f'{URL}/u', data=b''.join(parts), headers={
-            'Content-Type': f'multipart/form-data; boundary={boundary}', 'Authorization': f'Bearer {token()}'})
+            'Content-Type': f'multipart/form-data; boundary={boundary}', 'Authorization': f'Bearer {token()}', 'User-Agent': USER_AGENT})
         try:
             with urllib.request.urlopen(req, timeout=120) as res:
                 print(f'ok {path.name} ({res.status})')
