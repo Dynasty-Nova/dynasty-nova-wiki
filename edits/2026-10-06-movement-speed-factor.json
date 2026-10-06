@@ -1,0 +1,46 @@
+{
+ "fr/fleet/movement": [
+  [
+   "4. Vous choisissez un **pourcentage de vitesse** de 10 à 100 %, par pas de 10.",
+   "4. Vous choisissez un **pourcentage de vitesse** de 10 à 100 %, par pas de 10. Dans les formules, il devient le facteur $S$, de 1 à 10 : $S = 1$ pour 10 %, $S = 10$ pour 100 %."
+  ],
+  [
+   "- $S$ est le multiplicateur de vitesse de flotte choisi, exprimé sous forme décimale.",
+   "- $S$ est le facteur de vitesse choisi, de 1 (10 %) à 10 (100 %), par pas de 1."
+  ],
+  [
+   "\\frac{S}{100}\\sqrt{\\frac{V}{V_i}} + 1",
+   "\\frac{S}{10}\\sqrt{\\frac{V}{V_i}} + 1"
+  ],
+  [
+   "- $S$ est le pourcentage de vitesse de flotte choisi.",
+   "- $S$ est le facteur de vitesse choisi, de 1 (10 %) à 10 (100 %)."
+  ],
+  [
+   "| Vitesse | Durée d'un trajet                                                  | Hydrogène d'un trajet | Facturé au départ (aller-retour) |\n|---|--------------------------------------------------------------------|---|---|\n| 100% | 10 + (35000/10) × √(10 × 3650 / 20000) ≈ **4738 s** (1h 18 min 8 s) | 20 × 10 × 3650 / 3500 × (1 + 1)² ≈ **208**    | **166** |\n| 50% | 10 + (35000/5) × √1.825 ≈ **9466 s** (2h 37 min 46 s)              | 20 × 10 × 3,650 / 35,000 × (0.5 + 1)² ≈ **46** | **92** |",
+   "| Vitesse | $S$ | Durée d'un trajet | Hydrogène d'un trajet | Facturé au départ (aller-retour) |\n|---|---|---|---|---|\n| 100 % | 10 | 10 + 35 000 / 10 × √(10 × 3 650 / 20 000) ≈ **4 738 s** (1 h 18 min 58 s) | 20 × 10 × 3 650 / 35 000 × (10 / 10 + 1)² ≈ **83** | **166** |\n| 50 % | 5 | 10 + 35 000 / 5 × √1,825 ≈ **9 466 s** (2 h 37 min 46 s) | 20 × 10 × 3 650 / 35 000 × (5 / 10 + 1)² ≈ **46** | **92** |"
+  ]
+ ],
+ "en/fleet/movement": [
+  [
+   "4. You choose a **speed percentage** from 10 to 100%, in steps of 10.",
+   "4. You choose a **speed percentage** from 10 to 100%, in steps of 10. In the formulas it becomes the factor $S$, from 1 to 10: $S = 1$ for 10%, $S = 10$ for 100%."
+  ],
+  [
+   "- $S$ is the chosen fleet speed modifier as a decimal.",
+   "- $S$ is the chosen speed factor, from 1 (10%) to 10 (100%), in steps of 1."
+  ],
+  [
+   "\\frac{S}{100}\\sqrt{\\frac{V}{V_i}} + 1",
+   "\\frac{S}{10}\\sqrt{\\frac{V}{V_i}} + 1"
+  ],
+  [
+   "- $S$ is the chosen fleet speed percentage.",
+   "- $S$ is the chosen speed factor, from 1 (10%) to 10 (100%)."
+  ],
+  [
+   "| Speed | One-way duration                                                        | One-way hydrogen                              | Charged at departure (round trip) |\n|---|-------------------------------------------------------------------------|-----------------------------------------------|---|\n| 100% | 10 + (35000/10) × √(10 × 3650 / 20000) ≈ **4738 s** (1 hour 18 min 8 s) | 20 × 10 × 3650 / 3500 × (1 + 1)² ≈ **208**    | **166** |\n| 50% | 10 + (35000/5) × √1.825 ≈ **9466 s** (2 hours 37 min 46 s)              | 20 × 10 × 3,650 / 35,000 × (0.5 + 1)² ≈ **46** | **92** |",
+   "| Speed | $S$ | One-way duration | One-way hydrogen | Charged at departure (round trip) |\n|---|---|---|---|---|\n| 100% | 10 | 10 + 35,000 / 10 × √(10 × 3,650 / 20,000) ≈ **4,738 s** (1 h 18 min 58 s) | 20 × 10 × 3,650 / 35,000 × (10 / 10 + 1)² ≈ **83** | **166** |\n| 50% | 5 | 10 + 35,000 / 5 × √1.825 ≈ **9,466 s** (2 h 37 min 46 s) | 20 × 10 × 3,650 / 35,000 × (5 / 10 + 1)² ≈ **46** | **92** |"
+  ]
+ ]
+}

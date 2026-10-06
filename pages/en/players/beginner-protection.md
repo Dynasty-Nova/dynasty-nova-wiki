@@ -8,7 +8,7 @@ description: "Who can attack whom: new player protection and point tiers."
 tags: ["players"]
 published: true
 created: "2026-10-02T13:11:54.297Z"
-updated: "2026-10-02T16:38:37.801Z"
+updated: "2026-10-06T08:04:46.907Z"
 ---
 
 # Beginner protection
@@ -17,7 +17,7 @@ updated: "2026-10-02T16:38:37.801Z"
 {.is-info}
 
 > **Universe setting**: point tiers, new player protection length and the inactivity delay may differ from one universe to another.
-> Default and Redline: tiers **1:3 / 1:5 / 1:10**, new player protection **7 days**, inactivity **14 days**
+> Default: tiers **1:3 / 1:5 / 1:10**, new player protection **7 days**, inactivity **14 days** · Redline: same values, except inactivity **7 days**
 {.is-info}
 
 ## Rules
@@ -37,7 +37,7 @@ updated: "2026-10-02T16:38:37.801Z"
 6. A boundary belongs to the upper tier: a player with exactly 5,000 points is at 1:10.
 7. A protected player can still be **spied on**.
 8. **Missile salvos** follow the same rules as an attack.
-9. A player **inactive for 14 days** loses protection: anyone can attack them, whatever the points gap.
+9. A player **inactive for 7 days** (on Redline) loses protection: anyone can attack them, whatever the points gap.
 10. Both protections stack.
 
 ## Worked example
@@ -54,7 +54,7 @@ updated: "2026-10-02T16:38:37.801Z"
 
 - **The stronger player is protected too**: a small player cannot attack a much bigger one.
 - **Your first attack costs you your 7 days**: think twice before attacking during your first week.
-- **Inactivity lifts everything**: after 14 days without logging in, anyone can attack you. Consider [vacation mode](/en/players/vacation-mode) before a long absence.
+- **Inactivity lifts everything**: after 7 days without logging in on Redline, anyone can attack you. Consider [vacation mode](/en/players/vacation-mode) before a long absence.
 - **Points count everything**: economy, research and military. Building a lot can move you to another tier.
 
 ## Related pages

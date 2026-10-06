@@ -8,7 +8,7 @@ description: "Sending Scouts: detail level, risks and counter-espionage."
 tags: ["espionage"]
 published: true
 created: "2026-10-02T13:11:44.334Z"
-updated: "2026-10-02T17:40:41.580Z"
+updated: "2026-10-06T08:08:30.124Z"
 game_version: "Serveur 2.1.0 · Client 3.1.0"
 ---
 
@@ -28,7 +28,7 @@ game_version: "Serveur 2.1.0 · Client 3.1.0"
 1. Espionage is done with **Scouts**, on an Espionage mission, or in one click with the quick spy button of the [galaxy view](/en/universe/galaxy-view). Spying on a cell also **reveals** its planet and owner in the galaxy view, hidden until then behind an unreadable script.
 2. You can spy on a **protected** player. Espionage **does not count** towards the attack limit and does not end your new player protection.
 3. Each **Espionage Technology** level cuts the hydrogen charged for a spy mission by 5%, down to −50%.
-4. Spying on a player **on vacation** is possible, but the report is empty.
+4. Spying on a player **on vacation** is possible: the position is mapped for you and your alliance, but the report reveals nothing (resources, fleet, defenses, buildings, research). Probes are never shot down and the absent player gets no alert.
 5. During **maintenance**, espionage is suspended.
 
 ### Detail level

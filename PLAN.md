@@ -320,9 +320,10 @@ En bref · encart « paramètre d'univers » si besoin · Règles · Exemple chi
 - `patch-01` ✅ Les 7 jours sont un paramètre d'univers. ⏳ Quand la protection par points s'applique aussi, laquelle l'emporte ?
 - `patch-02` ⏳ (remonté à l'équipe) Le Premium (files de 5 ordres au lieu de 2) s'obtient avec 350 Points stellaires. Or l'aide du jeu dit qu'en PvP les Points stellaires ne servent qu'au cosmétique, « sans aucun avantage de jeu ». Le Premium est-il disponible dans les univers PvP ? Faut-il corriger le texte de l'aide ?
 - `patch-03` ✅ L'Éclaireur n'est pas perdu. Cosmologie Appliquée est requise. Durée sur place, nombre d'expéditions simultanées et coût en hydrogène connus (DONNEES §10).
+- `patch-04` ⏳ La note 3.5.0 annonce « Premium : une expédition simultanée de plus pour les abonnés ». C'est un avantage de jeu, alors que le wiki présente le Premium comme du confort et affirme qu'aucun achat ne donne d'avantage de jeu en PvP. L'avantage s'applique-t-il aux univers PvP ? Faut-il nuancer la section « Aucun pay to win » ? (Non reporté dans le wiki en attendant.)
 
 ### Nouvelles questions (2 octobre 2026)
-- `players-10` ✅ 14 jours. (Ancienne question : Inactivité : 14 jours par défaut selon l'équipe, mais l'univers Redline renvoie `inactivityDays: 7`. Redline est-il réglé à 7 jours ?)
+- `players-10` ✅ 7 jours sur Redline (constaté, confirmé le 2026-10-06), réglable par univers ; 14 jours par défaut. (Ancienne question : Inactivité : 14 jours par défaut selon l'équipe, mais l'univers Redline renvoie `inactivityDays: 7`. Redline est-il réglé à 7 jours ?)
 - `rules-01` ✅ (P-90 bloquée jusqu'à un texte officiel) Qui rédige le règlement (multicompte, sitting, push, partage de compte) et la page de conditions d'utilisation ? Le wiki ne publiera rien tant qu'il n'existe pas de texte officiel.
 - `text-01` ✅ Le texte sur le pillage est jugé correct (50 % à chaque fois, donc dégressif de fait). Ne pas parler de l'indicateur d'inactivité. Reste à corriger : DONNEES §11.9.
 - `moon-01` ✅ P-47 et P-73 débloquées. (Question : Porte de saut et Phalange sont maintenant entièrement documentées. Peut-on débloquer P-47 et P-73 ? P-17 Lunes reste bloquée faute de données sur la Base lunaire.)
@@ -355,7 +356,7 @@ Règle : aucune de ces formules ne va dans le wiki avant confirmation. Les pages
 - `misc-02` ✅ Prix et contenu du Premium connus (DONNEES §13).
 - `misc-03` ✅ 30 Points stellaires quand le filleul atteint 100 points.
 - `misc-04` ✅ Consigne levée le 2 octobre au soir : page P-96 `misc/private-universes` créée et publiée.
-- `misc-06` ⏳ Prix des trois formules d'univers privé (25, 75, 200 joueurs) et de la formule à durée fixe (minimum de jours, remise) ?
+- `misc-06` ⏳ En partie répondue par les actualités du jeu : formules Escouade (25), Flotte (75), Armada (200), à partir de 4,99 € la semaine. Reste : prix de chaque formule à la semaine et au mois, et de la durée fixe (minimum de jours, remise) ?
 
 ---
 

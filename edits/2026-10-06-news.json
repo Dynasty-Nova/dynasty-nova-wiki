@@ -1,0 +1,102 @@
+{
+ "fr/misc/premium": [
+  [
+   "Un skin remplace l'apparence de votre planète dans le jeu. Il s'obtient en boutique, ou dans le lot mensuel du Premium. Il ne change rien d'autre : ni la production, ni la taille, ni la température.",
+   "Un skin remplace l'apparence de votre planète dans le jeu. Il s'obtient en boutique, ou dans le lot mensuel du Premium. Il ne change rien d'autre : ni la production, ni la taille, ni la température.\n\n- Quatre raretés : **Commun** (50 Points stellaires), **Rare** (75), **Épique** (100) et **Légendaire** (125).\n- Un skin s'affiche en 3D sur son globe avant l'achat. Certains ont leur propre système d'anneaux.\n- Un skin acheté s'applique depuis le panneau « Apparence » de n'importe laquelle de vos planètes.\n\n### Boutique en rotation\n9. La boutique des cosmétiques s'ouvre sur des **vitrines** : la **boutique du jour** (avatars et skins, renouvelée chaque jour à minuit, heure de Paris) et **À la une** (un avatar et un skin, renouvelés chaque lundi).\n10. **Un cosmétique ne s'achète que pendant son passage en vitrine.** Ce que vous possédez déjà reste à vous et s'équipe comme avant.\n11. La **Collection** montre tout le catalogue. Un objet grisé n'est pas en vitrine aujourd'hui ; sa fiche indique son dernier passage.\n12. **Mes envies** : touchez le cœur d'un objet pour être prévenu le jour où il revient en vitrine. La date de retour n'est jamais annoncée à l'avance.\n13. Certains **packs** sont vendus à prix réduit : vous ne payez que les objets que vous n'avez pas encore. Certaines **éditions limitées** ne passent que dans une seule vitrine."
+  ],
+  [
+   "| 500 Points stellaires | 9,99 € |",
+   "| 500 Points stellaires | 9,99 € |\n| Skin de planète Commun, Rare, Épique, Légendaire | 50, 75, 100, 125 Points stellaires |"
+  ],
+  [
+   "- **Le premier renommage est gratuit**",
+   "- **Un objet repéré peut tarder à revenir** : sans vitrine, pas d'achat possible. Ajoutez-le à vos envies pour être prévenu.\n- **Le premier renommage est gratuit**"
+  ]
+ ],
+ "en/misc/premium": [
+  [
+   "A skin replaces your planet's look in the game. You get it from the shop, or in the Premium monthly set. It changes nothing else: neither output, size nor temperature.",
+   "A skin replaces your planet's look in the game. You get it from the shop, or in the Premium monthly set. It changes nothing else: neither output, size nor temperature.\n\n- Four rarities: **Common** (50 Stellar Points), **Rare** (75), **Epic** (100) and **Legendary** (125).\n- A skin can be previewed in 3D on its globe before you buy it. Some have their own ring system.\n- A skin you buy is applied from the \"Appearance\" panel of any of your planets.\n\n### Rotating shop\n9. The cosmetics shop opens on **showcases**: the **daily shop** (avatars and skins, renewed every day at midnight, Paris time) and **Featured** (one avatar and one skin, renewed every Monday).\n10. **A cosmetic can only be bought while it is on show.** What you already own stays yours and is equipped as before.\n11. The **Collection** shows the whole catalogue. A greyed-out item is not on show today; its sheet shows when it was last on show.\n12. **My wishlist**: tap an item's heart to be notified on the day it returns to the shop. The return date is never announced in advance.\n13. Some **packs** are discounted: you only pay for the items you do not own yet. Some **limited editions** appear in a single showcase only."
+  ],
+  [
+   "| 500 Stellar Points | €9.99 |",
+   "| 500 Stellar Points | €9.99 |\n| Planet skin Common, Rare, Epic, Legendary | 50, 75, 100, 125 Stellar Points |"
+  ],
+  [
+   "- **The first rename is free**",
+   "- **An item you like may take a while to return**: off the showcase, it cannot be bought. Add it to your wishlist to be notified.\n- **The first rename is free**"
+  ]
+ ],
+ "fr/espionage/spying": [
+  [
+   "4. Espionner un joueur **en vacances** est possible, mais le rapport est vide.",
+   "4. Espionner un joueur **en vacances** est possible : la case est cartographiée pour vous et votre alliance, mais le rapport ne révèle rien (ressources, flotte, défenses, bâtiments, recherches). Les sondes ne sont jamais abattues et le joueur absent n'est pas alerté."
+  ]
+ ],
+ "en/espionage/spying": [
+  [
+   "4. Spying on a player **on vacation** is possible, but the report is empty.",
+   "4. Spying on a player **on vacation** is possible: the position is mapped for you and your alliance, but the report reveals nothing (resources, fleet, defenses, buildings, research). Probes are never shot down and the absent player gets no alert."
+  ]
+ ],
+ "fr/players/messages-and-reports": [
+  [
+   "8. Vous pouvez aussi **partager une position** de la galaxie avec votre alliance (voir [La vue galaxie](/fr/universe/galaxy-view)).",
+   "8. Vous pouvez aussi **partager une position** de la galaxie avec votre alliance (voir [La vue galaxie](/fr/universe/galaxy-view)).\n9. **Rapports à la carte** : dans Paramètres, choisissez les rapports que vous recevez et ceux que la cloche annonce. Les retours de flotte se règlent mission par mission. Les rapports d'espionnage, de combat et d'incident (flotte perdue, colonisation ratée) sont toujours reçus.\n10. Vous pouvez écrire à un joueur directement depuis la galaxie, la fiche d'une planète ou le classement."
+  ]
+ ],
+ "en/players/messages-and-reports": [
+  [
+   "8. You can also **share a galaxy position** with your alliance (see [The galaxy view](/en/universe/galaxy-view)).",
+   "8. You can also **share a galaxy position** with your alliance (see [The galaxy view](/en/universe/galaxy-view)).\n9. **Reports your way**: in Settings, pick the reports you receive and the ones the bell announces. Fleet returns are set mission by mission. Spy, battle and incident reports (fleet lost, failed colonization) are always received.\n10. You can write to a player straight from the galaxy, a planet's sheet or the ranking."
+  ]
+ ],
+ "fr/misc/private-universes": [
+  [
+   "selon la formule.",
+   "selon la formule. Elles s'appellent **Escouade** (25), **Flotte** (75) et **Armada** (200), et se paient à la semaine, au mois ou pour une durée fixe, **à partir de 4,99 € la semaine**."
+  ]
+ ],
+ "en/misc/private-universes": [
+  [
+   "depending on the plan.",
+   "depending on the plan. They are called **Squad** (25), **Fleet** (75) and **Armada** (200), and are paid weekly, monthly or for a fixed term, **from €4.99 a week**."
+  ]
+ ],
+ "fr/players/alliances": [
+  [
+   "Le nom et le tag restent réservés 30 jours.",
+   "Le nom et le tag restent réservés 30 jours.\n12. **Annonce** : le fondateur et le vice-président peuvent épingler un message en tête de l'accueil de l'alliance, visible des seuls membres."
+  ]
+ ],
+ "en/players/alliances": [
+  [
+   "The name and tag stay reserved for 30 days.",
+   "The name and tag stay reserved for 30 days.\n12. **Announcement**: the founder and the vice-president can pin a message at the top of the alliance home, visible to members only."
+  ]
+ ],
+ "fr/misc": [
+  [
+   "- [Historique du wiki](/fr/misc/changelog)",
+   "- [Historique du wiki](/fr/misc/changelog)\n\nLes notes de version et annonces du jeu sont publiées en jeu, page [Actualités](https://play.dynastynova.com/news) (connexion requise)."
+  ]
+ ],
+ "en/misc": [
+  [
+   "- [Wiki changelog](/en/misc/changelog)",
+   "- [Wiki changelog](/en/misc/changelog)\n\nThe game's release notes and announcements are published in game, on the [News](https://play.dynastynova.com/news) page (login required)."
+  ]
+ ],
+ "fr/misc/changelog": [
+  [
+   "Valeurs relevées sur l'univers Redline.",
+   "Valeurs relevées sur l'univers Redline.\n- **5 octobre 2026** : formules des distances et des durées de vol mises en forme.\n- **6 octobre 2026** : formule des durées de vol corrigée (constante 35 000, facteur de vitesse de 1 à 10, conformément à la correction du jeu qui rendait les trajets dix fois trop courts) ; inactivité de 7 jours sur Redline ; boutique en rotation et raretés des skins de planète ; espionnage des joueurs en vacances ; rapports à la carte ; annonce d'alliance ; noms et prix de départ des univers privés."
+  ]
+ ],
+ "en/misc/changelog": [
+  [
+   "Values recorded on the Redline universe.",
+   "Values recorded on the Redline universe.\n- **5 October 2026**: distance and flight time formulas reformatted.\n- **6 October 2026**: flight time formula corrected (constant 35,000, speed factor from 1 to 10, following the game fix for trips that were ten times too short); 7-day inactivity on Redline; rotating shop and planet skin rarities; spying on players on vacation; reports your way; alliance announcement; private universe plan names and starting price."
+  ]
+ ]
+}

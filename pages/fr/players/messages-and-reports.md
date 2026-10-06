@@ -8,7 +8,7 @@ description: "Chat, rapports et partage avec l'alliance."
 tags: ["players"]
 published: true
 created: "2026-10-02T13:09:48.568Z"
-updated: "2026-10-02T16:37:14.124Z"
+updated: "2026-10-06T08:08:48.242Z"
 ---
 
 # Messagerie et rapports
@@ -29,6 +29,8 @@ updated: "2026-10-02T16:37:14.124Z"
 6. **Partager un rapport** avec votre alliance le rend lisible par tous ses membres, actuels et futurs, depuis le canal d'alliance. Le message ne contient qu'un lien vers le rapport : chacun l'ouvre avec ses propres droits. Il reste **30 jours** dans le canal.
 7. Un rapport partagé avec vous appartient à son destinataire : vous ne pouvez ni le supprimer ni le partager à nouveau.
 8. Vous pouvez aussi **partager une position** de la galaxie avec votre alliance (voir [La vue galaxie](/fr/universe/galaxy-view)).
+9. **Rapports à la carte** : dans Paramètres, choisissez les rapports que vous recevez et ceux que la cloche annonce. Les retours de flotte se règlent mission par mission. Les rapports d'espionnage, de combat et d'incident (flotte perdue, colonisation ratée) sont toujours reçus.
+10. Vous pouvez écrire à un joueur directement depuis la galaxie, la fiche d'une planète ou le classement.
 
 ## Exemple chiffré
 

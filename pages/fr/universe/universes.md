@@ -8,7 +8,7 @@ description: "Ce qu'est un univers et ses réglages."
 tags: ["universe"]
 published: true
 created: "2026-10-02T13:08:04.689Z"
-updated: "2026-10-02T17:41:51.324Z"
+updated: "2026-10-06T08:04:57.344Z"
 ---
 
 # Les univers
@@ -46,7 +46,7 @@ Sur Redline, toutes les vitesses sont à ×1. Dans un univers où la vitesse de 
 | Joueurs maximum | 1 000 |
 | Ressources de départ | 500 métal, 500 cristal |
 | Protection des débutants | 1:3 sous 500 points, 1:5 sous 5 000, 1:10 sous 500 000 |
-| Inactivité levant la protection | 14 jours |
+| Inactivité levant la protection | 7 jours |
 | Protection de nouveau joueur | 7 jours |
 | Limite d'attaques | 6 par 24 h |
 | Débris | vaisseaux 30 %, défenses 0 % |

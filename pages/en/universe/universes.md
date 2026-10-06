@@ -8,7 +8,7 @@ description: "What a universe is and its settings."
 tags: ["universe"]
 published: true
 created: "2026-10-02T13:10:20.972Z"
-updated: "2026-10-02T17:41:52.826Z"
+updated: "2026-10-06T08:04:49.704Z"
 ---
 
 # Universes
@@ -46,7 +46,7 @@ On Redline, all speeds are ×1. In a universe with building speed ×2, a buildin
 | Maximum players | 1,000 |
 | Starting resources | 500 metal, 500 crystal |
 | Beginner protection | 1:3 under 500 points, 1:5 under 5,000, 1:10 under 500,000 |
-| Inactivity lifting protection | 14 days |
+| Inactivity lifting protection | 7 days |
 | New player protection | 7 days |
 | Attack limit | 6 per 24 h |
 | Debris | ships 30%, defenses 0% |

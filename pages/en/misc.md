@@ -8,7 +8,7 @@ description: "Maintenance, Premium and other topics."
 tags: ["misc"]
 published: true
 created: "2026-10-02T13:12:12.172Z"
-updated: "2026-10-02T17:41:46.281Z"
+updated: "2026-10-06T08:08:35.622Z"
 ---
 
 # Miscellaneous
@@ -23,3 +23,5 @@ updated: "2026-10-02T17:41:46.281Z"
 - [Referral](/en/misc/referral)
 - [Private universes](/en/misc/private-universes)
 - [Wiki changelog](/en/misc/changelog)
+
+The game's release notes and announcements are published in game, on the [News](https://play.dynastynova.com/news) page (login required).

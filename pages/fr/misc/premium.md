@@ -8,7 +8,7 @@ description: "Ce que le Premium et les Points stellaires apportent, et leurs pri
 tags: ["misc"]
 published: true
 created: "2026-10-02T13:09:56.364Z"
-updated: "2026-10-02T17:40:57.942Z"
+updated: "2026-10-06T08:08:42.589Z"
 game_version: "Serveur 2.1.0 · Client 3.1.0"
 ---
 
@@ -43,6 +43,17 @@ C'est un parti pris fort de Dynasty Nova : dans les univers PvP, **aucun achat n
 ### Skins de planète
 Un skin remplace l'apparence de votre planète dans le jeu. Il s'obtient en boutique, ou dans le lot mensuel du Premium. Il ne change rien d'autre : ni la production, ni la taille, ni la température.
 
+- Quatre raretés : **Commun** (50 Points stellaires), **Rare** (75), **Épique** (100) et **Légendaire** (125).
+- Un skin s'affiche en 3D sur son globe avant l'achat. Certains ont leur propre système d'anneaux.
+- Un skin acheté s'applique depuis le panneau « Apparence » de n'importe laquelle de vos planètes.
+
+### Boutique en rotation
+9. La boutique des cosmétiques s'ouvre sur des **vitrines** : la **boutique du jour** (avatars et skins, renouvelée chaque jour à minuit, heure de Paris) et **À la une** (un avatar et un skin, renouvelés chaque lundi).
+10. **Un cosmétique ne s'achète que pendant son passage en vitrine.** Ce que vous possédez déjà reste à vous et s'équipe comme avant.
+11. La **Collection** montre tout le catalogue. Un objet grisé n'est pas en vitrine aujourd'hui ; sa fiche indique son dernier passage.
+12. **Mes envies** : touchez le cœur d'un objet pour être prévenu le jour où il revient en vitrine. La date de retour n'est jamais annoncée à l'avance.
+13. Certains **packs** sont vendus à prix réduit : vous ne payez que les objets que vous n'avez pas encore. Certaines **éditions limitées** ne passent que dans une seule vitrine.
+
 ## Exemple chiffré
 
 Un mois de Premium en Points stellaires : 350 points. En achetant les points, il faut le pack de 200 (3,99 €) et celui de 500 ou plusieurs de 25 : un mois payé directement en euros (4,99 €) revient moins cher que 350 points achetés.
@@ -57,6 +68,7 @@ Un mois de Premium en Points stellaires : 350 points. En achetant les points, il
 | 25 Points stellaires | 0,49 € |
 | 200 Points stellaires | 3,99 € |
 | 500 Points stellaires | 9,99 € |
+| Skin de planète Commun, Rare, Épique, Légendaire | 50, 75, 100, 125 Points stellaires |
 
 | | Compte standard | Premium |
 |---|---|---|
@@ -68,6 +80,7 @@ Un mois de Premium en Points stellaires : 350 points. En achetant les points, il
 ## Pièges fréquents
 
 - **Le Premium en Points stellaires ne se renouvelle pas** : pensez à le reprendre à la fin du mois.
+- **Un objet repéré peut tarder à revenir** : sans vitrine, pas d'achat possible. Ajoutez-le à vos envies pour être prévenu.
 - **Le premier renommage est gratuit** : choisissez bien le nom suivant, il coûtera 20 Points stellaires.
 - **Les ordres en file ne sont payés qu'au lancement** : avec 5 ordres, prévoyez les ressources de chacun au moment où il démarre.
 

@@ -126,7 +126,7 @@ Attention : le code `battle_cruiser` désigne le Colossus (équivalent de l'Éto
 | Ouverture | 26 septembre 2026, 16:00 UTC |
 | Ressources de départ | 500 métal, 500 cristal |
 | Anti-bash | 6 attaques sur 24 h |
-| Protection débutants | paliers 500 → 1:3, 5 000 → 1:5, 500 000 → 1:10 ; perdue après `inactivityDays` = 7 jours d'inactivité sur Redline (14 par défaut selon l'équipe, `players-06`) |
+| Protection débutants | paliers 500 → 1:3, 5 000 → 1:5, 500 000 → 1:10 ; perdue après `inactivityDays` = 7 jours d'inactivité sur Redline (confirmé, `players-10`), 14 par défaut selon l'équipe (`players-06`), réglable par univers |
 | Débris (« Champ de ruines » dans le jeu en FR) | 30 % pour les vaisseaux, 0 % pour les défenses |
 | Formation de lune | chance max 20 %, atteinte pour 2 000 000 de débris |
 | Files de construction | 2 ordres par file, 5 en Premium (l'ordre en cours compris) |
@@ -521,9 +521,9 @@ Durée d'une recherche (h) = (métal + cristal) / (1 000 × (1 + niveau effectif
 - La flotte va à la vitesse de son vaisseau le plus lent, × bonus du talent Propulsion coordonnée.
 - **Le facteur de distorsion (`warpFactor`) n'a aucun effet** : statistique réservée, lue par aucun calcul.
 
-**Durée** (secondes) = (10 + 35 000 / vitesse% × √(10 × d / V)) / vitesse Flottes de l'univers, arrondie, minimum 1. V = vitesse de la flotte ; vitesse% = pourcentage choisi, de 10 à 100 par pas de 10 dans l'interface (la formule accepte 1 à 100).
+**Durée** (secondes) = (10 + 35 000 / S × √(10 × d / V)) / vitesse Flottes de l'univers, arrondie, minimum 1. V = vitesse de la flotte ; S = facteur de vitesse de 1 à 10 par pas de 1 (1 = 10 %, 10 = 100 %), précisé le 2026-10-06 (la constante est passée de 3 500 à 35 000).
 
-**Consommation** par trajet = somme, pour chaque type de vaisseau, de conso × quantité × d / 35 000 × (vitesse% / 100 × √(V flotte / V vaisseau) + 1)², arrondie à l'inférieur, minimum 1.
+**Consommation** par trajet = somme, pour chaque type de vaisseau, de conso × quantité × d / 35 000 × (S / 10 × √(V flotte / V vaisseau) + 1)², arrondie à l'inférieur, minimum 1.
 - Flotte homogène : formule OGame (vitesse% / 10 + 1)² à un facteur près. Les vaisseaux plus rapides que la flotte paient moins.
 - **Le retour est payé au départ** (×2) pour toutes les missions sauf Colonisation et Stationnement.
 - Un rappel ne redébite ni ne rembourse rien. Rappel possible à tout moment avant la fin du trajet aller.
@@ -661,7 +661,7 @@ Conditions : expéditions activées dans l'univers ; Cosmologie Appliquée ≥ 1
 - L'inactivité ne s'accumule pas pendant les vacances.
 
 **Inactivité**
-- Un seul palier : **14 jours** sans connexion, paramètre d'univers (`players-10` : 14 jours sur Redline, bien que l'API de l'univers renvoie `inactivityDays: 7`).
+- Un seul palier, paramètre d'univers : **14 jours** par défaut, **7 jours** sur Redline (`players-10`, confirmé le 2026-10-06 : 7 jours constatés, conforme à `inactivityDays: 7`).
 - Effet : perte de la protection des débutants, attaquable par tous quel que soit l'écart de points.
 - Pas de suppression de compte, pas d'abandon automatique des planètes. Indicateur d'inactivité dans la galaxie : **ne pas en parler** dans le wiki tant qu'il n'est pas affiché.
 - Alliance : un fondateur silencieux est alerté à 7 et 12 jours et perd son siège à 14.
@@ -775,7 +775,7 @@ Source unique pour la page P-06 « Vous venez d'OGame ? ».
 - Annulation : 80 % au prorata du temps restant (100 % dans OGame). Démolition gratuite, moitié du temps, ne rend rien.
 - Files : quatre files (bâtiments, recherche, vaisseaux, défenses) de 2 ordres, 5 en Premium. Un ordre en file n'est payé qu'à son tour, abandonné sans frais si la base ne peut pas payer.
 - Station de réparation : part complémentaire au taux de débris (45 % à 57 % de ce que les débris laissent), durée 30 min à 12 h, n'occupe aucune case.
-- Protection débutant : paliers réglables, symétriques, levée après 14 jours d'inactivité.
+- Protection débutant : paliers réglables, symétriques, levée après un délai d'inactivité réglable par univers (7 jours sur Redline).
 - Espionnage : écart de Renseignement + bonus de sondes plafonné à +5, sans carré ; contre-espionnage en un tirage de 5 à 25 % pour toute la vague ; au niveau 10, case découverte durablement.
 - Phalange : 5 000 hydrogène par scan (10 000 dans OGame), portée identique.
 - Collecteur solaire : Tmax / 4 + base (OGame : (T + 140) / 6). Capteurs photovoltaïques : bonus de 1 + T actuelle / 100.
@@ -792,3 +792,18 @@ Source unique pour la page P-06 « Vous venez d'OGame ? ».
 
 - Langues activées (namespaces) : **fr et en uniquement**. L'espagnol n'est pas activé.
 - Compte `smashed1944`, groupe « Membre » : droits de création accordés le 2 octobre 2026. Arborescence créée (non publiée).
+
+## 17. Actualités du jeu (`/news`, relevées le 6 octobre 2026)
+
+Source : page Actualités du jeu (https://play.dynastynova.com/news), API `GET /news` (authentifiée), 14 annonces en FR, EN et ES (champs `title`, `body`, `startsAt`, `callToAction`). Seules les informations utiles au wiki sont reprises.
+
+- **3.6.0 (4 oct.)** : boutique en rotation (vitrine du jour renouvelée à minuit, heure de Paris ; « À la une » hebdomadaire renouvelée le lundi ; Collection ; liste d'envies avec notification au retour, date jamais annoncée ; un cosmétique ne s'achète que pendant son passage en vitrine ; packs à prix réduit où l'on ne paie que ce qu'on n'a pas ; éditions limitées à une seule vitrine). Rapports à la carte (Paramètres : rapports reçus et annoncés par la cloche ; retours de flotte mission par mission ; espionnage, combats et incidents toujours reçus). Messagerie depuis la galaxie, la fiche d'une planète ou le classement. Écrans d'alliance repensés, score en cours de chaque guerre. Correction : centre logistique visible dans le détail du stockage ; skin conservé dans la vue 3D.
+- **3.5.0 (3 oct.)** : annonce d'alliance épinglée (fondateur et vice-président, visible des membres). Trésorerie : vue « Par membre ». Centre logistique : +10 % de stockage par niveau. **Premium : une expédition simultanée de plus pour les abonnés** (`patch-04`). Tag d'alliance dans le classement. Fonder une alliance ne demande plus que Diplomatie Stellaire 1 (plus le centre logistique). Boutique triée par emplacement et rareté, aperçu 3D. Carte galaxie : un joueur trop fort n'est plus présenté comme « débutant protégé ». **Correction : les temps de vol étaient dix fois trop courts** (constante 3 500 passée à 35 000). Bouclier nouvel arrivant retiré à ceux qui avaient déjà attaqué. Adversaires contrôlés par le jeu améliorés.
+- **Skins de planète (3 oct.)** : raretés Commun 50, Rare 75, Épique 100, Légendaire 125 Points stellaires ; aperçu 3D ; application depuis le panneau « Apparence » de n'importe quelle planète ; purement cosmétique. Légendaires cités : Dynastie, Spore, Les Terrasses, La ruche.
+- **Premium en points (2 oct.)** : 350 Points stellaires = 1 mois, sans reconduction, lot du mois livré tout de suite, impossible si déjà Premium.
+- **Bouclier nouvel arrivant (2 oct.)** : 7 jours, rétroactif à sa mise en place ; protège aussi des adversaires contrôlés par le jeu ; badge « Nouveau joueur » avec date de fin ; attaque ou salve de missiles = fin définitive (avertissement) ; espionner, transporter, coloniser, recycler, partir en expédition ne le brisent pas.
+- **Expéditions (2 oct.)** et **3.1.0** : conformes à DONNEES §10 ; navigation clavier dans la galaxie (flèches, Ctrl ou Cmd + flèches) ; filtre de rapports « Expédition ».
+- **1er oct. (Serveur 2.0.0 · Client 3.0.0)** : skins à anneaux ; espionnage des joueurs en vacances rétabli (case cartographiée pour soi et son alliance, rapport vide, sondes jamais abattues, aucune alerte).
+- **30 sept.** : favoris (10, 200 en Premium), vue Empire, bonus de position (DONNEES §15), Synthétiseur d'hydrogène dépendant de la température (plus froid = plus de production, consommation d'énergie inchangée).
+- **Univers privés (30 sept.)** : formules Escouade (25), Flotte (75), Armada (200) ; EN : Squad, Fleet, Armada ; à la semaine, au mois ou pour une durée fixe ; à partir de 4,99 € la semaine (`misc-06` en partie répondue).
+- **Premium (30 sept.)** : files de 2 à 5 ordres, lot mensuel (2 avatars, 1 skin, 30 Points stellaires, jamais vendus en boutique, conservés après l'abonnement), formules 1, 3 ou 6 mois dès 4,33 € par mois.

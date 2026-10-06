@@ -8,7 +8,7 @@ description: "Chat, reports and sharing with your alliance."
 tags: ["players"]
 published: true
 created: "2026-10-02T13:12:08.234Z"
-updated: "2026-10-02T16:38:47.636Z"
+updated: "2026-10-06T08:08:38.488Z"
 ---
 
 # Messages and reports
@@ -29,6 +29,8 @@ updated: "2026-10-02T16:38:47.636Z"
 6. **Sharing a report** with your alliance makes it readable by all its members, current and future, from the alliance channel. The message only carries a link to the report: everyone opens it with their own rights. It stays **30 days** in the channel.
 7. A report shared with you belongs to its recipient: you can neither delete nor re-share it.
 8. You can also **share a galaxy position** with your alliance (see [The galaxy view](/en/universe/galaxy-view)).
+9. **Reports your way**: in Settings, pick the reports you receive and the ones the bell announces. Fleet returns are set mission by mission. Spy, battle and incident reports (fleet lost, failed colonization) are always received.
+10. You can write to a player straight from the galaxy, a planet's sheet or the ranking.
 
 ## Worked example
 

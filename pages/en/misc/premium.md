@@ -8,7 +8,7 @@ description: "What Premium and Stellar Points provide, and their prices."
 tags: ["misc"]
 published: true
 created: "2026-10-02T13:12:16.095Z"
-updated: "2026-10-02T17:40:59.521Z"
+updated: "2026-10-06T08:08:32.910Z"
 game_version: "Serveur 2.1.0 · Client 3.1.0"
 ---
 
@@ -43,6 +43,17 @@ This is a strong choice in Dynasty Nova: in PvP universes, **no purchase gives a
 ### Planet skins
 A skin replaces your planet's look in the game. You get it from the shop, or in the Premium monthly set. It changes nothing else: neither output, size nor temperature.
 
+- Four rarities: **Common** (50 Stellar Points), **Rare** (75), **Epic** (100) and **Legendary** (125).
+- A skin can be previewed in 3D on its globe before you buy it. Some have their own ring system.
+- A skin you buy is applied from the "Appearance" panel of any of your planets.
+
+### Rotating shop
+9. The cosmetics shop opens on **showcases**: the **daily shop** (avatars and skins, renewed every day at midnight, Paris time) and **Featured** (one avatar and one skin, renewed every Monday).
+10. **A cosmetic can only be bought while it is on show.** What you already own stays yours and is equipped as before.
+11. The **Collection** shows the whole catalogue. A greyed-out item is not on show today; its sheet shows when it was last on show.
+12. **My wishlist**: tap an item's heart to be notified on the day it returns to the shop. The return date is never announced in advance.
+13. Some **packs** are discounted: you only pay for the items you do not own yet. Some **limited editions** appear in a single showcase only.
+
 ## Worked example
 
 One month of Premium in Stellar Points: 350 points. Buying those points takes the 200 pack (€3.99) plus the 500 pack or several 25 packs: a month paid directly in euros (€4.99) costs less than 350 bought points.
@@ -57,6 +68,7 @@ One month of Premium in Stellar Points: 350 points. Buying those points takes th
 | 25 Stellar Points | €0.49 |
 | 200 Stellar Points | €3.99 |
 | 500 Stellar Points | €9.99 |
+| Planet skin Common, Rare, Epic, Legendary | 50, 75, 100, 125 Stellar Points |
 
 | | Standard account | Premium |
 |---|---|---|
@@ -68,6 +80,7 @@ One month of Premium in Stellar Points: 350 points. Buying those points takes th
 ## Common pitfalls
 
 - **Premium bought with Stellar Points does not renew**: remember to take it again at the end of the month.
+- **An item you like may take a while to return**: off the showcase, it cannot be bought. Add it to your wishlist to be notified.
 - **The first rename is free**: pick the next name carefully, it will cost 20 Stellar Points.
 - **Queued orders are paid only when they start**: with 5 orders, plan each one's resources for the moment it starts.
 

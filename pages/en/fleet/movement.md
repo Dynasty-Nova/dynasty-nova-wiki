@@ -8,7 +8,7 @@ description: "Speed, flight time, hydrogen use and fleet slots."
 tags: ["fleet"]
 published: true
 created: "2026-10-02T13:11:09.961Z"
-updated: "2026-10-02T16:38:06.533Z"
+updated: "2026-10-06T08:04:43.668Z"
 ---
 
 # Fleet movement
@@ -28,7 +28,7 @@ updated: "2026-10-02T16:38:06.533Z"
 ### Speed
 2. A ship's speed = base speed × (1 + bonus × level of its drive's research): **+10%** per level of Combustion Drive, **+20%** of Impulse Drive, **+30%** of Hyperspace Drive.
 3. A fleet flies at the speed of its **slowest ship**, raised by the Coordinated propulsion alliance talent.
-4. You choose a **speed percentage** from 10 to 100%, in steps of 10.
+4. You choose a **speed percentage** from 10 to 100%, in steps of 10. In the formulas it becomes the factor $S$, from 1 to 10: $S = 1$ for 10%, $S = 10$ for 100%.
 
 ### Distance
 
@@ -57,7 +57,7 @@ $$
 - $T$ is the flight time of the fleet in seconds.
 - $D$ is the flight distance as calculated above (See [Coordinates](/en/universe/coordinates) for more details).
 - $V$ is the speed of the slowest ship in the fleet.
-- $S$ is the chosen fleet speed modifier as a decimal.
+- $S$ is the chosen speed factor, from 1 (10%) to 10 (100%), in steps of 1.
 - $A$ is the Universe's Fleet Speed Acceleration factor.
 
 ### Hydrogen use
@@ -75,7 +75,7 @@ F_i \times N_i \times D
 35\,000
 }
 \left(
-\frac{S}{100}\sqrt{\frac{V}{V_i}} + 1
+\frac{S}{10}\sqrt{\frac{V}{V_i}} + 1
 \right)^2
 \right)
 $$
@@ -84,7 +84,7 @@ $$
 - $F_i$ is the fuel consumption of ship type $i$.
 - $N_i$ is the number of ships of type $i$ in the fleet.
 - $D$ is the flight distance.
-- $S$ is the chosen fleet speed percentage.
+- $S$ is the chosen speed factor, from 1 (10%) to 10 (100%).
 - $V$ is the speed of the slowest ship in the fleet.
 - $V_i$ is the speed of ship type $i$.
 
@@ -100,10 +100,10 @@ $$
 
 10 Interceptors (speed 20,000 with Combustion Drive 6, fuel use 20 each) attack from [2:40:8] to [2:50:3]. Distance: 2,700 + 95 × 10 = **3,650**.
 
-| Speed | One-way duration                                                        | One-way hydrogen                              | Charged at departure (round trip) |
-|---|-------------------------------------------------------------------------|-----------------------------------------------|---|
-| 100% | 10 + (35000/10) × √(10 × 3650 / 20000) ≈ **4738 s** (1 hour 18 min 8 s) | 20 × 10 × 3650 / 3500 × (1 + 1)² ≈ **208**    | **166** |
-| 50% | 10 + (35000/5) × √1.825 ≈ **9466 s** (2 hours 37 min 46 s)              | 20 × 10 × 3,650 / 35,000 × (0.5 + 1)² ≈ **46** | **92** |
+| Speed | $S$ | One-way duration | One-way hydrogen | Charged at departure (round trip) |
+|---|---|---|---|---|
+| 100% | 10 | 10 + 35,000 / 10 × √(10 × 3,650 / 20,000) ≈ **4,738 s** (1 h 18 min 58 s) | 20 × 10 × 3,650 / 35,000 × (10 / 10 + 1)² ≈ **83** | **166** |
+| 50% | 5 | 10 + 35,000 / 5 × √1.825 ≈ **9,466 s** (2 h 37 min 46 s) | 20 × 10 × 3,650 / 35,000 × (5 / 10 + 1)² ≈ **46** | **92** |
 
 At half speed, the flight takes twice as long but uses **45% less hydrogen**.
 

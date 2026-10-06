@@ -8,7 +8,7 @@ description: "Qui peut attaquer qui : protection de nouveau joueur et paliers de
 tags: ["players"]
 published: true
 created: "2026-10-02T13:09:35.168Z"
-updated: "2026-10-02T16:37:04.084Z"
+updated: "2026-10-06T08:04:54.420Z"
 ---
 
 # Protection des débutants
@@ -17,7 +17,7 @@ updated: "2026-10-02T16:37:04.084Z"
 {.is-info}
 
 > **Paramètre d'univers** : les paliers de points, la durée de la protection de nouveau joueur et le délai d'inactivité peuvent être différents selon l'univers.
-> Par défaut et sur Redline : paliers **1:3 / 1:5 / 1:10**, protection de nouveau joueur **7 jours**, inactivité **14 jours**
+> Par défaut : paliers **1:3 / 1:5 / 1:10**, protection de nouveau joueur **7 jours**, inactivité **14 jours** · Redline : mêmes valeurs, sauf inactivité **7 jours**
 {.is-info}
 
 ## Règles
@@ -37,7 +37,7 @@ updated: "2026-10-02T16:37:04.084Z"
 6. Une borne appartient au palier du dessus : un joueur à exactement 5 000 points est en 1:10.
 7. Un joueur protégé reste **espionnable**.
 8. Les **salves de missiles** sont soumises aux mêmes règles qu'une attaque.
-9. Un joueur **inactif depuis 14 jours** perd sa protection : il devient attaquable par tous, quel que soit l'écart de points.
+9. Un joueur **inactif depuis 7 jours** (sur Redline) perd sa protection : il devient attaquable par tous, quel que soit l'écart de points.
 10. Les deux protections se cumulent.
 
 ## Exemple chiffré
@@ -54,7 +54,7 @@ updated: "2026-10-02T16:37:04.084Z"
 
 - **Le plus fort est protégé aussi** : un petit joueur ne peut pas attaquer un joueur bien plus gros que lui.
 - **Votre première attaque vous coûte vos 7 jours** : réfléchissez avant d'attaquer pendant votre première semaine.
-- **L'inactivité lève tout** : après 14 jours sans connexion, n'importe qui peut vous attaquer. Pensez au [mode vacances](/fr/players/vacation-mode) avant une longue absence.
+- **L'inactivité lève tout** : après 7 jours sans connexion sur Redline, n'importe qui peut vous attaquer. Pensez au [mode vacances](/fr/players/vacation-mode) avant une longue absence.
 - **Les points comptent tout** : économie, recherche et militaire. Construire beaucoup peut vous faire changer de palier.
 
 ## Pages liées

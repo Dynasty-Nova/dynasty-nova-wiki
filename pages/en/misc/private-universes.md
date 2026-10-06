@@ -8,7 +8,7 @@ description: "Creating and running your own Dynasty Nova universe."
 tags: ["misc"]
 published: true
 created: "2026-10-02T17:41:41.426Z"
-updated: "2026-10-02T17:41:42.673Z"
+updated: "2026-10-06T08:08:34.230Z"
 ---
 
 # Private universes
@@ -19,7 +19,7 @@ updated: "2026-10-02T17:41:42.673Z"
 ## Rules
 
 ### Creating a universe
-1. Three plans are available: up to **25**, **75** or **200 players**, with speeds up to **×5**, **×10** or **×20** depending on the plan.
+1. Three plans are available: up to **25**, **75** or **200 players**, with speeds up to **×5**, **×10** or **×20** depending on the plan. They are called **Squad** (25), **Fleet** (75) and **Armada** (200), and are paid weekly, monthly or for a fixed term, **from €4.99 a week**.
 2. You set the map size, the five speeds (economy, buildings, research, shipyard, fleets) and the rules: beginner protection, attack limit, debris rates, moon formation, planet abandonment, queue size, bookmarks.
 3. You set the **opening date**. Until it opens, everything can still be changed, and the date can be moved or brought forward.
 4. Players join with an **invitation code** or a link. Generating a new code invalidates the old one, without affecting players already in.

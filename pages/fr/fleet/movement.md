@@ -8,7 +8,7 @@ description: "Vitesse, durée de vol, consommation d'hydrogène et emplacements 
 tags: ["fleet"]
 published: true
 created: "2026-10-02T13:08:52.470Z"
-updated: "2026-10-03T23:43:04.021Z"
+updated: "2026-10-06T08:04:51.583Z"
 ---
 
 # Déplacements
@@ -28,7 +28,7 @@ updated: "2026-10-03T23:43:04.021Z"
 ### Vitesse
 2. Vitesse d'un vaisseau = vitesse de base × (1 + bonus × niveau de la recherche de son moteur) : **+10 %** par niveau de Propulseur Chimique, **+20 %** de Moteur Magnétique, **+30 %** de Navigation Transdimensionnelle.
 3. Une flotte avance à la vitesse de son **vaisseau le plus lent**, augmentée du talent d'alliance Propulsion coordonnée.
-4. Vous choisissez un **pourcentage de vitesse** de 10 à 100 %, par pas de 10.
+4. Vous choisissez un **pourcentage de vitesse** de 10 à 100 %, par pas de 10. Dans les formules, il devient le facteur $S$, de 1 à 10 : $S = 1$ pour 10 %, $S = 10$ pour 100 %.
 
 ### Distance
 
@@ -57,7 +57,7 @@ $$
 - $T$ est la durée du vol de la flotte, en secondes.
 - $D$ est la distance de vol calculée précédemment (voir [Coordonnées](/fr/universe/coordinates)).
 - $V$ est la vitesse du vaisseau le plus lent de la flotte.
-- $S$ est le multiplicateur de vitesse de flotte choisi, exprimé sous forme décimale.
+- $S$ est le facteur de vitesse choisi, de 1 (10 %) à 10 (100 %), par pas de 1.
 - $A$ est le facteur d'accélération de la vitesse des flottes de l'univers.
 
 ### Consommation d'hydrogène
@@ -76,7 +76,7 @@ F_i \times N_i \times D
 35\,000
 }
 \left(
-\frac{S}{100}\sqrt{\frac{V}{V_i}} + 1
+\frac{S}{10}\sqrt{\frac{V}{V_i}} + 1
 \right)^2
 \right)
 $$
@@ -85,7 +85,7 @@ $$
 - $F_i$ est la consommation du type de vaisseau $i$.
 - $N_i$ est le nombre de vaisseaux du type $i$ dans la flotte.
 - $D$ est la distance du trajet.
-- $S$ est le pourcentage de vitesse de flotte choisi.
+- $S$ est le facteur de vitesse choisi, de 1 (10 %) à 10 (100 %).
 - $V$ est la vitesse du vaisseau le plus lent de la flotte.
 - $V_i$ est la vitesse du type de vaisseau $i$.
 
@@ -100,10 +100,10 @@ $$
 
 10 Intercepteurs (vitesse 20 000 avec Propulseur Chimique 6, consommation 20 chacun) attaquent de [2:40:8] vers [2:50:3]. Distance : 2 700 + 95 × 10 = **3 650**.
 
-| Vitesse | Durée d'un trajet                                                  | Hydrogène d'un trajet | Facturé au départ (aller-retour) |
-|---|--------------------------------------------------------------------|---|---|
-| 100% | 10 + (35000/10) × √(10 × 3650 / 20000) ≈ **4738 s** (1h 18 min 8 s) | 20 × 10 × 3650 / 3500 × (1 + 1)² ≈ **208**    | **166** |
-| 50% | 10 + (35000/5) × √1.825 ≈ **9466 s** (2h 37 min 46 s)              | 20 × 10 × 3,650 / 35,000 × (0.5 + 1)² ≈ **46** | **92** |
+| Vitesse | $S$ | Durée d'un trajet | Hydrogène d'un trajet | Facturé au départ (aller-retour) |
+|---|---|---|---|---|
+| 100 % | 10 | 10 + 35 000 / 10 × √(10 × 3 650 / 20 000) ≈ **4 738 s** (1 h 18 min 58 s) | 20 × 10 × 3 650 / 35 000 × (10 / 10 + 1)² ≈ **83** | **166** |
+| 50 % | 5 | 10 + 35 000 / 5 × √1,825 ≈ **9 466 s** (2 h 37 min 46 s) | 20 × 10 × 3 650 / 35 000 × (5 / 10 + 1)² ≈ **46** | **92** |
 
 À mi-vitesse, le vol dure deux fois plus longtemps mais coûte **45 % d'hydrogène en moins**.
 

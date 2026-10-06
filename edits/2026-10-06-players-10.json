@@ -1,0 +1,38 @@
+{
+  "fr/players/inactivity": [
+    ["un joueur qui ne se connecte pas pendant 14 jours perd sa protection", "un joueur qui ne se connecte pas pendant le délai d'inactivité de l'univers (7 jours sur Redline) perd sa protection"],
+    ["> Par défaut et sur Redline : **14 jours**", "> Par défaut : **14 jours** · Redline : **7 jours**"],
+    ["1. Après **14 jours sans connexion**, un joueur perd", "1. Après **7 jours sans connexion** sur Redline, un joueur perd"],
+    ["Vous avez 300 points et partez trois semaines sans activer le mode vacances. Au 15e jour,", "Sur Redline, vous avez 300 points et partez trois semaines sans activer le mode vacances. Au 8e jour,"],
+    ["sinon vous perdez votre protection au bout de 14 jours.", "sinon vous perdez votre protection au bout de 7 jours sur Redline."]
+  ],
+  "en/players/inactivity": [
+    ["a player who does not log in for 14 days loses beginner protection", "a player who does not log in for the universe's inactivity period (7 days on Redline) loses beginner protection"],
+    ["> Default and Redline: **14 days**", "> Default: **14 days** · Redline: **7 days**"],
+    ["1. After **14 days without logging in**, a player loses", "1. After **7 days without logging in** on Redline, a player loses"],
+    ["You have 300 points and leave for three weeks without turning on vacation mode. On day 15,", "On Redline, you have 300 points and leave for three weeks without turning on vacation mode. On day 8,"],
+    ["or you lose your protection after 14 days.", "or you lose your protection after 7 days on Redline."]
+  ],
+  "fr/players/beginner-protection": [
+    ["> Par défaut et sur Redline : paliers **1:3 / 1:5 / 1:10**, protection de nouveau joueur **7 jours**, inactivité **14 jours**", "> Par défaut : paliers **1:3 / 1:5 / 1:10**, protection de nouveau joueur **7 jours**, inactivité **14 jours** · Redline : mêmes valeurs, sauf inactivité **7 jours**"],
+    ["9. Un joueur **inactif depuis 14 jours** perd sa protection", "9. Un joueur **inactif depuis 7 jours** (sur Redline) perd sa protection"],
+    ["après 14 jours sans connexion, n'importe qui peut vous attaquer.", "après 7 jours sans connexion sur Redline, n'importe qui peut vous attaquer."]
+  ],
+  "en/players/beginner-protection": [
+    ["> Default and Redline: tiers **1:3 / 1:5 / 1:10**, new player protection **7 days**, inactivity **14 days**", "> Default: tiers **1:3 / 1:5 / 1:10**, new player protection **7 days**, inactivity **14 days** · Redline: same values, except inactivity **7 days**"],
+    ["9. A player **inactive for 14 days** loses protection", "9. A player **inactive for 7 days** (on Redline) loses protection"],
+    ["after 14 days without logging in, anyone can attack you.", "after 7 days without logging in on Redline, anyone can attack you."]
+  ],
+  "fr/getting-started/coming-from-ogame": [
+    ["levés après 14 jours d'inactivité.", "levés après un délai d'inactivité réglable par univers (7 jours sur Redline)."]
+  ],
+  "en/getting-started/coming-from-ogame": [
+    ["lifted after 14 days of inactivity.", "lifted after an inactivity period set per universe (7 days on Redline)."]
+  ],
+  "fr/universe/universes": [
+    ["| Inactivité levant la protection | 14 jours |", "| Inactivité levant la protection | 7 jours |"]
+  ],
+  "en/universe/universes": [
+    ["| Inactivity lifting protection | 14 days |", "| Inactivity lifting protection | 7 days |"]
+  ]
+}

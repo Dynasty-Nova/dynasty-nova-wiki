@@ -8,7 +8,7 @@ description: "Fonder, rejoindre et gérer une alliance."
 tags: ["players"]
 published: true
 created: "2026-10-02T13:09:42.769Z"
-updated: "2026-10-02T17:41:01.233Z"
+updated: "2026-10-06T08:08:46.828Z"
 game_version: "Serveur 2.1.0 · Client 3.1.0"
 ---
 
@@ -39,6 +39,7 @@ game_version: "Serveur 2.1.0 · Client 3.1.0"
 9. Les membres reçoivent des **rangs** et des **fonctions** (par exemple gérer les missions, voter les guerres).
 10. Changer le **nom et le tag** (ensemble) ou la **description** se paie en Points stellaires. L'ancien nom reste visible dans l'historique public de l'alliance.
 11. **Dissoudre** l'alliance fait tout perdre définitivement (trésorerie, station, talents, prestige, cosmétiques). Le nom et le tag restent réservés 30 jours.
+12. **Annonce** : le fondateur et le vice-président peuvent épingler un message en tête de l'accueil de l'alliance, visible des seuls membres.
 
 ## Exemple chiffré
 

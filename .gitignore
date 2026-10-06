@@ -1,0 +1,4 @@
+.DS_Store
+.code-review-graph/
+__pycache__/
+.env

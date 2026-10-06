@@ -8,7 +8,7 @@ description: "What sets Dynasty Nova apart from OGame."
 tags: ["getting-started"]
 published: true
 created: "2026-10-02T13:10:14.677Z"
-updated: "2026-10-02T17:41:43.425Z"
+updated: "2026-10-06T08:04:45.390Z"
 ---
 
 # Coming from OGame?
@@ -58,7 +58,7 @@ updated: "2026-10-02T17:41:43.425Z"
 - **Defense repair**: a 70% roll per unit.
 - **Cancellation**: 80% of the cost, pro rata of the remaining time. **Demolition** is free, takes half the build time and refunds nothing.
 - **Build queues**: four queues (buildings, research, ships, defenses) of 2 orders, 5 with Premium. An order is paid only when it starts, and dropped at no cost if the planet cannot pay.
-- **Beginner protection**: configurable, symmetric point tiers (the stronger player is protected too), lifted after 14 days of inactivity.
+- **Beginner protection**: configurable, symmetric point tiers (the stronger player is protected too), lifted after an inactivity period set per universe (7 days on Redline).
 - **Espionage**: detail level = Espionage Technology gap + a probe bonus capped at +5, with no squaring. Counter-espionage is a single roll (5 to 25%) for the whole wave, whatever the number of probes.
 - **Sensor phalanx**: 5,000 hydrogen per scan, unchanged range.
 - **Solar satellite** (Solar Collector): output tied to maximum temperature; the solar plant gets a bonus tied to current temperature.

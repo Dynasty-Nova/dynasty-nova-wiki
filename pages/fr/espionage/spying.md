@@ -8,7 +8,7 @@ description: "Envoyer des Éclaireurs : niveau de détail, risques et contre-esp
 tags: ["espionage"]
 published: true
 created: "2026-10-02T13:09:25.232Z"
-updated: "2026-10-02T17:40:40.033Z"
+updated: "2026-10-06T08:08:39.881Z"
 game_version: "Serveur 2.1.0 · Client 3.1.0"
 ---
 
@@ -25,7 +25,7 @@ game_version: "Serveur 2.1.0 · Client 3.1.0"
 1. L'espionnage se fait avec des **Éclaireurs**, en mission Espionnage, ou d'un clic avec le bouton d'espionnage rapide de la [vue galaxie](/fr/universe/galaxy-view). Espionner une case **révèle** aussi, dans la vue galaxie, sa planète et son propriétaire, masqués jusque-là par une écriture illisible.
 2. On peut espionner un joueur **protégé**. L'espionnage **ne compte pas** dans la limite d'attaques et ne met pas fin à votre protection de nouveau joueur.
 3. Chaque niveau de **Renseignement Tactique** réduit de 5 % l'hydrogène facturé pour une mission d'espionnage, jusqu'à −50 %.
-4. Espionner un joueur **en vacances** est possible, mais le rapport est vide.
+4. Espionner un joueur **en vacances** est possible : la case est cartographiée pour vous et votre alliance, mais le rapport ne révèle rien (ressources, flotte, défenses, bâtiments, recherches). Les sondes ne sont jamais abattues et le joueur absent n'est pas alerté.
 5. Pendant une **maintenance**, l'espionnage est suspendu.
 
 ### Niveau de détail

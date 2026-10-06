@@ -8,7 +8,7 @@ description: "Ce qui distingue Dynasty Nova d'OGame."
 tags: ["getting-started"]
 published: true
 created: "2026-10-02T13:07:58.888Z"
-updated: "2026-10-02T17:41:41.275Z"
+updated: "2026-10-06T08:04:53.036Z"
 ---
 
 # Vous venez d'OGame ?
@@ -55,7 +55,7 @@ updated: "2026-10-02T17:41:41.275Z"
 - **Réparation des défenses** : tirage à 70 % par unité.
 - **Annulation** : 80 % du coût, au prorata du temps restant. **Démolition** gratuite, moitié du temps de construction, ne rend rien.
 - **Files de construction** : quatre files (bâtiments, recherche, vaisseaux, défenses) de 2 ordres, 5 en Premium. Un ordre n'est payé qu'à son lancement, et abandonné sans frais si la planète ne peut pas payer.
-- **Protection débutant** : paliers par points réglables et symétriques (le plus fort est protégé aussi), levés après 14 jours d'inactivité.
+- **Protection débutant** : paliers par points réglables et symétriques (le plus fort est protégé aussi), levés après un délai d'inactivité réglable par univers (7 jours sur Redline).
 - **Espionnage** : niveau de détail = écart de Renseignement Tactique + bonus de sondes plafonné à +5, sans carré. Contre-espionnage en un seul tirage (5 à 25 %) pour toute la vague, quel que soit le nombre de sondes.
 - **Phalange** : 5 000 hydrogène par scan, portée inchangée.
 - **Satellite solaire** (Collecteur solaire) : production liée à la température maximale ; la centrale solaire gagne un bonus lié à la température actuelle.

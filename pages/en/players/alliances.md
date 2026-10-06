@@ -8,7 +8,7 @@ description: "Founding, joining and running an alliance."
 tags: ["players"]
 published: true
 created: "2026-10-02T13:12:02.204Z"
-updated: "2026-10-02T17:41:02.821Z"
+updated: "2026-10-06T08:08:37.173Z"
 game_version: "Serveur 2.1.0 · Client 3.1.0"
 ---
 
@@ -39,6 +39,7 @@ game_version: "Serveur 2.1.0 · Client 3.1.0"
 9. Members get **ranks** and **functions** (for example managing missions, voting on wars).
 10. Changing the **name and tag** (together) or the **description** costs Stellar Points. The former name stays visible in the alliance's public history.
 11. **Disbanding** the alliance loses everything for good (treasury, station, talents, prestige, cosmetics). The name and tag stay reserved for 30 days.
+12. **Announcement**: the founder and the vice-president can pin a message at the top of the alliance home, visible to members only.
 
 ## Worked example
 

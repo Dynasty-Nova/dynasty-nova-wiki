@@ -8,7 +8,7 @@ description: "Créer et gérer son propre univers Dynasty Nova."
 tags: ["misc"]
 published: true
 created: "2026-10-02T17:41:39.290Z"
-updated: "2026-10-02T17:41:40.508Z"
+updated: "2026-10-06T08:08:44.033Z"
 ---
 
 # Univers privés
@@ -19,7 +19,7 @@ updated: "2026-10-02T17:41:40.508Z"
 ## Règles
 
 ### Créer un univers
-1. Trois formules existent : jusqu'à **25**, **75** ou **200 joueurs**, avec des vitesses pouvant aller jusqu'à **×5**, **×10** ou **×20** selon la formule.
+1. Trois formules existent : jusqu'à **25**, **75** ou **200 joueurs**, avec des vitesses pouvant aller jusqu'à **×5**, **×10** ou **×20** selon la formule. Elles s'appellent **Escouade** (25), **Flotte** (75) et **Armada** (200), et se paient à la semaine, au mois ou pour une durée fixe, **à partir de 4,99 € la semaine**.
 2. Vous réglez la taille de la carte, les cinq vitesses (économie, bâtiments, recherche, chantier, flottes) et les règles : protection des débutants, limite d'attaques, taux de débris, formation des lunes, abandon des planètes, taille des files, favoris.
 3. Vous fixez la **date d'ouverture**. Avant l'ouverture, tout reste modifiable, et la date peut être déplacée ou avancée.
 4. Les joueurs rejoignent l'univers avec un **code d'invitation** ou un lien. Générer un nouveau code invalide l'ancien, sans toucher aux joueurs déjà inscrits.
